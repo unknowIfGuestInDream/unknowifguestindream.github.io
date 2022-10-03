@@ -1,8 +1,9 @@
 ---
-title: Guides index: false icon: creative category:
-
-- Guide
-
+title: Guides
+index: false
+icon: creative
+category:
+  - Guide
 ---
 
 ## Catalog

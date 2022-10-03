@@ -1,10 +1,13 @@
 ---
-icon: edit date: 2022-01-12 category:
-
-- Vegetable tag:
-- red
-- round star: true sticky: true
-
+icon: edit
+date: 2022-01-12
+category:
+  - Vegetable
+tag:
+  - red
+  - round
+star: true
+sticky: true
 ---
 
 # Tomato

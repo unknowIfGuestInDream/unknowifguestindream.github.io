@@ -1,9 +1,11 @@
 ---
-title: Markdown 展示 icon: markdown order: 2 category:
-
-- 使用指南 tag:
-- Markdown
-
+title: Markdown 展示
+icon: markdown
+order: 2
+category:
+  - 使用指南
+tag:
+  - Markdown
 ---
 
 VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻松生成文档或博客站点。
@@ -14,8 +16,7 @@ VuePress 主要从 Markdown 文件生成页面。因此，你可以使用它轻�
 
 ## Markdown 介绍
 
-如果你是一个新手，还不会编写 Markdown，请先阅读 [Markdown 介绍](https://vuepress-theme-hope.github.io/v2/zh/cookbook/markdown/)
-和 [Markdown 演示](https://vuepress-theme-hope.github.io/v2/zh/cookbook/markdown/demo.html)。
+如果你是一个新手，还不会编写 Markdown，请先阅读 [Markdown 介绍](https://vuepress-theme-hope.github.io/v2/zh/cookbook/markdown/) 和 [Markdown 演示](https://vuepress-theme-hope.github.io/v2/zh/cookbook/markdown/demo.html)。
 
 ## Markdown 配置
 
@@ -23,15 +24,13 @@ VuePress 通过 Frontmatter 为每个 Markdown 页面引入配置。
 
 ::: info
 
-Frontmatter 是 VuePress
-中很重要的一个概念，如果你不了解它，你需要阅读 [Frontmatter 介绍](https://vuepress-theme-hope.github.io/v2/zh/cookbook/vuepress/page.html#front-matter)。
+Frontmatter 是 VuePress 中很重要的一个概念，如果你不了解它，你需要阅读 [Frontmatter 介绍](https://vuepress-theme-hope.github.io/v2/zh/cookbook/vuepress/page.html#front-matter)。
 
 :::
 
 ## Markdown 扩展
 
-VuePress 会使用 [markdown-it](https://github.com/markdown-it/markdown-it) 来解析 Markdown 内容，因此可以借助于 markdown-it
-插件来实现 [语法扩展](https://github.com/markdown-it/markdown-it#syntax-extensions) 。
+VuePress 会使用 [markdown-it](https://github.com/markdown-it/markdown-it) 来解析 Markdown 内容，因此可以借助于 markdown-it 插件来实现 [语法扩展](https://github.com/markdown-it/markdown-it#syntax-extensions) 。
 
 ### VuePress 扩展
 
@@ -222,22 +221,10 @@ npm i -D vuepress-theme-hope
       {
         "label": "散点数据集",
         "data": [
-          {
-            "x": -10,
-            "y": 0
-          },
-          {
-            "x": 0,
-            "y": 10
-          },
-          {
-            "x": 10,
-            "y": 5
-          },
-          {
-            "x": 0.5,
-            "y": 5.5
-          }
+          { "x": -10, "y": 0 },
+          { "x": 0, "y": 10 },
+          { "x": 10, "y": 5 },
+          { "x": 0.5, "y": 5.5 }
         ],
         "backgroundColor": "rgb(255, 99, 132)"
       }
@@ -266,30 +253,14 @@ npm i -D vuepress-theme-hope
 {
   "xAxis": {
     "type": "category",
-    "data": [
-      "Mon",
-      "Tue",
-      "Wed",
-      "Thu",
-      "Fri",
-      "Sat",
-      "Sun"
-    ]
+    "data": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
   },
   "yAxis": {
     "type": "value"
   },
   "series": [
     {
-      "data": [
-        150,
-        230,
-        224,
-        218,
-        135,
-        147,
-        260
-      ],
+      "data": [150, 230, 224, 218, 135, 147, 260],
       "type": "line"
     }
   ]
@@ -336,9 +307,10 @@ flowchart TB
 
 #### Tex 语法
 
-$$ \frac {\partial^r} {\partial \omega^r} \left(\frac {y^{\omega}} {\omega}\right)
-= \left(\frac {y^{\omega}} {\omega}\right) \left\{(\log y)^r + \sum_{i=1}^r \frac {(-1)^i r \cdots (r-i+1) (\log y)
-^{r-i}} {\omega^i} \right\} $$
+$$
+\frac {\partial^r} {\partial \omega^r} \left(\frac {y^{\omega}} {\omega}\right)
+= \left(\frac {y^{\omega}} {\omega}\right) \left\{(\log y)^r + \sum_{i=1}^r \frac {(-1)^i r \cdots (r-i+1) (\log y)^{r-i}} {\omega^i} \right\}
+$$
 
 - [查看详情](https://vuepress-theme-hope.github.io/v2/zh/guide/markdown/tex.html)
 
@@ -359,13 +331,13 @@ $$ \frac {\partial^r} {\partial \omega^r} \left(\frac {y^{\omega}} {\omega}\righ
 
 ```js
 document.querySelector("#very").addEventListener("click", () => {
-    alert("非常强大");
+  alert("非常强大");
 });
 ```
 
 ```css
 span {
-    color: red;
+  color: red;
 }
 ```
 
@@ -404,16 +376,15 @@ speak(msg);
 @file App.vue
 
 ```vue
-
 <script setup>
-import {ref} from "vue";
+import { ref } from "vue";
 
 const msg = ref("Hello World!");
 </script>
 
 <template>
   <h1>{{ msg }}</h1>
-  <input v-model="msg"/>
+  <input v-model="msg" />
 </template>
 ```
 
@@ -448,7 +419,9 @@ const a = 1;
 
 ## 幻灯片 3.2
 
-$$ J(\theta_0,\theta_1) = \sum_{i=0} $$
+$$
+J(\theta_0,\theta_1) = \sum_{i=0}
+$$
 
 @slideend
 

@@ -1,23 +1,22 @@
 ---
-title: Markdown Enhance icon: markdown order: 2 category:
-
-- Guide tag:
-- Markdown
-
+title: Markdown Enhance
+icon: markdown
+order: 2
+category:
+  - Guide
+tag:
+  - Markdown
 ---
 
 VuePress basically generate pages from Markdown files. So you can use it to generate documentation or blog sites easily.
 
-You should create and write Markdown files, so that VuePress can convert them to different pages according to file
-structure.
+You should create and write Markdown files, so that VuePress can convert them to different pages according to file structure.
 
 <!-- more -->
 
 ## Markdown Introduction
 
-If you are a new learner and don’t know how to write Markdown, please
-read [Markdown Intro](https://vuepress-theme-hope.github.io/v2/cookbook/markdown/)
-and [Markdown Demo](https://vuepress-theme-hope.github.io/v2/cookbook/markdown/demo.html).
+If you are a new learner and don’t know how to write Markdown, please read [Markdown Intro](https://vuepress-theme-hope.github.io/v2/cookbook/markdown/) and [Markdown Demo](https://vuepress-theme-hope.github.io/v2/cookbook/markdown/demo.html).
 
 ## Markdown Config
 
@@ -25,27 +24,23 @@ VuePress introduce configuration for each markdown page using Frontmatter.
 
 ::: info
 
-Frontmatter is a important concept in VuePress. If you don’t know it, you need to
-read [Frontmatter Introduction](https://vuepress-theme-hope.github.io/v2/cookbook/vuepress/page.html#front-matter).
+Frontmatter is a important concept in VuePress. If you don’t know it, you need to read [Frontmatter Introduction](https://vuepress-theme-hope.github.io/v2/cookbook/vuepress/page.html#front-matter).
 
 :::
 
 ## Markdown Extension
 
-The Markdown content in VuePress will be parsed by [markdown-it](https://github.com/markdown-it/markdown-it), which
-supports [syntax extensions](https://github.com/markdown-it/markdown-it#syntax-extensions) via markdown-it plugins.
+The Markdown content in VuePress will be parsed by [markdown-it](https://github.com/markdown-it/markdown-it), which supports [syntax extensions](https://github.com/markdown-it/markdown-it#syntax-extensions) via markdown-it plugins.
 
 ### VuePress Enhancement
 
 To enrich document writing, VuePress has extended Markdown syntax.
 
-For these extensions, please
-read [Markdown extensions in VuePress](https://vuepress-theme-hope.github.io/v2/basic/vuepress/markdown.html).
+For these extensions, please read [Markdown extensions in VuePress](https://vuepress-theme-hope.github.io/v2/basic/vuepress/markdown.html).
 
 ### Theme Enhancement
 
-By using [`vuepress-plugin-md-enhance`][md-enhance], the theme extends more Markdown syntax and provides richer writing
-functions.
+By using [`vuepress-plugin-md-enhance`][md-enhance], the theme extends more Markdown syntax and provides richer writing functions.
 
 #### Custom Container
 
@@ -246,22 +241,10 @@ Support setting color scheme and size
       {
         "label": "Scatter Dataset",
         "data": [
-          {
-            "x": -10,
-            "y": 0
-          },
-          {
-            "x": 0,
-            "y": 10
-          },
-          {
-            "x": 10,
-            "y": 5
-          },
-          {
-            "x": 0.5,
-            "y": 5.5
-          }
+          { "x": -10, "y": 0 },
+          { "x": 0, "y": 10 },
+          { "x": 10, "y": 5 },
+          { "x": 0.5, "y": 5.5 }
         ],
         "backgroundColor": "rgb(255, 99, 132)"
       }
@@ -290,30 +273,14 @@ Support setting color scheme and size
 {
   "xAxis": {
     "type": "category",
-    "data": [
-      "Mon",
-      "Tue",
-      "Wed",
-      "Thu",
-      "Fri",
-      "Sat",
-      "Sun"
-    ]
+    "data": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
   },
   "yAxis": {
     "type": "value"
   },
   "series": [
     {
-      "data": [
-        150,
-        230,
-        224,
-        218,
-        135,
-        147,
-        260
-      ],
+      "data": [150, 230, 224, 218, 135, 147, 260],
       "type": "line"
     }
   ]
@@ -360,9 +327,10 @@ flowchart TB
 
 #### Tex
 
-$$ \frac {\partial^r} {\partial \omega^r} \left(\frac {y^{\omega}} {\omega}\right)
-= \left(\frac {y^{\omega}} {\omega}\right) \left\{(\log y)^r + \sum_{i=1}^r \frac {(-1)^i r \cdots (r-i+1) (\log y)
-^{r-i}} {\omega^i} \right\} $$
+$$
+\frac {\partial^r} {\partial \omega^r} \left(\frac {y^{\omega}} {\omega}\right)
+= \left(\frac {y^{\omega}} {\omega}\right) \left\{(\log y)^r + \sum_{i=1}^r \frac {(-1)^i r \cdots (r-i+1) (\log y)^{r-i}} {\omega^i} \right\}
+$$
 
 - [View Detail](https://vuepress-theme-hope.github.io/v2/guide/markdown/tex.html)
 
@@ -383,13 +351,13 @@ $$ \frac {\partial^r} {\partial \omega^r} \left(\frac {y^{\omega}} {\omega}\righ
 
 ```js
 document.querySelector("#very").addEventListener("click", () => {
-    alert("Very powerful!");
+  alert("Very powerful!");
 });
 ```
 
 ```css
 span {
-    color: red;
+  color: red;
 }
 ```
 
@@ -428,16 +396,15 @@ speak(msg);
 @file App.vue
 
 ```vue
-
 <script setup>
-import {ref} from "vue";
+import { ref } from "vue";
 
 const msg = ref("Hello World!");
 </script>
 
 <template>
   <h1>{{ msg }}</h1>
-  <input v-model="msg"/>
+  <input v-model="msg" />
 </template>
 ```
 
@@ -472,7 +439,9 @@ const a = 1;
 
 ## Slide 3.2
 
-$$ J(\theta_0,\theta_1) = \sum_{i=0} $$
+$$
+J(\theta_0,\theta_1) = \sum_{i=0}
+$$
 
 @slideend
 

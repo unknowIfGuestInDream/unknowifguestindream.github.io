@@ -1,5 +1,7 @@
 ---
-title: 幻灯片页 icon: slides layout: Slide
+title: 幻灯片页
+icon: slides
+layout: Slide
 ---
 
 <!-- markdownlint-disable MD024 MD033 MD051 -->
@@ -116,7 +118,9 @@ const a = 1;
 
 在你启用 `math` 插件后，你也可以使用 TEX 格式使用数学公式。
 
-$$ J(\theta_0,\theta_1) = \sum_{i=0} $$
+$$
+J(\theta_0,\theta_1) = \sum_{i=0}
+$$
 
 --
 
@@ -197,39 +201,31 @@ $$ J(\theta_0,\theta_1) = \sum_{i=0} $$
 ### 动画 class
 
 - `fade-in`
-
 <!-- .element: class="fragment fade-in" -->
 
 - `fade-out`
-
 <!-- .element: class="fragment fade-out" -->
 
 - `fade-up`
-
 <!-- .element: class="fragment fade-up" -->
 
 <!-- list break -->
 
 - `fade-down`
-
 <!-- .element: class="fragment fade-down" -->
 
 - `fade-left`
-
 <!-- .element: class="fragment fade-left" -->
 
 - `fade-right`
-
 <!-- .element: class="fragment fade-right" -->
 
 <!-- list break -->
 
 - `fade-in-then-out`
-
 <!-- .element: class="fragment fade-in-then-out" -->
 
 - `fade-in-then-semi-out`
-
 <!-- .element: class="fragment fade-in-then-semi-out" -->
 
 --
@@ -241,43 +237,34 @@ $$ J(\theta_0,\theta_1) = \sum_{i=0} $$
 ### 动画 class
 
 - `grow`
-
 <!-- .element: class="fragment grow" -->
 
 - `shrink`
-
 <!-- .element: class="fragment shrink" -->
 
 - `strike`
-
 <!-- .element: class="fragment strike" -->
 
 <!-- list break -->
 
 - `highlight-red`
-
 <!-- .element: class="fragment highlight-red" -->
 
 - `highlight-green`
-
 <!-- .element: class="fragment highlight-green" -->
 
 - `highlight-blue`
-
 <!-- .element: class="fragment highlight-blue" -->
 
 <!-- list break -->
 
 - `highlight-current-red`
-
 <!-- .element: class="fragment highlight-current-red" -->
 
 - `highlight-current-green`
-
 <!-- .element: class="fragment highlight-current-green" -->
 
 - `highlight-current-blue`
-
 <!-- .element: class="fragment highlight-current-blue" -->
 
 --
@@ -311,21 +298,17 @@ $$ J(\theta_0,\theta_1) = \sum_{i=0} $$
 不同元素可以有相同的动画顺序。
 
 - 最后显示
-
 <!-- .element: class="fragment" data-fragment-index="3"-->
 
 - 第二个显示
-
 <!-- .element: class="fragment" data-fragment-index="2"-->
 
 <!-- list break -->
 
 - 第一个显示
-
 <!-- .element: class="fragment" data-fragment-index="1"-->
 
 - 第二个显示
-
 <!-- .element: class="fragment" data-fragment-index="2"-->
 
 ---

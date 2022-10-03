@@ -1,8 +1,8 @@
-import {navbar} from "vuepress-theme-hope";
+import { navbar } from "vuepress-theme-hope";
 
 export const enNavbar = navbar([
   "/",
-  {text: "Demo", icon: "discover", link: "/demo/"},
+  { text: "Demo", icon: "discover", link: "/demo/" },
   {
     text: "Posts",
     icon: "edit",
@@ -13,8 +13,8 @@ export const enNavbar = navbar([
         icon: "edit",
         prefix: "apple/",
         children: [
-          {text: "Apple1", icon: "edit", link: "1"},
-          {text: "Apple2", icon: "edit", link: "2"},
+          { text: "Apple1", icon: "edit", link: "1" },
+          { text: "Apple2", icon: "edit", link: "2" },
           "3",
           "4",
         ],
@@ -38,8 +38,8 @@ export const enNavbar = navbar([
           "4",
         ],
       },
-      {text: "Cherry", icon: "edit", link: "cherry"},
-      {text: "Dragonfruit", icon: "edit", link: "dragonfruit"},
+      { text: "Cherry", icon: "edit", link: "cherry" },
+      { text: "Dragonfruit", icon: "edit", link: "dragonfruit" },
       "tomato",
       "strawberry",
     ],

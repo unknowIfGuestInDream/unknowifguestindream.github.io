@@ -1,13 +1,13 @@
-import {hopeTheme} from "vuepress-theme-hope";
-import {enNavbar, zhNavbar} from "./navbar/index.js";
-import {enSidebar, zhSidebar} from "./sidebar/index.js";
+import { hopeTheme } from "vuepress-theme-hope";
+import { enNavbar, zhNavbar } from "./navbar/index.js";
+import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   hostname: "https://mister-hope.github.io",
 
   author: {
-    name: "Tang Liang",
-    url: "https://tlcsdm.com",
+    name: "Mr.Hope",
+    url: "https://mrhope.site",
   },
 
   iconAssets: "iconfont",
@@ -170,11 +170,11 @@ export default hopeTheme({
       stylize: [
         {
           matcher: "Recommanded",
-          replacer: ({tag}) => {
+          replacer: ({ tag }) => {
             if (tag === "em")
               return {
                 tag: "Badge",
-                attrs: {type: "tip"},
+                attrs: { type: "tip" },
                 content: "Recommanded",
               };
           },

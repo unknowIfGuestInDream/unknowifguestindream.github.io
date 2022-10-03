@@ -1,11 +1,12 @@
 ---
-icon: edit date: 2022-01-10 category:
-
-- Dragonfruit
-- Fruit tag:
-- red
-- big
-
+icon: edit
+date: 2022-01-10
+category:
+  - Dragonfruit
+  - Fruit
+tag:
+  - red
+  - big
 ---
 
 # Dragonfruit
