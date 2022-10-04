@@ -9,37 +9,37 @@ tagline: Whatever is worth doing is worth doing well.
 heroFullScreen: true
 bgImage: /am.jpg
 projects:
-  - icon: project
-    name: project name
-    desc: project detailed description
-    link: https://your.project.link
+- icon: link
+  name: Learning documents
+  desc: A summary of my learning, including SpringBoot, SpringCloud, Linux and Extjs
+  link: https://www.tlcsdm.com
 
-  - icon: link
-    name: link name
-    desc: link detailed description
-    link: https://link.address
+- icon: project
+  name: genCode
+  desc: Mainly used to generate java code by selecting stored procedures for databases such as oracle and generating crud stored procedures based on database tables
+  link: https://github.com/unknowIfGuestInDream/genCode
 
-  - icon: book
-    name: book name
-    desc: Detailed description of the book
-    link: https://link.to.your.book
+- icon: project
+  name: genCode-gradle
+  desc: genCode built on gradle
+  link: https://github.com/unknowIfGuestInDream/genCode-gradle
 
-  - icon: article
-    name: article name
-    desc: Detailed description of the article
-    link: https://link.to.your.article
+- icon: project
+  name: xxl-job-oracle
+  desc: oracle version based on xxl-job-2.3
+  link: https://github.com/unknowIfGuestInDream/xxl-job-oracle
 
-  - icon: friend
-    name: friend name
-    desc: Detailed description of friend
-    link: https://link.to.your.friend
+- icon: project
+  name: antdpro5-demo
+  desc: Initialisation template for AntdPro 5.2
+  link: https://github.com/unknowIfGuestInDream/antdpro5-demo
 
-  - icon: /logo.svg
-    name: custom item
-    desc: Detailed description of this custom item
-    link: https://link.to.your.friend
+- icon: project
+  name: DesignpatternTest
+  desc: Design Patterns Exercise
+  link: https://github.com/unknowIfGuestInDream/DesignpatternTest
 
-footer: customize your footer text
+footer: '<a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank">Record No.: 辽ICP备2021000033号-1</a> | <a href="/about/site.html">About the website</a>'
 ---
 
 This is a blog home page demo.

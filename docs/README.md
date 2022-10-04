@@ -6,7 +6,7 @@ title: 主页
 heroImage: /logo.svg
 heroText: 梦里不知身是客
 heroFullScreen: true
-bgImage: /dalian.JPG
+bgImage: /dalian.jpg
 tagline: 任何值得做的事就值得把它做好!
 projects:
   - icon: link
@@ -31,7 +31,7 @@ projects:
 
   - icon: project
     name: antdpro5-demo
-    desc: AntdPro5.2 的初始化模板
+    desc: AntdPro 5.2 的初始化模板
     link: https://github.com/unknowIfGuestInDream/antdpro5-demo
 
   - icon: project
