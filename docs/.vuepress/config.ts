@@ -18,7 +18,7 @@ export default defineUserConfig({
       description: "unknowIfGuestInDream's blog",
     },
 
-    // "/jp/": {
+    // "/ja/": {
     //   lang: "ja-JP",
     //   title: "jaja",
     //   description: "Mr.Hope personal blog",
