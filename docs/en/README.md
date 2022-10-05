@@ -7,7 +7,7 @@ heroImage: /logo.svg
 heroText: unknowIfGuestInDream
 tagline: Whatever is worth doing is worth doing well.
 heroFullScreen: true
-bgImage: /am.jpg
+bgImage: /stanford.jpg
 projects:
 - icon: link
   name: Learning documents

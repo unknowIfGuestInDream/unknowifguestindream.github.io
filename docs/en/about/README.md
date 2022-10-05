@@ -10,7 +10,7 @@ tag:
 
 - name: Liang Tang
 - Gender: Male
-- Age: 25
+- Birth: 1997
 - Marital status: unmarried
 - Single: Yes
 - Hobbies: programming, lol Smash, Football Manager

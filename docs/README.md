@@ -6,7 +6,7 @@ title: 主页
 heroImage: /logo.svg
 heroText: 梦里不知身是客
 heroFullScreen: true
-bgImage: /dalian.jpg
+bgImage: /dalian_Satellite.jpg
 tagline: 任何值得做的事就值得把它做好!
 projects:
   - icon: link
