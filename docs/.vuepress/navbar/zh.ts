@@ -49,4 +49,20 @@ export const zhNavbar = navbar([
     icon: "note",
     link: "https://vuepress-theme-hope.github.io/v2/zh/",
   },
+  {
+    text: "软件教程",
+    icon: "software",
+    prefix: "/software/",
+    children: [
+      {
+        text: "软件教程",
+        icon: "software",
+        link: "",
+        activeMatch: "^/software/$",
+      },
+      "vscode/",
+      "git/",
+      "comsol/",
+    ],
+  },
 ]);
