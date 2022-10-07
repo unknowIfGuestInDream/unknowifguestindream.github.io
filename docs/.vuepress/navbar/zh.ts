@@ -59,14 +59,14 @@ export const zhNavbar = navbar([
         link: "/code/",
         activeMatch: "^/code/$",
       },
-      {
-        text: "产品设计",
-        children: ["/design/"],
-      },
-      {
-        text: "后端运维",
-        children: ["/linux/"],
-      },
+      // {
+      //   text: "产品设计",
+      //   children: ["/design/"],
+      // },
+      // {
+      //   text: "后端运维",
+      //   children: ["/linux/"],
+      // },
     ],
   },
   {
