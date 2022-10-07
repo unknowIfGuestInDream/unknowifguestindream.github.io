@@ -5,44 +5,45 @@ icon: home
 title: Home
 heroImage: /logo.svg
 heroText: unknowIfGuestInDream
-heroFullScreen: true
 tagline: Whatever is worth doing is worth doing well.
+heroFullScreen: true
+bgImage: /stanford.jpg
 projects:
-  - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+- icon: link
+  name: Learning documents
+  desc: A summary of my learning, including SpringBoot, SpringCloud, Linux and Extjs
+  link: https://www.tlcsdm.com
 
-  - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+- icon: project
+  name: genCode
+  desc: Mainly used to generate java code by selecting stored procedures for databases such as oracle and generating crud stored procedures based on database tables
+  link: https://github.com/unknowIfGuestInDream/genCode
 
-  - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+- icon: project
+  name: genCode-gradle
+  desc: genCode built on gradle
+  link: https://github.com/unknowIfGuestInDream/genCode-gradle
 
-  - icon: article
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
+- icon: project
+  name: xxl-job-oracle
+  desc: oracle version based on xxl-job-2.3
+  link: https://github.com/unknowIfGuestInDream/xxl-job-oracle
 
-  - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: https://你的伙伴链接
+- icon: project
+  name: antdpro5-demo
+  desc: Initialisation template for AntdPro 5.2
+  link: https://github.com/unknowIfGuestInDream/antdpro5-demo
 
-  - icon: /logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: https://你的自定义链接
+- icon: project
+  name: DesignpatternTest
+  desc: Design Patterns Exercise
+  link: https://github.com/unknowIfGuestInDream/DesignpatternTest
 
-footer: 自定义你的页脚文字
+footer: '<a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank">Record No.: 辽ICP备2021000033号-1</a> | <a href="/about/site.html">About the website</a>'
 ---
 
-这是一个博客主页的案例。
+This is a blog home page demo.
 
-要使用此布局，你应该在页面前端设置 `layout: Blog` 和 `home: true`。
+To use this layout, you should set both `layout: Blog` and `home: true` in the page front matter.
 
-相关配置文档请见 [博客主页](https://vuepress-theme-hope.github.io/v2/zh/guide/blog/home/)。
+For related configuration docs, please see [blog homepage](https://vuepress-theme-hope.github.io/v2/guide/blog/home/).

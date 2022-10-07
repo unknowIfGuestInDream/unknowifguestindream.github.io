@@ -2,19 +2,19 @@
 icon: edit
 date: 2022-01-10
 category:
-  - 火龙果
-  - 水果
+  - Dragonfruit
+  - Fruit
 tag:
-  - 红
-  - 大
+  - red
+  - big
 ---
 
-# 火龙果
+# Dragonfruit
 
-## 标题 2
+## Heading 2
 
-这里是内容。
+Here is the content.
 
-### 标题 3
+### Heading 3
 
-这里是内容。
+Here is the content.

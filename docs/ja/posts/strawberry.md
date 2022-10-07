@@ -2,19 +2,19 @@
 icon: edit
 date: 2022-01-11
 category:
-  - 水果
-  - 草莓
+  - Fruit
+  - Strawberry
 tag:
-  - 红
-  - 小
+  - red
+  - small
 ---
 
-# 草莓
+# Strawberry
 
-## 标题 2
+## Heading 2
 
-这里是内容。
+Here is the content.
 
-### 标题 3
+### Heading 3
 
-这里是内容。
+Here is the content.
