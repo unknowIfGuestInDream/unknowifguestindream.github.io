@@ -1,4 +1,5 @@
 import { sidebar } from "vuepress-theme-hope";
+import { comsol, software, vscode } from "./software";
 
 export const zhSidebar = sidebar({
   "/": [
@@ -19,4 +20,8 @@ export const zhSidebar = sidebar({
     "intro",
     "slides",
   ],
+  "/software/vscode/": vscode,
+  "/software/git/": "structure",
+  "/software/comsol/": comsol,
+  "/software/": software,
 });
