@@ -23,7 +23,7 @@ Has an introverted and easy-going personality and likes to work on open source p
 
 - Bachelor of Industrial Engineering, Dalian Jiaotong University
 - Currently working as a Java developer at a Japanese company in Dalian
-- Helpful open source projects: [https://github.com/unknowIfGuestInDream/genCode](https://github.com/unknowIfGuestInDream/genCode)
+- Open source projects: [https://github.com/unknowIfGuestInDream/genCode](https://github.com/unknowIfGuestInDream/genCode)
 
 ---
 

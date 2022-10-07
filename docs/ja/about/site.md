@@ -4,20 +4,20 @@ article: false
 breadcrumb: false
 ---
 
-# About site
+# このサイトについて
 
 ::: tip building
 
-This site is built with [VuePress](https://v1.vuepress.vuejs.org/guide/), Using the theme [vuepress-theme-hope](https://github.com/Mister-Hope/vuepress-theme-hope/)
+[VuePress](https://v1.vuepress.vuejs.org/zh/guide/)を使用して構築されたウェブサイト，テーマ [vuepress-theme-hope](https://github.com/Mister-Hope/vuepress-theme-hope/) を使用する
 
 :::
 
-## Repository Link
+## リポジトリリンク
 
-- [**unknowifguestindream 的个人博客**](https://github.com/unknowIfGuestInDream/unknowifguestindream.github.io)
+- [**unknowifguestindreamの個人的なブログです。**](https://github.com/unknowIfGuestInDream/unknowifguestindream.github.io)
 
-## Disclamer
+## 免責事項
 
-This blog contains books & blogs from [ruanyf](https://github.com/ruanyf) and [廖雪峰](https://weibo.com/liaoxuefeng).
+このブログには、[Mr.Hope](https://mrhope.site/), [ruanyf](https://github.com/ruanyf) 和 [廖雪峰](https://weibo.com/liaoxuefeng) の書籍やブログが掲載されています。
 
-Great thanks to them.
+私たちは彼らに心からの感謝を捧げたいと思います。

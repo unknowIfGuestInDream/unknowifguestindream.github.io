@@ -36,7 +36,7 @@ unknowIfGuestInDream 来源是 梦里不知身是客的英译(个人翻译的)
 
 - 本科大连交通大学工业工程
 - 现在在大连的一家日企从事Java开发
-- 可能有用的开源项目: [https://github.com/unknowIfGuestInDream/genCode](https://github.com/unknowIfGuestInDream/genCode)
+- 开源项目: [https://github.com/unknowIfGuestInDream/genCode](https://github.com/unknowIfGuestInDream/genCode)
 
 ---
 

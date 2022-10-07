@@ -3,32 +3,33 @@ layout: Slide
 title: unknowIfGuestInDream Intro
 icon: people
 tag:
-  - Personal Intro
+  - 個人的な紹介
 ---
 
 @slidestart
 
-- name: Liang Tang
-- Gender: Male
-- Birth: 1997
-- Marital status: unmarried
-- Single: Yes
-- Hobbies: programming, lol Smash, Football Manager
+- 名称: 唐亮
+- 性別: 男性
+- 婚姻情况: 1997
+- 配偶者の有無: 未婚
+- シングル: はい
+- 趣味: プログラミング、lolSmash、フットボールマネージャー
 
-Has an introverted and easy-going personality and likes to work on open source projects in general.
-
----
-
-## Educational experience
-
-- Bachelor of Industrial Engineering, Dalian Jiaotong University
-- Currently working as a Java developer at a Japanese company in Dalian
-- Helpful open source projects: [https://github.com/unknowIfGuestInDream/genCode](https://github.com/unknowIfGuestInDream/genCode)
+内向的でお気楽な性格で、オープンソースプロジェクト全般が好き。
+unknowIfGuestInDreamは、梦里不知身是客の英訳です。
 
 ---
 
-## Contact
+## 学歴 experience
 
-You can contact me at tang97155@gmail.com or tang97155@163.com
+- 大連交通大学 工業工程学士号取得
+- 現在、大連の日系企業でJavaの開発者として働いています
+- オープンソースプロジェクト: [https://github.com/unknowIfGuestInDream/genCode](https://github.com/unknowIfGuestInDream/genCode)
+
+---
+
+## お問い合わせ先
+
+連絡先は、tang97155@gmail.com または tang97155@163.com です。
 
 @slideend

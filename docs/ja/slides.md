@@ -1,5 +1,5 @@
 ---
-title: Slide page
+title: スライドページ
 icon: slides
 layout: Slide
 ---
@@ -10,21 +10,21 @@ layout: Slide
 
 <!-- .slide: data-transition="slide" -->
 
-## Slide Demo
+## スライドショー
 
 <!-- .element: class="r-fit-text" -->
 
-A simple slide demo and useful hints.
+簡単なスライドデモと便利なヒントをご紹介します。
 
 <!-- .element: class="r-fit-text" -->
 
-> By Mr.Hope. Please scroll mousewheel down to the next slide
+> By unknowIfGuestInDream. マウスホイールを下にスクロールして次のスライドをご覧ください。
 
 ---
 
 <!-- .slide: data-transition="slide" data-auto-animate -->
 
-## Marking Slides
+## ラベリングスライド
 
 <!-- .element: class="r-fit-text" -->
 
@@ -34,23 +34,23 @@ A simple slide demo and useful hints.
 
 <!-- .slide: data-transition="slide" data-auto-animate -->
 
-## Marking Slides
+## ラベリングスライド
 
 <!-- .element: class="r-fit-text" -->
 
-Use `---` to mark horizontal slides
+水平方向のスライドをマークするには、`---` を使用します。
 
 <!-- .element: class="fragment fade-in" -->
 
-Use `--` to sperate vertical slides in a horizontal slide.
+水平方向のスライドの中で垂直方向のスライドをスペーサーにするには `--` を使用します。
 
 <!-- .element: class="fragment fade-in" -->
 
-Use `<!-- .slide: ... -->` to add attributes to slide
+`<!-- .slide: ... -->` を使って、スライドに属性を追加する。
 
 <!-- .element: class="fragment fade-in" -->
 
-Use `<!-- .element: ... -->` to add attributes to the previous html element
+`<!-- .element: ... -->`を使って、前の html 要素に属性を追加する。
 
 <!-- .element: class="fragment fade-in" -->
 
@@ -62,7 +62,7 @@ Use `<!-- .element: ... -->` to add attributes to the previous html element
 
 <!-- .element: class="r-fit-text" -->
 
-You can use all kinds of markup in slides.
+Markdown構文による様々なマークアップをスライドで使用することができます。
 
 <!-- .element: class="r-fit-text" -->
 
@@ -72,13 +72,13 @@ You can use all kinds of markup in slides.
 
 ## Markdown
 
-You can use all kinds of markup in slides.
+Markdown構文による様々なマークアップをスライドで使用することができます。
 
-### This is a H3
+### こちらはH3
 
-Headings will transform to UPPERCASE by default.
+タイトルは、デフォルトで自動的に大文字に変換されます。
 
-Here is paragraph with some **bold**, _italic_, ~~strikethrough~~ text and a [link](https://mrhope.site), and it can auto break itself so you don’t need to worry the length.
+これは、**bold**, _italic_, ~~strikethrough~~, [link](https://www.tlcsdm.com) を使った段落で、自動的に行を回り込んでくれます。 だから、長さを気にする必要はないのです。
 
 --
 
@@ -86,9 +86,9 @@ Here is paragraph with some **bold**, _italic_, ~~strikethrough~~ text and a [li
 
 ## Markdown
 
-You can use all kinds of markup in slides.
+タイトルは、デフォルトで自動的に大文字に変換されます。
 
-List is `inline-block` by default.
+リストのデフォルトは `inline-block` です。
 
 - Item
 - Item
@@ -104,9 +104,9 @@ List is `inline-block` by default.
 
 ## Markdown
 
-You can use all kinds of markup in slides.
+タイトルは、デフォルトで自動的に大文字に変換されます。
 
-Code block will get auto highlight if you enable `highlight` plugin.
+プラグイン `highlight` を有効にすると、コードブロックが自動的にハイライトされます。
 
 ```js
 const a = 1;
@@ -118,9 +118,9 @@ const a = 1;
 
 ## Markdown
 
-You can use all kinds of markup in slides.
+タイトルは、デフォルトで自動的に大文字に変換されます。
 
-You can also write math equation using tex syntax if you enable `math` plugin.
+プラグイン `math` を有効にすると、TEXの書式を使った数式も利用できるようになります。
 
 $$
 J(\theta_0,\theta_1) = \sum_{i=0}
@@ -132,9 +132,9 @@ $$
 
 ## Markdown
 
-You can use all kinds of markup in slides.
+タイトルは、デフォルトで自動的に大文字に変換されます。
 
-⚠**Note**: Table, hr and other nonstandard Markdown syntax is not supported.
+⚠**注意**: 表、hrおよびその他の非標準的なMarkdown構文はサポートされていません。
 
 ---
 
@@ -152,7 +152,7 @@ You can use all kinds of markup in slides.
 
 <!-- .element: class="r-fit-text" -->
 
-👆 The `r-fit-text` class makes text as large as possible without overflowing the slide.
+👆 r-fit-text` クラスは、スライドの範囲を超えない範囲で、テキストをできるだけ大きくします。
 
 --
 
@@ -164,7 +164,7 @@ You can use all kinds of markup in slides.
 
 <!-- .element: class="r-stretch" -->
 
-👆 The `r-stretch` class helper lets you resize an element, like an image or video, to cover the remaining vertical space in a slide.
+👆 r-stretch`クラスは、注入された画像やビデオのサイズを制御して、スライドの縦方向の残りのスペースを埋めるのに役立ちます。
 
 --
 
@@ -172,9 +172,9 @@ You can use all kinds of markup in slides.
 
 ## Layout
 
-### Background
+### 背景
 
-Cutom background by adding `data-background` attribute to slide.
+特定のスライドに `data-background` 属性を追加することで、スライドの背景をカスタマイズすることができます。
 
 ---
 
@@ -192,9 +192,9 @@ Cutom background by adding `data-background` attribute to slide.
 
 <!-- .element: class="r-fit-text" -->
 
-Fragments are used to highlight or incrementally reveal individual elements on a slide.
+アニメーションクリップは、スライド内の要素を強調したり、隠したりするために使用します。
 
-Add `fragment` and animation class to element.
+要素に `fragment` とアニメーションクラスを追加する必要があります。
 
 --
 
@@ -279,7 +279,7 @@ Add `fragment` and animation class to element.
 
 ### Mutiple fragments
 
-Multiple fragments can be applied to the same element sequentially by wrapping it
+HTML 要素をラップして、複数のアニメーションセグメントを順番に表示することができます。
 
 <span class="fragment fade-in">
   <span class="fragment highlight-red">
@@ -297,22 +297,22 @@ Multiple fragments can be applied to the same element sequentially by wrapping i
 
 ### Order
 
-Order can be changed using the `data-fragment-index` attribute.
+`data-fragment-index` 属性を使って、要素のアニメーション順序を変更することができます。
 
-Multiple elements can appear at the same index.
+異なる要素で同じアニメーションシーケンスを持つことができます。
 
-- Appears last
+- 最後に表示されます
 <!-- .element: class="fragment" data-fragment-index="3"-->
 
-- Appears second
+- 2番目に表示される
 <!-- .element: class="fragment" data-fragment-index="2"-->
 
 <!-- list break -->
 
-- Appears first
+- 最初に表示される
 <!-- .element: class="fragment" data-fragment-index="1"-->
 
-- Appears second
+- 2番目に表示される
 <!-- .element: class="fragment" data-fragment-index="2"-->
 
 ---
@@ -331,9 +331,9 @@ Multiple elements can appear at the same index.
 
 <!-- .element: class="r-fit-text" -->
 
-Transition can be changed by setting the `transition` config option globally or `data-transition` attribute on specific slide.
+トランジションは設定の `transition` オプションでグローバルに設定することができます。また、特定のスライドに `data-transition` 属性を追加することでローカルに設定することも可能です。
 
-Possible values:
+可能な値。
 
 - none
 - fade
@@ -353,9 +353,9 @@ Possible values:
 
 <!-- .element: class="r-fit-text" -->
 
-### Auto animate
+### トランジションアニメーション
 
-`data-auto-animate` can be added on nearby slides to make an animation on unchanged elements.
+隣接するスライドに `data-auto-animate` を追加すると、同じ HTML 要素をトランジション効果でアニメーション化することができます。
 
 ---
 
@@ -375,9 +375,9 @@ Possible values:
 
 ### Code
 
-By enabling `highlight` plugin, you can highlight code blocks.
+プラグイン `highlight` を有効にすると、コードのブロックをハイライトすることができます。
 
-You can use `[a-b|c-d]` syntax to highlight lines by steps.
+特定の行のハイライトを分散させるために `[a-b|c-d]` 構文を使用することができます。
 
 ```js [1-2|3|4]
 let a = 1;
@@ -396,7 +396,7 @@ c(3);
 
 ### Overview
 
-Press `Esc` or `O` to enter overview mode when the presentation is active
+スライドにフォーカスが合っているときに`Esc`または`O`を押すと、プレビューモードになります。
 
 --
 
@@ -408,7 +408,7 @@ Press `Esc` or `O` to enter overview mode when the presentation is active
 
 ### Full Screen
 
-Press `F` or `F11` to enter fullscreen when the presentation is active
+スライドショーにフォーカスがあるときに`F`または`F11`を押すと、フルスクリーンモードになります。
 
 --
 
@@ -420,9 +420,9 @@ Press `F` or `F11` to enter fullscreen when the presentation is active
 
 ### Zoom
 
-Hold down the `alt` key (`ctrl` in Linux) and click on any element to zoom towards it.
+`alt` (Linuxでは `ctrl`) を押しながらスライドの任意の要素をクリックすると、その要素が拡大表示されます。
 
-Click again to zoom back out.
+もう一度クリックすると、拡大表示されます。
 
 ---
 

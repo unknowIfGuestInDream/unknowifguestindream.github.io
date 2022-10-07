@@ -13,7 +13,7 @@ export default hopeTheme({
     logo: "/logo.svg",
     repo: "unknowIfGuestInDream/unknowifguestindream.github.io",
     docsDir: "docs",
-    pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+    // pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
     themeColor: {
         blue: "#2196f3",
         red: "#f26d6d",
@@ -85,7 +85,7 @@ export default hopeTheme({
             footer: "<div style=\"text-align: center\"><span><a href=\"http://beian.miit.gov.cn/\" target=\"_blank\">辽ICP备2021000033号-1</a></span></div>",
             displayFooter: true,
             blog: {
-                description: "A Java development engineer, living in Dalian",
+                description: "Java開発エンジニア、大連在住",
                 intro: "/ja/about/",
                 medias: {
                     Blog: [
@@ -98,7 +98,7 @@ export default hopeTheme({
                 },
             },
             metaLocales: {
-                editLink: "Edit this page on GitHub",
+                editLink: "このページをGitHubで編集する",
             },
         },
     },
