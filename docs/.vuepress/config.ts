@@ -18,11 +18,11 @@ export default defineUserConfig({
       description: "unknowIfGuestInDream's blog",
     },
 
-    "/ja/": {
-      lang: "ja-JP",
-      title: "unknowIfGuestInDream",
-      description: "Mr.Hope personal blog",
-    },
+    // "/ja/": {
+    //   lang: "ja-JP",
+    //   title: "unknowIfGuestInDream",
+    //   description: "Mr.Hope personal blog",
+    // },
   },
 
   theme,
