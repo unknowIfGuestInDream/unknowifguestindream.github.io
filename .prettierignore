@@ -1,15 +1,15 @@
 dist/
 node_modules/
 
-docs/code/language/js/es6/array.md
-docs/code/language/js/es6/style.md
-docs/code/language/js/function/method.md
-docs/code/language/js/guide/condition.md
-docs/code/language/js/guide/exercise.md
-docs/code/language/js/guide/grammar.md
-docs/code/language/js/guide/loop.md
-docs/code/language/js/operators/priority.md
-docs/code/language/js/types/string.md
-docs/code/language/markdown/block.md
-docs/code/language/markdown/inline.md
-docs/code/website/html/guide/README.md
+src/code/language/js/es6/array.md
+src/code/language/js/es6/style.md
+src/code/language/js/function/method.md
+src/code/language/js/guide/condition.md
+src/code/language/js/guide/exercise.md
+src/code/language/js/guide/grammar.md
+src/code/language/js/guide/loop.md
+src/code/language/js/operators/priority.md
+src/code/language/js/types/string.md
+src/code/language/markdown/block.md
+src/code/language/markdown/inline.md
+src/code/website/html/guide/README.md

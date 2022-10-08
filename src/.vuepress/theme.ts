@@ -12,7 +12,7 @@ export default hopeTheme({
   iconAssets: "iconfont",
   logo: "/logo.svg",
   repo: "unknowIfGuestInDream/unknowifguestindream.github.io",
-  docsDir: "docs",
+  docsDir: "src",
   // pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
   themeColor: {
     blue: "#2196f3",

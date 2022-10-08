@@ -2,5 +2,5 @@
   "compilerOptions": {
     "moduleResolution": "NodeNext"
   },
-  "include": ["./docs/.vuepress/**/*.ts"]
+  "include": ["./src/.vuepress/**/*.ts"]
 }
