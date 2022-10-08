@@ -11,19 +11,19 @@ tag:
 
 打开命令面板(`Ctrl + Shift + P`)，然后选择 **调试: 打开 launch.json**，这将提示您选择与项目(Node.js，Python，C ++等)匹配的环境。这将生成一个 `launch.json` 文件。Node.js 支持是内置的，其他环境要求安装适当的语言扩展。有关更多详细信息，请参见 [调试文档](https://code.visualstudio.com/docs/editor/debugging)。
 
-![配置调试](./assets/configure-debug.gif)
+![配置调试](/assets/software/vscode/guide/configure-debug.gif)
 
 ## 断点并逐步执行
 
 在行号旁边放置断点。使用 **调试** 小部件向前导航。
 
-![调试](./assets/node-debug.gif)
+![调试](/assets/software/vscode/guide/node-debug.gif)
 
 ## 数据检查
 
 在 **运行** 面板和控制台中检查变量。
 
-![数据检查](./assets/debug-data-inspection.gif)
+![数据检查](/assets/software/vscode/guide/debug-data-inspection.gif)
 
 ## 内嵌值
 

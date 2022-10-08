@@ -57,7 +57,7 @@ VS Code 具有简单直观的布局，可最大程度地为编辑器提供空间
 
 Minimap(代码大纲)为您提供了源代码的高级概述，这对于快速导航和理解代码很有用。文件的小地图显示在编辑器的右侧。您可以单击或拖动阴影区域以快速跳转到文件的不同部分。
 
-![小地图](./assets/minimap.png)
+![小地图](/assets/software/vscode/minimap.png)
 
 ::: tip
 
@@ -67,7 +67,7 @@ Minimap(代码大纲)为您提供了源代码的高级概述，这对于快速�
 
 ### 缩进指南
 
-![缩进提示](./assets/indent-raindow.png)
+![缩进提示](/assets/software/vscode/indent-raindow.png)
 
 上图还显示了压痕指南(垂直线)，可帮助您快速查看匹配的压痕级别。如果您要禁用缩进指南，则可以 `"editor.renderIndentGuides": false` 在用户或工作空间设置中进行设置。
 
@@ -81,7 +81,7 @@ Minimap(代码大纲)为您提供了源代码的高级概述，这对于快速�
 
 编辑器在其内容上方有一个导航栏，称为 **导航痕迹**。它显示当前位置，并允许您在文件夹，文件和符号之间快速导航。
 
-![导航痕迹](./assets/breadcrumb.png)
+![导航痕迹](/assets/software/vscode/breadcrumb.png)
 
 导航痕迹始终显示文件路径，如果当前文件类型支持符号的语言，则符号路径直至光标位置。您可以使用 **查看 > 显示导航痕迹** 切换命令禁用导航痕迹。有关导航痕迹功能的更多信息，例如如何自定义其外观，请参见 [导航痕迹](https://code.visualstudio.com/docs/editor/editingevolved#_breadcrumbs) 部分。
 
@@ -129,13 +129,13 @@ VS Code 与您可能会使用的其他工具(特别是命令行工具)配合得�
 
 将鼠标悬停在过滤器框上并选择 **启用输入时筛选** 将仅显示匹配的文件/文件夹。使用 **X** 清除按钮清除过滤器。
 
-![在文件资源管理器中过滤文件](./assets/filter-files.png)
+![在文件资源管理器中过滤文件](/assets/software/vscode/filter-files.png)
 
 ### 大纲视图
 
 大纲视图是文件资源管理器底部的单独部分。展开后，它将显示当前活动的编辑器的符号树。
 
-![大纲视图](./assets/outline-view.png)
+![大纲视图](/assets/software/vscode/outline-view.png)
 
 大纲视图具有不同的 **排序依据** 模式，可选的光标跟踪，并支持通常的打开手势。它还包括一个输入框，可在您键入时查找或过滤符号。错误和警告也显示在 **大纲** 视图中，使您可以快速查看问题的位置。
 
@@ -177,7 +177,7 @@ VS Code 与您可能会使用的其他工具(特别是命令行工具)配合得�
 
 :::
 
-![打开视图](./assets/outline-view.png)
+![打开视图](/assets/software/vscode/outline-view.png)
 
 您可以在主视图中显示或隐藏视图，也可以通过拖放对其进行重新排序。
 
@@ -185,13 +185,13 @@ VS Code 与您可能会使用的其他工具(特别是命令行工具)配合得�
 
 左侧的任务栏使您可以在视图之间快速切换。您还可以通过将视图拖放到任务栏上来重新排列视图，或完全删除视图(右键单击 > 隐藏)。
 
-![任务栏](./assets/activity-bar.png)
+![任务栏](/assets/software/vscode/activity-bar.png)
 
 ## 命令面板
 
 同样可以从键盘访问 VS Code。要知道的最重要的组合键是 `Ctrl + Shift + P`，它会弹出 Command Palette。从这里，您可以访问 VS Code 的所有功能，包括最常用操作的键盘快捷键。
 
-![命令面板](./assets/command-palette.png)
+![命令面板](/assets/software/vscode/command-palette.png)
 
 该命令面板提供了访问很多命令。您可以使用相同的交互式窗口执行编辑器命令，打开文件，搜索符号以及查看文件的快速轮廓。这里有一些提示:
 
@@ -203,7 +203,7 @@ VS Code 与您可能会使用的其他工具(特别是命令行工具)配合得�
 
 在输入字段中键入 `?` 以获取可以从此处执行的可用命令的列表:
 
-![快速打开帮助](./assets/help.png)
+![快速打开帮助](/assets/software/vscode/help.png)
 
 ## 配置编辑器
 
@@ -264,7 +264,7 @@ Visual Studio Code 在编辑器上方的标题区域中显示带有选项卡(带
 
 预览模式在选项卡标题中以斜体表示:
 
-![预览模式](./assets/preview-mode.png)
+![预览模式](/assets/software/vscode/preview-mode.png)
 
 如果您不想使用预览模式而总是创建一个新的选项卡，则可以使用以下设置来控制行为:
 
@@ -277,7 +277,7 @@ Visual Studio Code 在编辑器上方的标题区域中显示带有选项卡(带
 
 您可以在资源管理器视图顶部的 **打开的编辑器** 部分中清楚地看到这些内容:
 
-![标签编辑器组](./assets/editor-group.png)
+![标签编辑器组](/assets/software/vscode/editor-group.png)
 
 您可以在工作台上拖放编辑器组，在组之间移动单个 Tab，然后快速关闭整个组( **全部关闭**)。
 
@@ -299,7 +299,7 @@ Visual Studio Code 在编辑器上方的标题区域中显示带有选项卡(带
 
 有许多键盘命令可用于仅使用键盘来调整编辑器布局，但是如果您更喜欢使用鼠标，则拖放是将编辑器按任何方向划分的快速方法:
 
-![网格编辑器拖放](./assets/drag-editor.gif)
+![网格编辑器拖放](/assets/software/vscode/drag-editor.gif)
 
 ::: tip
 
