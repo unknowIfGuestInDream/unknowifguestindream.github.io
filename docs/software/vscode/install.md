@@ -21,7 +21,7 @@ tag:
 
 - 安装选项中，请务必 **全选** 以下选项:
 
-  ![安装 VS Code](./assets/install.png)
+  ![安装 VS Code](/assets/software/vscode/install.png)
 
   勾选 **添加到目录上下文菜单**、**添加到文件上下文菜单**、**将 code 注册为受支持的文件编辑器**、**添加到 path**。
 
@@ -53,11 +53,11 @@ VS Code 支持打开文件和文件夹。
 
 先运行 Automator，选择 **服务**:
 
-![Automator Service](./assets/automator-service.png)
+![Automator Service](/assets/software/vscode/automator-service.png)
 
 然后，执行以下操作:
 
-![Automator](./assets/automator.jpg)
+![Automator](/assets/software/vscode/automator.jpg)
 
 1. 在右侧面板选择 **服务** 收到选定的 **文件夹**，位于 “Finder.app”，该选项是为了从 Finder 中接收一个文件夹；
 
@@ -74,4 +74,4 @@ done
 
 保存为 **Open With VS Code** 后，打开 Finder，选中一个文件夹，点击右键， **服务**，就可以看到 **Open With VS Code** 菜单:
 
-![Open with VS Code](./assets/open-with-vscode.png)
+![Open with VS Code](/assets/software/vscode/open-with-vscode.png)
