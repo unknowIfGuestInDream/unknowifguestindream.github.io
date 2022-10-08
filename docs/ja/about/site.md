@@ -14,7 +14,7 @@ breadcrumb: false
 
 ## リポジトリリンク
 
-- [**unknowifguestindreamの個人的なブログです。**](https://github.com/unknowIfGuestInDream/unknowifguestindream.github.io)
+- [**unknowifguestindream の個人的なブログです。**](https://github.com/unknowIfGuestInDream/unknowifguestindream.github.io)
 
 ## 免責事項
 

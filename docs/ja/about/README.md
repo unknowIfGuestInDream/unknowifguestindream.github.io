@@ -16,14 +16,14 @@ tag:
 - 趣味: プログラミング、lolSmash、フットボールマネージャー
 
 内向的でお気楽な性格で、オープンソースプロジェクト全般が好き。
-unknowIfGuestInDreamは、梦里不知身是客の英訳です。
+unknowIfGuestInDream は、梦里不知身是客の英訳です。
 
 ---
 
 ## 学歴 experience
 
 - 大連交通大学 工業工程学士号取得
-- 現在、大連の日系企業でJavaの開発者として働いています
+- 現在、大連の日系企業で Java の開発者として働いています
 - オープンソースプロジェクト: [https://github.com/unknowIfGuestInDream/genCode](https://github.com/unknowIfGuestInDream/genCode)
 
 ---

@@ -25,7 +25,7 @@ star: true
 - 出生年份: 1997
 - 婚姻情况: 未婚
 - 单身: 是
-- 爱好: 编程, lol大乱斗, 足球经理
+- 爱好: 编程, lol 大乱斗, 足球经理
 
 性格比较内向随和，平时喜欢做一些开源项目。
 unknowIfGuestInDream 来源是 梦里不知身是客的英译(个人翻译的)
@@ -35,7 +35,7 @@ unknowIfGuestInDream 来源是 梦里不知身是客的英译(个人翻译的)
 ## 学历经历
 
 - 本科大连交通大学工业工程
-- 现在在大连的一家日企从事Java开发
+- 现在在大连的一家日企从事 Java 开发
 - 开源项目: [https://github.com/unknowIfGuestInDream/genCode](https://github.com/unknowIfGuestInDream/genCode)
 
 ---

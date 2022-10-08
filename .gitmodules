@@ -1,0 +1,3 @@
+[submodule "docs/.vuepress/public/file"]
+	path = docs/.vuepress/public/file
+	url = https://github.com/unknowIfGuestInDream/personal.git
