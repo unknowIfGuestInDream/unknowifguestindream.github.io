@@ -68,7 +68,7 @@ xiaoming.run(); // 小明 is running...
 
 `xiaoming` 有自己的 `name` 属性，但并没有定义 `run()` 方法。不过，由于小明是从 `Student` 继承而来，只要 `Student` 有 `run()` 方法，`xiaoming` 也可以调用:
 
-![xiaoming-prototype](../assets/xiaoming-prototype.png)
+![xiaoming-prototype](/assets/code/language/js/xiaoming-prototype.png)
 
 JavaScript 的原型链和 Java 的 `Class` 区别就在，它没有 “Class” 的概念，所有对象都是实例，所谓继承关系不过是把一个对象的原型指向另一个对象而已。
 

@@ -188,7 +188,7 @@ const app6 = new Vue({
 
 组件系统是 Vue 的另一个重要概念，因为它是一种抽象，允许我们使用小型、独立和通常可复用的组件构建大型应用。仔细想想，几乎任意类型的应用界面都可以抽象为一个组件树:
 
-![Component Tree](./assets/components.png)
+![Component Tree](/assets/code/vue/components.png)
 
 在 Vue 里，一个组件本质上是一个拥有预定义选项的一个 Vue 实例。在 Vue 中注册组件很简单:
 
@@ -435,4 +435,4 @@ new Vue({
 
 下图展示了实例的生命周期。您不需要立马弄明白所有的东西，不过随着您的不断学习和使用，它的参考价值会越来越高。
 
-![Vue 实例生命周期](./assets/lifecycle.png)
+![Vue 实例生命周期](/assets/code/vue/lifecycle.png)

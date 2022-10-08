@@ -9,4 +9,4 @@ tag:
 
 显示文件后缀名与隐藏文件
 
-![如何显示隐藏的文件与文件夹](./assets/hidden-file.png)
+![如何显示隐藏的文件与文件夹](/assets/code/windows/hidden-file.png)

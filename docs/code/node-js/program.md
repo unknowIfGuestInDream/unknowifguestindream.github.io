@@ -69,13 +69,13 @@ Error: Cannot find module 'C:\Workspace\hello.js'
 
 看到类似 `C:\>` 是在 Windows 提供的命令行模式:
 
-![run-node-hello](./assets/run-node-hello.png)
+![run-node-hello](/assets/code/node-js/run-node-hello.png)
 
 在命令行模式下，可以执行 Node.js 进入 Node.js 交互式环境，也可以执行 Node.js `hello.js` 运行一个 `.js` 文件。
 
 看到`>` 是在 Node.js 交互式环境下:
 
-![node-interactive-env](./assets/node-interactive-env.png)
+![node-interactive-env](/assets/code/node-js/node-interactive-env.png)
 
 在 Node.js 交互式环境下，我们可以输入 JavaScript 代码并立刻执行。
 

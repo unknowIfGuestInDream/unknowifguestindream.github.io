@@ -17,7 +17,7 @@ copyright: 自由转载-非商用-非衍生-保持署名 (创意共享3.0许可�
 
 骰子的一面，最多可以放置 9 个点。
 
-![骰子轴线](./assets/dice-axis.png)
+![骰子轴线](/assets/code/website/css/layout/dice-axis.png)
 
 下面，就来看看 Flex 如何实现，从 1 个点到 9 个点的布局。`div` 元素 (代表骰子的一个面) 是 Flex 容器，`span` 元素 (代表一个点) 是 Flex 项目。如果有多个项目，就要添加多个 `span` 元素，以此类推。
 
@@ -1031,7 +1031,7 @@ CSS 代码如下。
 
 页面从上到下，分成三个部分: 头部 (header) ，躯干 (body) ，尾部 (footer) 。其中躯干又水平分成三栏，从左到右为: 导航、主栏、副栏。
 
-![圣杯布局](./assets/holy.png)
+![圣杯布局](/assets/code/website/css/layout/holy.png)
 
 HTML 代码如下。
 
@@ -1102,7 +1102,7 @@ footer {
 
 我们常常需要在输入框的前方添加提示，后方添加按钮。
 
-![输入框](./assets/input.png)
+![输入框](/assets/code/website/css/layout/input.png)
 
 HTML 代码如下。
 
@@ -1130,7 +1130,7 @@ CSS 代码如下。
 
 有时，主栏的左侧或右侧，需要添加一个图片栏。
 
-![悬挂式布局](./assets/hang.png)
+![悬挂式布局](/assets/code/website/css/layout/hang.png)
 
 HTML 代码如下。
 
@@ -1162,7 +1162,7 @@ CSS 代码如下。
 
 有时，页面内容太少，无法占满一屏的高度，底栏就会抬高到页面的中间。这时可以采用 Flex 布局，让底栏总是出现在页面的底部。
 
-![固定底栏](./assets/footer.png)
+![固定底栏](/assets/code/website/css/layout/footer.png)
 
 HTML 代码如下。
 
@@ -1190,7 +1190,7 @@ CSS 代码如下。
 
 ## 流式布局
 
-![流式布局](./assets/flow.png)
+![流式布局](/assets/code/website/css/layout/flow.png)
 
 每行的项目数固定，会自动分行。
 
