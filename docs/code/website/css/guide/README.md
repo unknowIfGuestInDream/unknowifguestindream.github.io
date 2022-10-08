@@ -27,7 +27,7 @@ p {
 
 CSS 规则集由两个主要的部分构成: 选择器，以及一条或多条声明:
 
-![CSS 规则图示](./assets/css-rule.jpg)
+![CSS 规则图示](/assets/code/website/css/guide/css-rule.jpg)
 
 - **选择器** (Selector): 通常是您需要改变样式的 HTML 元素。
 

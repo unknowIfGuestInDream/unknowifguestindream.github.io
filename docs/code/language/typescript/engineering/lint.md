@@ -210,7 +210,7 @@ VS Code 中的 ESLint 插件默认是不会检查 `.ts` 后缀的，需要在「
 
 这时再打开一个 `.ts` 文件，将鼠标移到红色提示处，即可看到这样的报错信息了:
 
-![VS Code ESLint 错误信息](../assets/vscode-eslint-error.png)
+![VS Code ESLint 错误信息](/assets/code/language/typescript/vscode-eslint-error.png)
 
 ### 使用 AlloyTeam 的 ESLint 配置
 
@@ -310,7 +310,7 @@ npm install --save-dev eslint-plugin-react
 
 如果以上步骤都不奏效，则可以在「文件 => 首选项 => 设置」中配置 `"eslint.trace.server": "messages"`，按 `Ctrl`+`Shift`+`U` 打开输出面板，然后选择 ESLint 输出，查看具体错误。
 
-![VS Code 的 ESLint 输出](../assets/vscode-output-eslint.png)
+![VS Code 的 ESLint 输出](/assets/code/language/typescript/vscode-output-eslint.png)
 
 ### 为什么 ESLint 无法检查出使用了未定义的变量(`no-undef` 规则为什么被关闭了)
 

@@ -15,7 +15,7 @@ CSS 盒模型本质上是一个盒子，封装周围的 HTML 元素，它包括:
 
 下面的图片说明了盒子模型 (Box Model):
 
-![Box Model 示意图](./assets/box-model.gif)
+![Box Model 示意图](/assets/code/website/css/guide/box-model.gif)
 
 不同部分的说明:
 
