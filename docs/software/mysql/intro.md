@@ -58,7 +58,7 @@ MySQL Community Server 是开源免费的，这也是我们通常用的 MySQL �
 
 1. 刷新权限 `flush privileges;`
 
-![flush privileges](./assets/flush-privileges.png)
+![flush privileges](/assets/software/mysql/flush-privileges.png)
 
 1. 修改 `my.ini` 文件删除最后一句 `skip-grant-tables`
 
@@ -78,7 +78,7 @@ MySQL Community Server 是开源免费的，这也是我们通常用的 MySQL �
    ```
 
 1. 连接上测试出现以下结果就安装好了
-   ![result](./assets/result.png)
+   ![result](/assets/software/mysql/result.png)
 
 ## 连接数据库
 

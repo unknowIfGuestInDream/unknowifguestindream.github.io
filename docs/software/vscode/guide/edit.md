@@ -25,7 +25,7 @@ tag:
 
 您可以在拖动鼠标时按住 `Shift + Alt`(在 macOS 上为 `Shift + Option`)来选择文本块。一个单独的光标将被添加到每一行的末尾。
 
-![列文字选择](./assets/column-select.gif)
+![列文字选择](/assets/software/vscode/guide/column-select.gif)
 
 您也可以使用键盘快捷键来触发列选择。
 
@@ -65,7 +65,7 @@ tag:
 
 键盘快捷键: `Ctrl + Shift + O`
 
-![按符号查找](./assets/goto-file-symbol.png)
+![按符号查找](/assets/software/vscode/guide/goto-file-symbol.png)
 
 您可以通过添加冒号将符号按种类分组 `@:`。
 
@@ -73,13 +73,13 @@ tag:
 
 键盘快捷键: `Ctrl + T`
 
-![转到工作区中的符号](./assets/goto-workspace-symbol.png)
+![转到工作区中的符号](/assets/software/vscode/guide/goto-workspace-symbol.png)
 
 ## 大纲视图
 
 **文件资源管理器** 中的 **大纲** 视图(默认折叠在底部)显示了当前打开文件的符号。
 
-![轮廓图](./assets/outlilne-view.png)
+![轮廓图](/assets/software/vscode/guide/outlilne-view.png)
 
 您可以按符号名称，类别和文件中的位置进行排序，并可以快速导航到符号位置。
 
@@ -99,7 +99,7 @@ tag:
 
 您可以使用 **命令面板** 中的 **转换** 命令将选定的文本更改为大写，小写和标题。
 
-![转换文字指令](./assets/transform.png)
+![转换文字指令](/assets/software/vscode/guide/transform.png)
 
 ## 代码格式化
 
@@ -129,7 +129,7 @@ tag:
 
 键盘快捷键: `Ctrl + Shift + V`
 
-![Markdown 预览](./assets/markdown-preview.png)
+![Markdown 预览](/assets/software/vscode/guide/markdown-preview.png)
 
 ## 并排 Markdown 编辑和预览
 
@@ -139,4 +139,4 @@ tag:
 
 预览和编辑器将与您在任一视图中的滚动同步。
 
-![并排 Markdown 预览](./assets/markdown-side-preview.png)
+![并排 Markdown 预览](/assets/software/vscode/guide/markdown-side-preview.png)

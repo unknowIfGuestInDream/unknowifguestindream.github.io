@@ -8,7 +8,7 @@ Windows Terminal 是一个面向命令行工具和 shell(如命令提示符、Po
 
 <!-- more -->
 
-![Windows Terminal](../assets/terminal-overview.png)
+![Windows Terminal](/assets/software/tool/terminal-overview.png)
 
 ## 特点
 
