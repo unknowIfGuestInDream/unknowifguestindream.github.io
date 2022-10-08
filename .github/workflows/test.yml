@@ -1,0 +1,66 @@
+name: Test blog
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-test:
+    name: Test build using ${{ matrix.bundler }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        bundler:
+          - vite
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+          submodules: true
+
+      - name: Install npm
+        uses: npm/action-setup@v2
+        with:
+          version: 7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: npm
+
+      - name: Install Deps
+        run: npm install --frozen-lockfile
+
+      - name: Build Blog with ${{ matrix.bundler }}
+        env:
+          NODE_OPTIONS: --max_old_space_size=4096
+        run: npm run build:${{ matrix.bundler }}
+
+  linter-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false
+          submodules: true
+
+      - name: Install npm
+        uses: npm/action-setup@v2
+        with:
+          version: 7
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: npm
+
+      - name: Install Deps
+        run: npm install --frozen-lockfile
+
+      - name: Linter test
+        run: npm run lint
