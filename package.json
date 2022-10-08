@@ -4,6 +4,11 @@
   "description": "unknowIfGuestInDream's blog",
   "license": "Apache 2.0",
   "type": "module",
+  "author": "unknowIfGuestInDream",
+  "keywords": [
+    "unknowIfGuestInDream",
+    "blog"
+  ],
   "scripts": {
     "docs:build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --clean-cache",
