@@ -6,7 +6,7 @@ category: 小程序
 
 ## 账户页面
 
-![账户页面二维码](./assets/account.png)
+![账户页面二维码](/assets/code/mini-app/framework/account.png)
 
 ```yaml
 title: 统一身份认证
@@ -39,7 +39,7 @@ shareable: true
 
 ## 校园卡介绍
 
-![校园卡介绍页面二维码](./assets/card-intro.png)
+![校园卡介绍页面二维码](/assets/code/mini-app/framework/card-intro.png)
 
 ```yaml
 title: 校园卡介绍

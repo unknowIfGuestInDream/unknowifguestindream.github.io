@@ -15,7 +15,7 @@ tag:
 
 Android 应用的界面 (UI) 以布局和微件的层次结构形式构建而成。布局是 ViewGroup 对象，即控制其子视图在屏幕上的放置方式的容器。微件是 View 对象，即按钮和文本框等界面组件。
 
-![ViewGroup](./assets/viewgroup.png)
+![ViewGroup](/assets/code/Android/viewgroup.png)
 
 Android 提供了 ViewGroup 和 View 类的 XML 词汇表，因此界面的大部分内容都在 XML 文件中定义。不过，本节课将向您介绍如何使用 Android Studio 的布局编辑器创建布局，而不是教您编写 XML 代码。布局编辑器会在您拖放视图构建布局时为您编写 XML 代码。
 
@@ -34,7 +34,7 @@ Android 提供了 ViewGroup 和 View 类的 XML 词汇表，因此界面的大�
 
 您的布局编辑器现在如下图所示。
 
-![布局编辑器](./assets/layout-editor.png)
+![布局编辑器](/assets/code/Android/layout-editor.png)
 
 左下方的 Component Tree 面板显示布局的视图层次结构。在本例中，根视图是 ConstraintLayout，它仅包含一个 TextView 对象。
 
@@ -47,7 +47,7 @@ ConstraintLayout 是一种布局，它根据同级视图和父布局的约束条
 - 视图 B 距离视图 A 右侧 16 dp。
 - 视图 B 与视图 A 顶部对齐。
 
-![布局示例](./assets/constraint-example.png)
+![布局示例](/assets/code/Android/constraint-example.png)
 
 ## 添加文本框
 

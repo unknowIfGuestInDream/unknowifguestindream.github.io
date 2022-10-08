@@ -29,6 +29,6 @@ category: 基础
 
 打个比方，操作系统就好像是一个政府，其它软件都会被它管控；操作系统在给其他软件提供各种便利的同时，还会约束其他软件不能为所欲为。
 
-![操作系统结构示意图](./assets/OS.gif)
+![操作系统结构示意图](/assets/code/basic/OS.gif)
 
 目前流行的服务器和 PC 端操作系统有 Linux、Windows、UNIX 等，手机操作系统有 Android、iOS，嵌入式操作系统有 Windows CE、PalmOS、eCos、uClinux 等。

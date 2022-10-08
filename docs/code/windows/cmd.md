@@ -17,6 +17,6 @@ tag:
 
 <!-- more -->
 
-![示意图](./assets/cmd.png)
+![示意图](/assets/code/windows/cmd.png)
 
 这样就会快速打开一个路径为当前文件夹的命令提示符窗口。

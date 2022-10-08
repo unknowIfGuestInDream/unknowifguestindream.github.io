@@ -201,7 +201,7 @@ CORS 全称 `Cross-Origin Resource Sharing`，是 HTML5 规范定义的如何跨
 
 用一个图来表示就是:
 
-![js-cors](../assets/js-cors.png)
+![js-cors](/assets/code/language/js/js-cors.png)
 
 假设本域是 `my.com`，外域是 `sina.com`，只要响应头 `Access-Control-Allow-Origin` 为 `https://my.com`，或者是 `*`，本次请求就可以成功。
 
