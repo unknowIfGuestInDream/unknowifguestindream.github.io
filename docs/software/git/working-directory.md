@@ -24,7 +24,7 @@ Git 和其他版本控制系统如 SVN 的一个不同之处就是有暂存区�
 
 Git 的版本库里存了很多东西，其中最重要的就是称为 stage(或者叫 index)的暂存区，还有 Git 为我们自动创建的第一个分支 `master`，以及指向 master 的一个指针叫 `HEAD`。
 
-![版本库图例](./assets/git3.jpg)
+![版本库图例](/assets/software/git/git3.jpg)
 
 前面讲了我们把文件往 Git 版本库里添加的时候，提交更改，实际上就是把暂存区的所有内容提交到当前分支。我们创建 Git 版本库时，Git 自动为我们创建了唯一一个 `master` 分支，所以，现在，`git commit` 就是往 master 分支上提交更改。
 
@@ -75,7 +75,7 @@ Changes to be committed:
 
 现在，暂存区的状态就变成这样了:
 
-![状态示意图](./assets/git4.jpg)
+![状态示意图](/assets/software/git/git4.jpg)
 
 所以，`git add` 命令实际上就是把要提交的所有修改放到暂存区(Stage)，然后，执行 `git commit` 就可以一次性把暂存区的所有修改提交到分支。
 

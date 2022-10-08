@@ -19,25 +19,25 @@ tag:
 
 1. 同意协议并选择安装位置 (不建议更改安装位置)
 
-   ![安装协议](./assets/install1.png)
+   ![安装协议](/assets/software/git/install1.png)
 
-   ![安装位置](./assets/install2.png)
+   ![安装位置](/assets/software/git/install2.png)
 
 1. 启用 LFS 支持，其他随意 (影响不大)
 
-   ![组件选择](./assets/install3.png)
+   ![组件选择](/assets/software/git/install3.png)
 
 1. 自行决定是否创建启动菜单
 
-   ![是否创建启动菜](./assets/install4.png)
+   ![是否创建启动菜](/assets/software/git/install4.png)
 
 1. 选择使用 VS Code 作为 git 的默认编辑器。
 
-   ![设置默认编辑器](./assets/install5.png)
+   ![设置默认编辑器](/assets/software/git/install5.png)
 
 1. 选择 Git 使用的默认分支名，GitHub 已经将默认分支名称改为 main。
 
-   ![设置默认分支名称](./assets/install6.png)
+   ![设置默认分支名称](/assets/software/git/install6.png)
 
    :::info
 
@@ -47,11 +47,11 @@ tag:
 
 1. 选择第二项，这将允许您在第三方工具中使用 Git，同时不会覆盖默认的 Windows 命令。
 
-   ![Git 命令行](./assets/install7.png)
+   ![Git 命令行](/assets/software/git/install7.png)
 
 1. 使用 OpenSSL Library
 
-   ![Git SSL](./assets/install8.png)
+   ![Git SSL](/assets/software/git/install8.png)
 
    :::tip
 
@@ -61,11 +61,11 @@ tag:
 
 1. 务必选择最后一项 “原样检出与提交”
 
-   ![Git 行尾设置](./assets/install9.png)
+   ![Git 行尾设置](/assets/software/git/install9.png)
 
 1. 选择 Git 终端
 
-   ![Git 终端](./assets/install10.png)
+   ![Git 终端](/assets/software/git/install10.png)
 
    ::: tip
 
@@ -75,25 +75,25 @@ tag:
 
 1. 选择 `git pull` 的默认行为，保持默认不要改动
 
-   ![Git Pull Action](./assets/install11.png)
+   ![Git Pull Action](/assets/software/git/install11.png)
 
 1. 选择凭据储存管理器，请选择第一个跨平台管理器
 
-   ![凭据储存管理器设置](./assets/install12.png)
+   ![凭据储存管理器设置](/assets/software/git/install12.png)
 
 1. 额外的选项确认，均勾选即可
 
-   ![额外选项](./assets/install13.png)
+   ![额外选项](/assets/software/git/install13.png)
 
 1. 一些实验性的功能，通常不太稳定或有 bug，不同 Git 版本会有差异，可根据自身情况确定
 
-   ![实验性功能](./assets/install14.png)
+   ![实验性功能](/assets/software/git/install14.png)
 
 ## Git Bash
 
 安装完成后，您可以通过搜索找到“Git Bash” (Mac 上叫 Git Shell)，这是一个 Git 提供的命令窗口，您可以在这里运行 Git 命令。
 
-![Git Bash](./assets/shell.png)
+![Git Bash](/assets/software/git/shell.png)
 
 ::: tip
 
@@ -156,12 +156,12 @@ tag:
 
 1. 打开 [GitHub](https://github.com) 并选择 "Sign in" 注册自己的账号。
 
-   ![GitHub 界面简介](./assets/github.png)
+   ![GitHub 界面简介](/assets/software/git/github.png)
 
    登陆 GitHub 后，点击右上角头像，进入设置。
 
    进入 "安全设置" 下的 "SSH 公钥" 界面。
 
-   ![GitHub 界面简介](./assets/githubSSH.png)
+   ![GitHub 界面简介](/assets/software/git/githubSSH.png)
 
    在标题中填写公钥的备注名称，把 id_rsa.pub 文件的内容粘贴到底下的输入框中，设置一个标识此电脑的备注。

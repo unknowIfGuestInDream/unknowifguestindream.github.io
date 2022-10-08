@@ -16,7 +16,7 @@ tag:
 1. 查看扩展建议
 1. 社区策划的扩展列表，例如 awesome-vscode。
 
-![扩展选项卡](./assets/extension.png)
+![扩展选项卡](/assets/software/vscode/guide/extension.png)
 
 ## 安装扩展
 
