@@ -49,4 +49,40 @@ export const enNavbar = navbar([
     icon: "note",
     link: "https://vuepress-theme-hope.github.io/v2/",
   },
+  {
+    text: "代码笔记",
+    icon: "code",
+    children: [
+      {
+        text: "代码笔记",
+        icon: "code",
+        link: "/en/code/",
+        activeMatch: "^/code/$",
+      },
+      // {
+      //   text: "产品设计",
+      //   children: ["/design/"],
+      // },
+      // {
+      //   text: "后端运维",
+      //   children: ["/linux/"],
+      // },
+    ],
+  },
+  {
+    text: "软件教程",
+    icon: "software",
+    prefix: "/en/software/",
+    children: [
+      {
+        text: "软件教程",
+        icon: "software",
+        link: "",
+        activeMatch: "^/software/$",
+      },
+      "vscode/",
+      "git/",
+      "comsol/",
+    ],
+  },
 ]);
