@@ -1,1 +1,1 @@
-const language = 'Typescript';
+const language = 'JavaScript';
