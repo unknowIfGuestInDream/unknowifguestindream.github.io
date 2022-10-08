@@ -29,7 +29,7 @@ settings.json 文件分为四个主要部分:
 
 关于详细的配置项，请见 [全局设置](https://aka.ms/terminal-global-settings)。
 
-![全局设置](../assets/terminal-global-settings.png)
+![全局设置](/assets/software/tool/terminal-global-settings.png)
 
 ### 默认配置文件
 
@@ -49,7 +49,7 @@ settings.json 文件分为四个主要部分:
 
 关于详细的配置项，请见 [配置文件设置](https://aka.ms/terminal-profile-settings)。
 
-![配置文件设置](../assets/terminal-profiles.png)
+![配置文件设置](/assets/software/tool/terminal-profiles.png)
 
 ::: tip
 
@@ -138,7 +138,7 @@ Windows Terminal 在 defaults.json 文件中包含了一些配色方案。如果
 
 关于详细的配置项，请见 [自定义操作设置](https://aka.ms/terminal-keybindings)。
 
-![自定义操作](../assets/terminal-actions.png)
+![自定义操作](/assets/software/tool/terminal-actions.png)
 
 自定义操作可以设置为以下格式:
 

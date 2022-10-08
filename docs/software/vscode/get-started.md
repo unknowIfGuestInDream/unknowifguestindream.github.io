@@ -17,7 +17,7 @@ tag:
 
 :::
 
-![VS Code UI 页面](./assets/layout.png)
+![VS Code UI 页面](/assets/software/vscode/layout.png)
 
 VS Code 最上方有一排菜单栏，其中有大量的快捷操作，对应的组合键会标于快捷操作旁。如果不能记忆快捷键可以到最上方的菜单栏处查看。
 
