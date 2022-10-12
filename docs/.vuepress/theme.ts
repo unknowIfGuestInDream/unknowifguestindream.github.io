@@ -7,7 +7,7 @@ export default hopeTheme({
 
   author: {
     name: "unknowIfGuestInDream",
-    url: "https://www.tlcsdm.com",
+    url: "https://blog.tlcsdm.com",
   },
   iconAssets: "iconfont",
   logo: "/logo.svg",
