@@ -1,0 +1,1 @@
+const s="/assets/software/vscode/guide/intellisense.gif",e="/assets/software/vscode/guide/context-menu.gif",t="/assets/software/vscode/guide/goto-definition.gif",o="/assets/software/vscode/guide/rename.gif",i="/assets/software/vscode/guide/replace.png";export{s as _,e as a,t as b,o as c,i as d};

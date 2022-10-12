@@ -1,0 +1,1 @@
+const s="/assets/software/vscode/install.png",o="/assets/software/vscode/automator-service.png",t="/assets/software/vscode/automator.jpg",a="/assets/software/vscode/open-with-vscode.png";export{s as _,o as a,t as b,a as c};
