@@ -51,7 +51,7 @@ The quick brown fox jumps over the lazy dog
 
 ```py
 >>> name = input()
-Mr.Hope
+unknowIfGuestInDream
 ```
 
 当您输入 `name = input()` 并按下回车后，Python 交互式命令行就在等待您的输入了。这时，您可以输入任意字符，然后按回车后完成输入。
@@ -60,7 +60,7 @@ Mr.Hope
 
 ```py
 >>> name
-'Mr.Hope'
+'unknowIfGuestInDream'
 ```
 
 ::: tip 变量
@@ -79,7 +79,7 @@ Mr.Hope
 
 ```py
 >>> print(name)
-Mr.Hope
+unknowIfGuestInDream
 ```
 
 :::
@@ -91,12 +91,12 @@ name = input()
 print('hello,', name)
 ```
 
-运行上面的程序，第一行代码会让用户输入任意字符作为自己的名字，然后存入 `name` 变量中；第二行代码会根据用户的名字向用户说 `hello`，比如输入 `Mr.Hope`
+运行上面的程序，第一行代码会让用户输入任意字符作为自己的名字，然后存入 `name` 变量中；第二行代码会根据用户的名字向用户说 `hello`，比如输入 `unknowIfGuestInDream`
 
 ```sh
 C:/Workspace> python hello.py
-Mr.Hope
-hello, Mr.Hope
+unknowIfGuestInDream
+hello, unknowIfGuestInDream
 ```
 
 但是程序运行的时候，没有任何提示信息告诉用户:“嘿，赶紧输入您的名字”，这样显得很不友好。所以 `input()` 可以让您显示一个字符串来提示用户，于是我们把代码改成:
@@ -110,8 +110,8 @@ print('hello,', name)
 
 ```sh
 C:/Workspace> python hello.py
-please enter your name: Mr.Hope
-hello, Mr.Hope
+please enter your name: unknowIfGuestInDream
+hello, unknowIfGuestInDream
 ```
 
 每次运行该程序，根据用户输入的不同，输出结果也会不同。
