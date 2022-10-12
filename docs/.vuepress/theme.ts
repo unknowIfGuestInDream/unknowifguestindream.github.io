@@ -1,6 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, zhNavbar, jaNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar, jaSidebar } from "./sidebar/index.js";
+import { enNavbar, zhNavbar, jaNavbar } from "./navbar";
+import { enSidebar, zhSidebar, jaSidebar } from "./sidebar";
 
 export default hopeTheme({
   hostname: "https://blog.tlcsdm.com",

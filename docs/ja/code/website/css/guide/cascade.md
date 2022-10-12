@@ -28,7 +28,7 @@ Style sheets cascade(样式表层叠) 决定了 CSS 规则的顺序很重要。
 **案例**: 我们有两个关于 `h1` 的规则。这些规则有相同的优先级，顺序在最后的生效，所以 `h1` 最后显示为蓝色。
 
 ```html
-<h1>Mr.Hope is handsome!</h1>
+<h1>unknowIfGuestInDream is handsome!</h1>
 ```
 
 ```css
@@ -53,7 +53,7 @@ h1 {
 上面的 `h1` 会显示红色 (类选择器有更高的优先级，即使元素选择器顺序在它后面)。
 
 ```html
-<h1 class="main-heading">Mr.Hope is handsome!</h1>
+<h1 class="main-heading">unknowIfGuestInDream is handsome!</h1>
 ```
 
 ```css
