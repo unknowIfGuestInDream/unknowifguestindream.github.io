@@ -13,11 +13,11 @@ JavaScript 用一个 `{...}` 表示一个对象，键值对以 `xxx: xxx` 形式
 
 <!-- more -->
 
-JavaScript 的对象可用于描述现实世界中的某个对象。例如，为了描述 Mr.Hope，我们可以用若干键值对来描述他:
+JavaScript 的对象可用于描述现实世界中的某个对象。例如，为了描述 unknowIfGuestInDream，我们可以用若干键值对来描述他:
 
 ```js
 const mrhope = {
-  name: "Mr.Hope",
+  name: "unknowIfGuestInDream",
   isHandsome: true,
   birth: 1998,
   school: "No.1 Middle School",
@@ -33,10 +33,10 @@ const mrhope = {
 
 :::
 
-上述对象申明了一个 `name` 属性，值是 `'Mr.Hope'`，`birth` 属性，值是 `1998`，以及其他一些属性。最后，把这个对象赋值给变量 `mrhope` 后，就可以通过变量 `mrhope` 来获取 Mr.Hope 的属性了:
+上述对象申明了一个 `name` 属性，值是 `'unknowIfGuestInDream'`，`birth` 属性，值是 `1998`，以及其他一些属性。最后，把这个对象赋值给变量 `mrhope` 后，就可以通过变量 `mrhope` 来获取 unknowIfGuestInDream 的属性了:
 
 ```js
-mrhope.name; // 'Mr.Hope'
+mrhope.name; // 'unknowIfGuestInDream'
 mrhope.birth; // 1998
 ```
 
@@ -67,7 +67,7 @@ mrshope.name; // 'Mrs.Hope'
 "use strict";
 
 const mrhope = {
-  name: "Mr.Hope",
+  name: "unknowIfGuestInDream",
 };
 
 console.log(mrhope.name);
@@ -78,7 +78,7 @@ console.log(mrhope.house); // undefined
 
 ```js
 const mrhope = {
-  name: "Mr.Hope",
+  name: "unknowIfGuestInDream",
 };
 
 mrhope.age; // undefined
@@ -95,7 +95,7 @@ delete mrhope.school; // 删除一个不存在的 school 属性也不会报错
 
 ```js
 const mrhope = {
-  name: "Mr.Hope",
+  name: "unknowIfGuestInDream",
   birth: 1998,
   school: "No.1 Middle School",
   height: 1.76,
@@ -119,7 +119,7 @@ const mrhope = {
 
 ```js
 const mrhope = {
-  name: "Mr.Hope",
+  name: "unknowIfGuestInDream",
 };
 
 mrhope.hasOwnProperty("name"); // true

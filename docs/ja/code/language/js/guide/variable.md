@@ -104,7 +104,7 @@ let s_007 = "007"; // s_007 是一个字符串
 let Answer = true; // Answer 是一个布尔值 true
 let t = null; // t的值是 null
 
-const person = "Mr.Hope"; // 声明了一个常量 person，值为 Mr.Hope
+const person = "unknowIfGuestInDream"; // 声明了一个常量 person，值为 unknowIfGuestInDream
 const score = 500; // 声明了一个常量 score，值为 500
 ```
 
@@ -197,6 +197,6 @@ i = 10; // i 现在是全局变量
 
 ::: warning
 
-微信小程序默认执行 `use strict`。而且 Mr.Hope 所有的项目都是在严格环境下执行。大家在学习时也强烈建议开启该环境模式。
+微信小程序默认执行 `use strict`。而且 unknowIfGuestInDream 所有的项目都是在严格环境下执行。大家在学习时也强烈建议开启该环境模式。
 
 :::
