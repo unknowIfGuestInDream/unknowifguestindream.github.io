@@ -43,8 +43,8 @@ route 属性是一个数组，其每一个元素是一个对象，对象会包�
 
 ```ts
 /*
- * @Author: Mr.Hope
- * @LastEditors: Mr.Hope
+ * @Author: unknowIfGuestInDream
+ * @LastEditors: unknowIfGuestInDream
  * @Description: router配置文件
  * @Date: 2019-02-26 23:43:23
  * @LastEditTime: 2019-05-05 14:35:43
@@ -90,8 +90,8 @@ export default new Router({
 
 ```ts
 /*
- * @Author: Mr.Hope
- * @LastEditors: Mr.Hope
+ * @Author: unknowIfGuestInDream
+ * @LastEditors: unknowIfGuestInDream
  * @Description: 路由配置文件
  * @Date: 2019-03-25 12:27:33
  * @LastEditTime: 2019-05-05 14:40:14
@@ -210,7 +210,7 @@ const route = [
   {
     path: "/about/Mr-Hope",
     name: "mrhope",
-    meta: { title: "Mr.Hope简介" },
+    meta: { title: "unknowIfGuestInDream简介" },
     component: () =>
       import(/* webpackChunkName: "about" */ "@/views/about/MrHope.vue"),
   },

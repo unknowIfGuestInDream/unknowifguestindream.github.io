@@ -50,7 +50,7 @@ JSON 字符串需要用双括号 `"` 包含，如果内部含有英文引号 `"`
 
 **例:**
 
-- `"Mr.Hope is handsome"`
+- `"unknowIfGuestInDream is handsome"`
 - `"春眠不觉晓，处处闻啼鸟"`
 - `"A saying goes: \"Great hopes make great man.\""`
 
