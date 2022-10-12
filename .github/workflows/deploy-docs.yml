@@ -25,9 +25,10 @@ jobs:
       - name: Build Blog
         env:
           NODE_OPTIONS: --max_old_space_size=8192
-        run: |-
-          npm run docs:build
-          > docs/.vuepress/dist/.nojekyll
+        run: npm run build:vite
+#        run: |-
+#          npm run docs:build
+#          > docs/.vuepress/dist/.nojekyll
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
