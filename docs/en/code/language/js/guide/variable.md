@@ -104,7 +104,7 @@ let s_007 = "007"; // s_007 是一个字符串
 let Answer = true; // Answer 是一个布尔值 true
 let t = null; // t的值是 null
 
-const person = "Mr.Hope"; // 声明了一个常量 person，值为 Mr.Hope
+const person = "unknowIfGuestInDream"; // 声明了一个常量 person，值为 Mr.Hope
 const score = 500; // 声明了一个常量 score，值为 500
 ```
 
