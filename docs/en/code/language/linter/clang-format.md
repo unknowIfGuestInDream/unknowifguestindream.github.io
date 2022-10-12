@@ -93,7 +93,7 @@ clang-format [options] [<file> ...]
 
 ## 推荐样式
 
-Mr.Hope 推荐使用 Google 预设，所以在个人与工作室的每个项目中，都会使用 Google 编码风格。
+unknowIfGuestInDream 推荐使用 Google 预设，所以在个人与工作室的每个项目中，都会使用 Google 编码风格。
 
 建议在 VS Code 中配置默认格式风格:
 

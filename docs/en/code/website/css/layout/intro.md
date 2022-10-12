@@ -12,7 +12,7 @@ category: CSS
 ::: normal-demo 正常布局流
 
 ```html
-<p>Mr.Hope 很帅</p>
+<p>unknowIfGuestInDream 很帅</p>
 <ul>
   <li>HTML</li>
   <li>CSS</li>

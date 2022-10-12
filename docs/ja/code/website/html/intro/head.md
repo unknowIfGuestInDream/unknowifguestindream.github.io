@@ -69,7 +69,7 @@ HTML 头部是包含在 `<head>` 元素里面的内容。不像 `<body>` 元素�
 ::: tip 案例
 
 ```html
-<meta name="author" content="Mr.Hope" />
+<meta name="author" content="unknowIfGuestInDream" />
 <meta name="description" content="Introduction about <head> tags" />
 ```
 
