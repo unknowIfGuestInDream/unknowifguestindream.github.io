@@ -2,6 +2,13 @@ name: Test blog
 
 on:
   push:
+    branches:
+      - master
+    paths-ignore:
+      - 'docs/**'
+      - 'docs-zh/**'
+      - '**.md'
+      - '.github/**'
   pull_request:
 
 jobs:
