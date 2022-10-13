@@ -3,6 +3,9 @@ on:
   push:
     branches:
       - master
+    paths-ignore:
+      - '.github/**'
+
 jobs:
   deploy-gh-pages:
     runs-on: ubuntu-latest
