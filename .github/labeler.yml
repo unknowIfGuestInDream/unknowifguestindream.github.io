@@ -1,0 +1,24 @@
+enhancement:
+  - any: ['docs/main/**', '!docs/.vuepress/**']
+
+config:
+  - any: ['docs/.vuepress/**']
+
+i18n:
+  - any: ['docs/en/**', 'docs/ja/**']
+
+workflow:
+  - .github/**
+
+documentation:
+  - LICENSE
+  - README.md
+
+dependencies:
+  - CNAME
+  - package.json
+  - package-lock.json
+  - tsconfig.json
+  - .prettierignore
+  - .gitmodules
+  - scripts/**
