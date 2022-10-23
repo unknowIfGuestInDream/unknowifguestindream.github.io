@@ -22,3 +22,8 @@ dependencies:
   - .prettierignore
   - .gitmodules
   - scripts/**
+
+automerge:
+  - all: [ 'README.md' ]
+  - all: [ '.github/**' ]
+  - all: [ 'scripts/**' ]

@@ -5,11 +5,20 @@ on:
     branches:
       - master
     paths-ignore:
-      - 'docs/**'
-      - 'docs-zh/**'
-      - '**.md'
+      - 'README.md'
       - '.github/**'
+      - 'scripts/**'
+      - '.gitattributes'
+      - '.prettierignore'
+      - 'LICENSE'
   pull_request:
+    paths-ignore:
+      - 'README.md'
+      - '.github/**'
+      - 'scripts/**'
+      - '.gitattributes'
+      - '.prettierignore'
+      - 'LICENSE'
 
 jobs:
   build-test:
