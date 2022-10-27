@@ -16,11 +16,15 @@ on:
     branches: [ "master" ]
     paths-ignore:
       - '.github/**'
+      - 'README.md'
+      - 'scripts/**'
   pull_request:
     # The branches below must be a subset of the branches above
     branches: [ "master" ]
     paths-ignore:
       - '.github/**'
+      - 'README.md'
+      - 'scripts/**'
   schedule:
     - cron: '24 14 * * 6'
 
