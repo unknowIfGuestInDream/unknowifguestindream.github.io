@@ -20,6 +20,11 @@ projects:
     link: https://github.com/unknowIfGuestInDream/genCode
 
   - icon: project
+    name: javafxTool
+    desc: javafx ツール、JDK17 + JavaFX17 + controlsfx 11.x.x + maven
+    link: https://github.com/unknowIfGuestInDream/javafxTool
+
+  - icon: project
     name: genCode-gradle
     desc: gradleで構築されたgenCode。
     link: https://github.com/unknowIfGuestInDream/genCode-gradle
