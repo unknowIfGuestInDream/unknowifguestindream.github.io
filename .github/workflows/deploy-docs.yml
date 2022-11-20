@@ -5,6 +5,8 @@ on:
       - master
     paths-ignore:
       - '.github/**'
+      - 'CONTRIBUTORS.md'
+      - 'README.md'
 
 jobs:
   deploy-gh-pages:
