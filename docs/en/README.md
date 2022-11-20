@@ -32,12 +32,12 @@ projects:
   - icon: project
     name: xxl-job-oracle
     desc: oracle version based on xxl-job-2.3.
-    link: https://github.com/unknowIfGuestInDream/xxl-job-oracle
+    link: https://github.com/tlcsdm/xxl-job-oracle
 
   - icon: project
     name: antdpro5-demo
     desc: Initialisation template for AntdPro 5.2.
-    link: https://github.com/unknowIfGuestInDream/antdpro5-demo
+    link: https://github.com/tlcsdm/antdpro5-demo
 
   - icon: project
     name: DesignpatternTest

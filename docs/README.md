@@ -32,12 +32,12 @@ projects:
   - icon: project
     name: xxl-job-oracle
     desc: 基于xxl-job-2.3的oracle版本 。
-    link: https://github.com/unknowIfGuestInDream/xxl-job-oracle
+    link: https://github.com/tlcsdm/xxl-job-oracle
 
   - icon: project
     name: antdpro5-demo
     desc: AntdPro 5.2 的初始化模板。
-    link: https://github.com/unknowIfGuestInDream/antdpro5-demo
+    link: https://github.com/tlcsdm/antdpro5-demo
 
   - icon: project
     name: DesignpatternTest
