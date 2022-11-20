@@ -27,3 +27,4 @@ automerge:
   - all: [ 'README.md' ]
   - all: [ '.github/**' ]
   - all: [ 'scripts/**' ]
+  - all: [ 'CONTRIBUTORS.md' ]
