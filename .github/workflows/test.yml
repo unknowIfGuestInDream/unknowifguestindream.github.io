@@ -5,20 +5,18 @@ on:
     branches:
       - master
     paths-ignore:
-      - 'README.md'
-      - '.github/**'
-      - 'scripts/**'
-      - '.gitattributes'
-      - '.prettierignore'
-      - 'LICENSE'
+      - master
   pull_request:
-    paths-ignore:
-      - 'README.md'
-      - '.github/**'
-      - 'scripts/**'
-      - '.gitattributes'
-      - '.prettierignore'
-      - 'LICENSE'
+  pull_request_target:
+    types:
+      - labeled
+      - unlabeled
+      - synchronize
+      - opened
+      - edited
+      - ready_for_review
+      - reopened
+      - unlocked
 
 jobs:
   build-test:
