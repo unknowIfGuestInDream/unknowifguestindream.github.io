@@ -18,7 +18,6 @@ on:
 
 jobs:
   build-test:
-    name: Test build using ${{ matrix.bundler }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
