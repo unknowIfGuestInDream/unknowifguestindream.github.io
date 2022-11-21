@@ -42,7 +42,3 @@ jobs:
           MERGE_RETRIES: "10"
           MERGE_RETRY_SLEEP: "600000"
           UPDATE_LABELS: "automerge"
-      - name: feedback
-        if: steps.automerge.outputs.mergeResult == "merged"
-        run: |
-          echo "Pull request ${{ steps.automerge.outputs.pullRequestNumber }} merged!"
