@@ -106,6 +106,18 @@ pull_request_rules:
         message: |
           @{{author}}
           The current code is frozen, please wait for the unfreeze to merge.
+  - name: test check comment
+    conditions:
+      - status-success=build-test (vite)
+      - author!=dependabot[bot]
+      - author!=imgbot[bot]
+      - "-closed"
+      - "-merged"
+    actions:
+      comment:
+        message: |
+          @{{author}}
+          Test build failed! please fix it.
   - name: GitGuardian check comment
     conditions:
       - "status-failure=GitGuardian Security Checks"
@@ -135,6 +147,7 @@ pull_request_rules:
     conditions:
       - status-success=Title Validator
       - status-success=GitGuardian Security Checks
+      - status-success=build-test (vite)
       - "-closed"
       - "-draft"
       - "-conflict"
@@ -153,6 +166,7 @@ pull_request_rules:
       - status-success=GitGuardian Security Checks
       - status-success=mergefreeze
       - status-success=WIP
+      - status-success=build-test (vite)
       - label!=invalid
       - "-closed"
       - "-draft"
@@ -176,6 +190,7 @@ pull_request_rules:
       - status-success=GitGuardian Security Checks
       - status-success=mergefreeze
       - status-success=WIP
+      - status-success=build-test (vite)
       - label!=invalid
       - "-closed"
       - "-draft"
