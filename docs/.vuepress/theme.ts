@@ -114,9 +114,7 @@ export default hopeTheme({
     },
   },
   plugins: {
-    blog: {
-      autoExcerpt: true,
-    },
+    blog: true,
     // If you don't need comment feature, you can remove following option
     // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
     // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
@@ -157,7 +155,7 @@ export default hopeTheme({
       imageSize: true,
       include: true,
       katex: true,
-      lazyLoad: true,
+      imageLazyload: true,
       mark: true,
       mermaid: true,
       playground: {
@@ -182,7 +180,7 @@ export default hopeTheme({
       sub: true,
       sup: true,
       tabs: true,
-      vpre: true,
+      vPre: true,
       vuePlayground: true,
     },
 
