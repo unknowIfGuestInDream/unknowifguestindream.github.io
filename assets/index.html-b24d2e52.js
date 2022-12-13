@@ -1,0 +1,1 @@
+import{_ as t,W as c,X as s,$ as n,Y as e}from"./framework-ae009c3e.js";const o={},a=e("div",{class:"custom-container tip"},[e("p",{class:"custom-container-title"},"Tips"),e("p",null,"正在完善中...")],-1);function r(i,l){return c(),s("div",null,[a,n(" more ")])}const m=t(o,[["render",r],["__file","index.html.vue"]]);export{m as default};

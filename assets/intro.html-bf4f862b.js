@@ -1,0 +1,1 @@
+import{_ as t,W as o,X as a,Y as e,Z as n}from"./framework-ae009c3e.js";const r={},s=e("h1",{id:"紹介ページ",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#紹介ページ","aria-hidden":"true"},"#"),n(" 紹介ページ")],-1),c=e("p",null,"ここにプロフィールやファイルを置いてください。",-1),_=[s,c];function d(i,l){return o(),a("div",null,_)}const f=t(r,[["render",d],["__file","intro.html.vue"]]);export{f as default};
