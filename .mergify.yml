@@ -148,6 +148,7 @@ pull_request_rules:
       - status-success=Title Validator
       - status-success=GitGuardian Security Checks
       - status-success=build-test (vite)
+      - status-success=Vercel
       - "-closed"
       - "-draft"
       - "-conflict"
@@ -167,6 +168,7 @@ pull_request_rules:
       - status-success=mergefreeze
       - status-success=WIP
       - status-success=build-test (vite)
+      - status-success=Vercel
       - label!=invalid
       - "-closed"
       - "-draft"
@@ -191,6 +193,7 @@ pull_request_rules:
       - status-success=mergefreeze
       - status-success=WIP
       - status-success=build-test (vite)
+      - status-success=Vercel
       - label!=invalid
       - "-closed"
       - "-draft"
