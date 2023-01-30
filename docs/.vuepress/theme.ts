@@ -9,6 +9,7 @@ export default hopeTheme({
     name: "unknowIfGuestInDream",
     url: "https://blog.tlcsdm.com",
   },
+  favicon: "/favicon.ico",
   iconAssets: "iconfont",
   logo: "/logo.svg",
   repo: "unknowIfGuestInDream/unknowifguestindream.github.io",
