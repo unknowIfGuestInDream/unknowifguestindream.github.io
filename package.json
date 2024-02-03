@@ -13,7 +13,7 @@
     "lint": "prettier --check --write .",
     "lint:check": "prettier --check .",
     "lint:md": "markdownlint-cli2 **/*.md",
-    "build:vite": "vuepress-vite build docs NODE_OPTIONS=--max-old-space-size=8192",
+    "build:vite": "vuepress-vite build docs",
     "build:vite-debug": "cross-env DEBUG=vuepress* vuepress-vite build docs",
     "build:webpack": "vuepress-webpack build docs",
     "build:webpack-debug": "cross-env DEBUG=vuepress* vuepress-webpack build docs",
