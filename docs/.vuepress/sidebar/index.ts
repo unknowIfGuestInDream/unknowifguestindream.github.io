@@ -2,12 +2,12 @@ import { sidebar } from "vuepress-theme-hope";
 import { code } from "./code.js";
 import { design } from "./design.js";
 import {
-    dart,
-    javascript,
-    language,
-    markdown,
-    python,
-    typescript,
+  dart,
+  javascript,
+  language,
+  markdown,
+  python,
+  typescript,
 } from "./language/index.js";
 import { linux } from "./linux.js";
 import { miniapp } from "./mini-app/index.js";
@@ -18,85 +18,84 @@ import { vue } from "./vue.js";
 import { jquery, website } from "./website/index.js";
 
 export const zhSidebar = sidebar({
-    "/software/vscode/": vscode,
+  "/software/vscode/": vscode,
 
-    "/software/git/": "structure",
+  "/software/git/": "structure",
 
-    "/software/comsol/": comsol,
+  "/software/comsol/": comsol,
 
-    "/software/": software,
+  "/software/": software,
 
-    "/physics/": physics,
+  "/physics/": physics,
 
-    "/note/innenu/": ["", "yaml", "tag-list", "get-started"],
+  "/note/innenu/": ["", "yaml", "tag-list", "get-started"],
 
-    "/note/": note,
+  "/note/": note,
 
-    "/linux/": linux,
+  "/linux/": linux,
 
-    "/design/": design,
+  "/design/": design,
 
-    "/code/windows/": "structure",
+  "/code/windows/": "structure",
 
-    "/code/website/jquery/": jquery,
+  "/code/website/jquery/": jquery,
 
-    "/code/website/html/": "structure",
+  "/code/website/html/": "structure",
 
-    "/code/website/css/": "structure",
+  "/code/website/css/": "structure",
 
-    "/code/website/": website,
+  "/code/website/": website,
 
-    "/code/vue/": vue,
+  "/code/vue/": vue,
 
-    "/code/node-js/": "structure",
+  "/code/node-js/": "structure",
 
-    "/code/mini-app/": miniapp,
+  "/code/mini-app/": miniapp,
 
-    "/code/language/typescript/": typescript,
+  "/code/language/typescript/": typescript,
 
-    "/code/language/python/": python,
+  "/code/language/python/": python,
 
-    "/code/language/markdown/": markdown,
+  "/code/language/markdown/": markdown,
 
-    "/code/language/js/": javascript,
+  "/code/language/js/": javascript,
 
-    "/code/language/dart/": dart,
+  "/code/language/dart/": dart,
 
-    "/code/language/": language,
+  "/code/language/": language,
 
-    "/code/github/": "structure",
+  "/code/github/": "structure",
 
-    "/code/basic/": "structure",
+  "/code/basic/": "structure",
 
-    "/code/android/": "structure",
+  "/code/android/": "structure",
 
-    "/code/": code,
+  "/code/": code,
 
-    "/about/": "structure",
+  "/about/": "structure",
 
-    // fallback
-    "/": ["", "note/", "code/", "software/", "about/"],
+  // fallback
+  "/": ["", "note/", "code/", "software/", "about/"],
 });
 
 export const enSidebar = sidebar({
-    "/en/note/": [""],
+  "/en/note/": [""],
 
-    "/en/code/": [""],
+  "/en/code/": [""],
 
-    "/en/about/": ["", "site"],
+  "/en/about/": ["", "site"],
 
-    // fallback
-    "/en/": ["", "code/", "about/"],
+  // fallback
+  "/en/": ["", "code/", "about/"],
 });
 
 export const jaSidebar = sidebar({
-    "/ja/note/": [""],
+  "/ja/note/": [""],
 
-    "/ja/code/": [""],
+  "/ja/code/": [""],
 
-    "/ja/about/": ["", "site"],
+  "/ja/about/": ["", "site"],
 
-    // fallback
-    "/ja/": ["", "code/", "about/"],
+  // fallback
+  "/ja/": ["", "code/", "about/"],
 });
-

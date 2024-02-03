@@ -7,14 +7,14 @@ on:
     branches:
       - master
     paths-ignore:
-      - '.github/**'
+      - ".github/**"
   # Replace pull_request with pull_request_target if you
   # plan to use this action with forks, see the Limitations section
   pull_request:
     branches:
       - master
     paths-ignore:
-      - '.github/**'
+      - ".github/**"
 
 # Down scope as necessary via https://docs.github.com/en/actions/security-guides/automatic-token-authentication#modifying-the-permissions-for-the-github_token
 permissions:

@@ -2,9 +2,9 @@ name: Test blog
 
 on:
   push:
-    branches: [ "master" ]
+    branches: ["master"]
   pull_request:
-    branches: [ "master" ]
+    branches: ["master"]
   pull_request_target:
     types:
       - labeled
