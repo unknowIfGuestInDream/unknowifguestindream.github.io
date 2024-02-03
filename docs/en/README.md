@@ -1,48 +1,58 @@
 ---
+date: 2022-01-07
 home: true
 layout: BlogHome
 icon: home
 title: Home
 heroImage: /logo.svg
-heroText: unknowIfGuestInDream
-tagline: Whatever is worth doing is worth doing well.
+heroText: 𝓜𝓻. 𝓗𝓸𝓹𝓮
+tagline: Where there is light, there is hope
+# Special thank to @mo7
+bgImage: https://file.mo7.cc/api/public/bz
 heroFullScreen: true
-bgImage: /stanford.jpg
 projects:
-  - icon: link
-    name: Learning documents
-    desc: A summary of my learning, including SpringBoot, SpringCloud, Linux and Extjs.
-    link: https://www.tlcsdm.com
+  - name: VuePress
+    desc: Vue-powered Static Site Generator
+    link: https://vuejs.press/
+    icon: /assets/img/vuepress.png
 
-  - icon: project
-    name: genCode
-    desc: Mainly used to generate backend java code by selecting stored procedures for databases such as oracle, and generating CRUD stored procedures based on database tables.
-    link: https://github.com/unknowIfGuestInDream/genCode
+  - name: VuePress Theme Hope
+    desc: A VuePress theme with tons of features✨
+    link: https://theme-hope.vuejs.press/
+    icon: https://theme-hope.vuejs.press/logo.svg
 
-  - icon: project
-    name: javafxTool
-    desc: javafx tools, JDK17 + JavaFX17 + controlsfx 11.x.x + maven
-    link: https://github.com/unknowIfGuestInDream/javafxTool
+  - name: Waline
+    desc: A safe and fast comment service
+    link: https://waline.js.org/en/
+    icon: https://waline.js.org/logo.png
 
-  - icon: project
-    name: genCode-gradle
-    desc: genCode built on gradle
-    link: https://github.com/unknowIfGuestInDream/genCode-gradle
+  - name: markdown-it plugins
+    desc: Powerful markdown-it plugins written in typescript
+    link: https://mdit-plugins.github.io/
+    icon: https://mdit-plugins.github.io/logo.svg
 
-  - icon: project
-    name: xxl-job-oracle
-    desc: oracle version based on xxl-job-2.3.
-    link: https://github.com/tlcsdm/xxl-job-oracle
+  - name: in NENU
+    desc: 800,000+ words NENU guide, a comprehensive introduction to NENU life, the best admission guide for NENU freshmen❤
+    link: https://innenu.com
+    icon: /assets/img/inNENU.png
 
-  - icon: project
-    name: antdpro5-demo
-    desc: Initialisation template for AntdPro 5.2.
-    link: https://github.com/tlcsdm/antdpro5-demo
+  - name: vuepress-plugin-md-enhance
+    desc: VuePress Markdown Enhance plugin
+    link: https://plugin-md-enhance.vuejs.press/
+    icon: https://plugin-md-enhance.vuejs.press/logo.svg
 
-  - icon: project
-    name: DesignpatternTest
-    desc: Design Patterns Exercise.
-    link: https://github.com/unknowIfGuestInDream/DesignpatternTest
+  - name: bcrypt-ts
+    icon: project
+    desc: Bcrypt written in typescript
+    link: https://github.com/Mister-Hope/bcrypt-ts
 
-footer: '<a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank">Record No.: 辽ICP备2021000033号-1</a> | <a href="/about/site.html">About the website</a>'
+  - name: "@mr-hope/gulp-sass"
+    type: project
+    desc: Sass Plugin for Gulp
+    link: https://github.com/Mister-Hope/gulp-sass
+
+  - name: mptool
+    desc: Light, effective mini-app framework
+    link: https://github.com/miniapp-tool/mptool
+    icon: https://miniapp-tool.github.io/logo.png
 ---

@@ -3,6 +3,8 @@ title: 开源与免费
 icon: compare
 date: 2020-06-05
 category: 基础
+order: 10
+next: ../website/
 ---
 
 开源软件和免费软件是两个概念:
@@ -31,9 +33,9 @@ Android 就是大众最熟知的一款开源操作系统，它除了用在手机
 
 - 市场占有率最高的关系型数据库 mysql 已经被上市公司 Oracle 收购；
 
-- linux 不但被 Microsoft、IBM、Intel、SAMSUNG 等巨头免费赞助，还接收它们贡献的源代码；
+- Linux 不但被 Microsoft、IBM、Intel、SAMSUNG 等巨头免费赞助，还接收它们贡献的源代码；
 
-- Python 目前属于 python.org 开源组织，它收到了 Facebook、Google、Amazon、Redhat、Microsoft 等商业公司的赞助。
+- Python 目前属于 <python.org> 开源组织，它收到了 Facebook、Google、Amazon、Redhat、Microsoft 等商业公司的赞助。
 
 ## 开源软件的盈利模式
 

@@ -5,6 +5,10 @@ date: 2019-09-01
 category: HTML
 tag:
   - 快速上手
+dir:
+  collapsible: false
+  order: 1
+prev: ../
 ---
 
 本章能让您快速了解 HTML 并学会编写它。
@@ -30,7 +34,7 @@ HTML 不是一门编程语言，而是一种用于定义内容结构的**标记�
 对于一段文字
 
 ```text
-unknowIfGuestInDream is handsome.
+Mr.Hope is handsome.
 ```
 
 HTML 可以将这行文字封装成一个段落(**p**aragraph)元素来使其在单独一行呈现:
@@ -38,7 +42,7 @@ HTML 可以将这行文字封装成一个段落(**p**aragraph)元素来使其在
 ::: normal-demo HTML 段落
 
 ```html
-<p>unknowIfGuestInDream is handsome.</p>
+<p>Mr.Hope 很帅！</p>
 ```
 
 :::
@@ -74,7 +78,7 @@ An element is:
 ::: normal-demo 案例
 
 ```html
-<p>unknowIfGuestInDream is handsome.</p>
+<p>Mr.Hope 很帅！</p>
 ```
 
 :::
@@ -97,7 +101,7 @@ An element is:
 
 `<tagname ...>` 是开始标签，`</tagname>` 是结束标签。
 
-案例中起始标签为 `<p>` 内容为 `unknowIfGuestInDream is handsome.` 闭合标签为 `</p>`。
+案例中起始标签为 `<p>` 内容为 `Mr.Hope is handsome.` 闭合标签为 `</p>`。
 
 开始标签常被称为 **起始标签(Opening tag)**，结束标签常称为 **闭合标签(Closing tag)**
 
@@ -139,12 +143,12 @@ An element is:
 
 ### 标签的嵌套
 
-除了并列放置标签以外，标签的内容也可以放置其他标签，这就构成了标签的嵌套。比如您想强调 unknowIfGuestInDream 的帅:
+除了并列放置标签以外，标签的内容也可以放置其他标签，这就构成了标签的嵌套。比如您想强调 Mr.Hope 的帅:
 
 ::: normal-demo 标签的嵌套
 
 ```html
-<p>unknowIfGuestInDream is <strong>very</strong> handsome.</p>
+<p>Mr.Hope<strong>十分</strong>帅！</p>
 ```
 
 :::
@@ -184,12 +188,12 @@ An element is:
 
 ### 适用于大多数 HTML 元素的属性
 
-| 属性  | 描述                                       |
-| ----- | ------------------------------------------ |
-| class | 为 HTML 元素定义一个或多个类名 (classname) |
-| id    | 定义元素的唯一 id                          |
-| style | 规定元素的行内样式 (inline style)          |
-| title | 描述了元素的额外信息                       |
+| 属性  | 描述                                        |
+| ----- | ------------------------------------------- |
+| class | 为 HTML 元素定义一个或多个类名 (class name) |
+| id    | 定义元素的唯一 id                           |
+| style | 规定元素的行内样式 (inline style)           |
+| title | 描述了元素的额外信息                        |
 
 ### 布尔属性
 
@@ -225,7 +229,7 @@ HTML 文档的后缀名是 `.html`。
 一个符合最新标准的 HTML 文件，应该满足如下结构:
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -245,27 +249,27 @@ HTML 文档的后缀名是 `.html`。
 
 每个网页应该在 HTML 里包含一个唯一的 `<html>` 标签。在 `<html>` 标签中，应该按照顺序包含 `<head>` 和 `<body>` 标签。
 
-`<head>` 标签中，应该包含 `<title>` 标签注明文档的标题。
+- `<head>` 标签中，应该包含 `<title>` 标签注明文档的标题。
 
-::: tip
+  `<head>` 元素是一个容器，它包含了所有您想包含在 HTML 页面中但不想在 HTML 页面中显示的内容。这些内容包括您想在搜索结果中出现的关键字和页面描述，CSS 样式，字符集声明等等。
 
-`<head>` 元素是一个容器，它包含了所有您想包含在 HTML 页面中但不想在 HTML 页面中显示的内容。这些内容包括您想在搜索结果中出现的关键字和页面描述，CSS 样式，字符集声明等等。
+  `<meta charset="UTF-8" />` 元素设置文档使用 utf-8 字符集编码。
 
-`<meta charset="UTF-8" />` 元素设置文档使用 utf-8 字符集编码。
+  ::: tip
 
-::: info UTF-8
+  更多详情，请见 [介绍 → head 标签](../intro/head.md)。
 
-utf-8 字符集包含了人类大部分的文字。基本上它能识别您输入的所有文本内容。使用它可以避免很多其他问题。
+  :::
 
-W3C  也将 UTF-8 标记为推荐的字符编码，所以建议在任何 HTML 文件中都添加此标签。
+  ::: info UTF-8
 
-:::
+  utf-8 字符集包含了人类大部分的文字。基本上它能识别您输入的所有文本内容。使用它可以避免很多其他问题。
 
-更多详情，请见 [介绍 → head 标签](../intro/head.md)。
+  W3C 也将 UTF-8 标记为推荐的字符编码，所以建议在任何 HTML 文件中都添加此标签。
 
-:::
+  :::
 
-`<body>` 标签包含了您访问页面时所有显示在页面上的内容，文本，图片，音频，游戏等等。
+- `<body>` 标签包含了您访问页面时所有显示在页面上的内容，文本，图片，音频，游戏等等。
 
 ## HTML 空白
 
@@ -274,8 +278,7 @@ W3C  也将 UTF-8 标记为推荐的字符编码，所以建议在任何 HTML �
 ::: normal-demo 两个完全等价的段落
 
 ```html
-<p>狗    狗
-很 呆 萌。</p>
+<p>狗 狗 很 呆 萌。</p>
 
 <p>狗 狗 很 呆 萌。</p>
 ```

@@ -1,4 +1,5 @@
 ---
+date: 2020-08-18
 title: 智能提示
 icon: creative
 category: VS Code
@@ -9,7 +10,7 @@ tag:
 
 使用 `Ctrl + Space` 触发智能提示组件。
 
-![智能提示组件](/assets/software/vscode/guide/intellisense.gif)
+![智能提示组件](./assets/intellisense.gif)
 
 您可以查看可用的方法，参数提示，简短文档等。
 
@@ -17,13 +18,13 @@ tag:
 
 选择一个符号然后输入 `Alt + F12`，您就可以使用上下文菜单了。
 
-![上下文菜单](/assets/software/vscode/guide/context-menu.gif)
+![上下文菜单](./assets/context-menu.gif)
 
 ## 跳转到定义
 
 选择一个符号然后输入 `F12`，您也可以使用上下文菜单或 `Ctrl + Click`
 
-![跳转到定义](/assets/software/vscode/guide/goto-definition.gif)
+![跳转到定义](./assets/goto-definition.gif)
 
 您可以使用 **转到 > 返回** 命令或快捷键 `Alt + ←` 来返回您的上个位置。
 
@@ -39,13 +40,13 @@ tag:
 
 选择一个符号，然后按下 `F2`。或者，您可以使用上下文菜单。
 
-![重命名符号](/assets/software/vscode/guide/rename.gif)
+![重命名符号](./assets/rename.gif)
 
 ## 搜索和修改
 
 除了搜索和替换表达式之外，您还可以使用带有捕获组的正则表达式搜索和重用匹配的部分。通过单击 **使用正则表达式** `.*` 按钮(`Alt + R`)在搜索框中启用正则表达式，然后编写正则表达式并使用括号定义组。然后，您可以在替换字段使用 `$1`，`$2` 等来输入每个组中匹配的内容。
 
-![搜索和修改](/assets/software/vscode/guide/replace.png)
+![搜索和修改](./assets/replace.png)
 
 ## .eslintrc.json
 

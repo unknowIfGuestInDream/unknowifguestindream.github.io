@@ -17,8 +17,10 @@ Fixes #
 ## Readiness Checklist
 
 ### Author/Contributor
+
 - [ ] If documentation is needed for this change, has that been included in this pull request
 
 ### Reviewing Maintainer
+
 - [ ] Label as either `enhancement`, `bug`, `documentation` or `dependencies`
-- [ ] Verify design and implementation 
+- [ ] Verify design and implementation

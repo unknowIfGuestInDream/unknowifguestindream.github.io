@@ -1,23 +1,22 @@
 ---
+date: 2020-05-04
 icon: info
-article: false
-breadcrumb: false
 ---
 
 # About site
 
 ::: tip building
 
-This site is built with [VuePress](https://v1.vuepress.vuejs.org/guide/), Using the theme [vuepress-theme-hope](https://github.com/Mister-Hope/vuepress-theme-hope/)
+This site is built with [VuePress](https://v1.vuepress.vuejs.org/guide/).
 
 :::
 
 ## Repository Link
 
-- [**unknowifguestindream's personal blog**](https://github.com/unknowIfGuestInDream/unknowifguestindream.github.io)
+- [**Mr.Hope’s Personal Blog**](https://github.com/Mister-Hope/blog)
 
 ## Disclamer
 
-This blog contains books & blogs from [Mr.Hope](https://mrhope.site/), [ruanyf](https://github.com/ruanyf) and [廖雪峰](https://weibo.com/liaoxuefeng).
+This blog contains books & blogs from [ruanyf](https://github.com/ruanyf) and [廖雪峰](https://weibo.com/liaoxuefeng).
 
 Great thanks to them.

@@ -3,6 +3,7 @@ title: 持续集成
 icon: ci
 date: 2021-02-18
 category: 基础
+order: 8
 ---
 
 持续集成 (Continuous Integration) 指的是，频繁地 (一天多次) 将代码集成到主干，每次集成都通过自动化的构建 (包括编译，发布，自动化测试) 来验证，从而尽早地发现集成错误。
@@ -78,11 +79,10 @@ category: 基础
    常用的构建工具如下,
 
    - Jenkins
-   - Travis
-   - Codeship
    - Strider
+   - GitHub Actions
 
-   Jenkins 和 Strider 是开源软件， Travis 和 Codeship 对于开源项目可以免费使用。它们都会将构建和测试，在一次运行中执行完成。
+   Jenkins 和 Strider 是开源软件，GitHub Actions 是常用的线上构建工具。它们都会将构建和测试，在一次运行中执行完成。
 
 1. 测试 (第二轮)
 

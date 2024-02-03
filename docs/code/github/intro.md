@@ -5,11 +5,12 @@ date: 2019-11-20
 category: GitHub
 tag:
   - 介绍
+order: 1
 ---
 
 ## ~~Gayhub~~ GitHub 是世界上最大的 ~~同性交友~~ 代码托管网站
 
-:yum:当然在上面交友也是极好的(这是重点，圈起来要考的:sunglasses:)。
+:yum: 当然在上面交友也是极好的(这是重点，圈起来要考的:sunglasses:)。
 
 ## 基本概念
 
@@ -47,13 +48,13 @@ tag:
 
 发起推送请求，简称 **PR**。如果是您自己的项目，您可以从一个分支向另一个分支发起推送请求。如果您想对别人的(您无权进行推送)项目进行代码的推送请求的化，需要先 fork 这个仓库。在自己 fork 的项目上进行修改，然后提交到自己的项目上，之后，建立一个从自己仓库到对方仓库的 PR。如果对方觉得您的新改动很不错，在经过测试或者 review 后就会接受它，这样原有项目就可拥有这些新的代码了.
 
-### Dicussion
+### Discussion
 
-GitHub 的讨论区，和 Issue 区主要用于 Bug 和 Feature Request 的追踪不同，通常情况下，你可以在讨论区开帖子询问使用中遇到的问题，以便其他人进行答复。你也可以在 Dicussion 区提供项目的看法与建议，比如对某个功能进行改进的方式以及相关理由。你也可以展示你自己使用项目的一些新的或是与项目相关的一些内容。
+GitHub 的讨论区，和 Issue 区主要用于 Bug 和 Feature Request 的追踪不同，通常情况下，你可以在讨论区开帖子询问使用中遇到的问题，以便其他人进行答复。你也可以在 Discussion 区提供项目的看法与建议，比如对某个功能进行改进的方式以及相关理由。你也可以展示你自己使用项目的一些新的或是与项目相关的一些内容。
 
 ### Watch
 
-关注，在每一个仓库主页的上方可以看到 Watch 按钮。如果您关注了某个项目,那么这个项目有了变化的时候,您就会得到通知.在您点击关注后，您还可以点击下拉列表进一步设置关注级别。您可以选择接受 Release (新发布) 通知，也可以选择 Watching 来监听所有的通知。当您选择 Ignore 的话，即使有人在这个仓库中 metion (提到) 了您，您也不会得到通知。
+关注，在每一个仓库主页的上方可以看到 Watch 按钮。如果您关注了某个项目,那么这个项目有了变化的时候,您就会得到通知.在您点击关注后，您还可以点击下拉列表进一步设置关注级别。您可以选择接受 Release (新发布) 通知，也可以选择 Watching 来监听所有的通知。当您选择 Ignore 的话，即使有人在这个仓库中 mention (提到) 了您，您也不会得到通知。
 
 ### Review
 
@@ -61,15 +62,15 @@ GitHub 的讨论区，和 Issue 区主要用于 Bug 和 Feature Request 的追�
 
 ## 主页
 
-![个人主页](/assets/code/github/mainPage.png)
+![主页](./assets/dashboard.png)
 
-[https://github.com](https://github.com)
+<https://github.com>
 
 主页，在您登陆后，屏幕的左侧会展示您和您加入团队的项目，以及您的团队详情。中部会显示您关注的项目、人的动态，右侧会根据算法展示一些您可能会感兴趣的 repo。
 
 ## 个人主页
 
-![个人主页](/assets/code/github/profile.png)
+![个人主页](./assets/profile.png)
 
 **地址:** `https://github.com/<您的用户名>`
 
@@ -85,9 +86,9 @@ GitHub 的讨论区，和 Issue 区主要用于 Bug 和 Feature Request 的追�
 
 ### Repositories
 
-![个人仓库](/assets/code/github/personalRepo.png)
+![个人仓库](./assets/personal-repo.png)
 
-仓库列表，该面板会按照最后更新时间的倒序，展示该用户拥有的所有 reo，同时也会在面板上展示项目的 Descript(描述)、Star 数、Fork 数、语言、协议、标签，以及过去一年内项目的 commit 分布数量。这些都能够帮助浏览者在不进入具体仓库页面的情况下大致了解每一个仓库的内容、欢迎程度与维护情况。
+仓库列表，该面板会按照最后更新时间的倒序，展示该用户拥有的所有 repo，同时也会在面板上展示项目的 Description (描述)、Star 数、Fork 数、语言、协议、标签，以及过去一年内项目的 commit 分布数量。这些都能够帮助浏览者在不进入具体仓库页面的情况下大致了解每一个仓库的内容、欢迎程度与维护情况。
 
 ### Projects
 
@@ -107,8 +108,10 @@ GitHub 的讨论区，和 Issue 区主要用于 Bug 和 Feature Request 的追�
 
 ## 仓库主页
 
-![仓库主页](/assets/code/github/repo.png)
+![仓库主页](./assets/repo.png)
 
-仓库主页主要显示项目的信息。从左到右的面板依次是: Code(代码)，Issues (问题)、Pull Requests (提交请求)、Actions (自动流程)、 Projects (项目)、 Wiki (项目介绍)、 Security (项目安全)、 Insights (项目数据统计) 与 Settings (项目设置)。
+仓库主页主要显示项目的信息。从左到右的面板依次是: Code(代码)，Issues (问题)、Pull Requests (提交请求)、Discussions (讨论)、Actions (自动流程)、 Projects (项目)、 Wiki (项目介绍)、 Security (项目安全)、 Insights (项目数据统计) 与 Settings (项目设置)。
+
+> 仓库可以选择关闭 Issues、Discussions、Wiki 之类的面板。
 
 在下方会展示代码文件以及项目说明 README.md 文件。

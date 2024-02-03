@@ -3,6 +3,7 @@ title: 路径
 icon: navigation
 date: 2019-09-20
 category: 基础
+order: 5
 ---
 
 无论是我们想直接访问一个文件，还是在一个文件中希望访问另一个文件，都涉及到一个获取文件的操作。而无论是在 Windows 中还是在 Linux 中，文件的具体位置都用文档的路径标注。
@@ -69,18 +70,18 @@ d:\wwwroot\html\photo\ours\d.html
   ```html
   <a href="photo/b.html">链接到子目录(photo)中的文件</a>
   如果需要在a.html中链接到d.html，可以在a.html中这样写
-  <a href="photo/ours/d.html">链接到子目录(photo/ourd/)中的文件</a>
+  <a href="photo/ours/d.html">链接到子目录(photo/ours/)中的文件</a>
   ```
 
 ## 绝对路径
 
-绝对路径的英文全称是 Absolute Path，它就是带有网址的路径。比如您有一个域名 www.deerol.com，其域名指向 d:\wwwroot，那么上面的四个文件就可以这么表示:
+绝对路径的英文全称是 Absolute Path，它就是带有网址的路径。比如您有一个域名 `www.example.com`，其域名指向 `d:\wwwroot`，那么上面的四个文件就可以这么表示:
 
 ```html
-<a href="http://www.deerol.com/html/a.html">链接到a.html</a>
-<a href="http://www.deerol.com/html/photo/b.html">链接到b.html</a>
-<a href="http://www.deerol.com/html/photo/c.html">链接到c.html</a>
-<a href="http://www.deerol.com/html/photo/ours/d.html">链接到d.html</a>
+<a href="http://www.example.com/html/a.html">链接到a.html</a>
+<a href="http://www.example.com/html/photo/b.html">链接到b.html</a>
+<a href="http://www.example.com/html/photo/c.html">链接到c.html</a>
+<a href="http://www.example.com/html/photo/ours/d.html">链接到d.html</a>
 ```
 
 ## 根目录

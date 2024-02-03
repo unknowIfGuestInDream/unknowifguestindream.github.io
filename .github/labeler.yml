@@ -1,11 +1,11 @@
 enhancement:
-  - any: ['docs/main/**', '!docs/.vuepress/**']
+  - any: ["docs/main/**", "!docs/.vuepress/**"]
 
 config:
-  - any: ['docs/.vuepress/**']
+  - any: ["docs/.vuepress/**"]
 
 i18n:
-  - any: ['docs/en/**', 'docs/ja/**']
+  - any: ["docs/en/**", "docs/ja/**"]
 
 workflow:
   - .github/**
@@ -24,7 +24,7 @@ dependencies:
   - scripts/**
 
 automerge:
-  - all: [ 'README.md' ]
-  - all: [ '.github/**' ]
-  - all: [ 'scripts/**' ]
-  - all: [ 'CONTRIBUTORS.md' ]
+  - all: ["README.md"]
+  - all: [".github/**"]
+  - all: ["scripts/**"]
+  - all: ["CONTRIBUTORS.md"]

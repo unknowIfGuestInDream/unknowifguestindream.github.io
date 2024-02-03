@@ -2,9 +2,11 @@
 title: 选择器
 icon: select
 date: 2019-09-05
+order: 1
 category: CSS
 tag:
   - CSS
+prev: ../guide/common.html
 ---
 
 CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合起来告诉浏览器哪个 HTML 元素应当是被选为应用规则中的 CSS 属性值的方式。
@@ -48,12 +50,21 @@ HTML 可以用 ID 属性来设置 ID 选择器，CSS 中 ID 选择器以 `#` 来
 
 以下的样式规则应用于元素属性 `id="para1"`:
 
+::: normal-demo ID 案例
+
+```html
+<p>Mr.Hope 很帅！</p>
+<p id="para1">Mr.Hope is handsome!</p>
+```
+
 ```css
 #para1 {
   text-align: center;
   color: red;
 }
 ```
+
+:::
 
 ::: tip
 
@@ -73,13 +84,28 @@ Class 选择器用于描述一组元素的样式，class 选择器有别于 ID �
 
 Class 选择器在 HTML 中以 class 属性表示, 在 CSS 中，类选择器以句点 (`.`) 显示:
 
-在以下的例子中，所有拥有 center 类的 HTML 元素均为居中。
+在以下的例子中，所有拥有 `center` 类的 HTML 元素均为居中。
+
+::: normal-demo Class 案例
+
+```html
+<p>Mr.Hope 很帅！</p>
+<p class="bold">Mr.Hope is handsome!</p>
+<p class="bold center">Mr.Hope is handsome!</p>
+<p class="center">Mr.Hope is handsome!</p>
+```
 
 ```css
+.bold {
+  font-weight: bold;
+}
+
 .center {
   text-align: center;
 }
 ```
+
+:::
 
 ## 标签选择器
 

@@ -6,6 +6,7 @@ category: HTML
 tag:
   - 介绍
 star: true
+next: ./guide/
 ---
 
 HTML 指的是超文本标记语言 (Hyper Text Markup Language)，它不是一种编程语言，而是一种标记语言 (markup language)，它使用标记标签来描述网页。HTML5 是 HTML 最新的修订版本。
@@ -36,13 +37,6 @@ HTML 指的是超文本标记语言 (Hyper Text Markup Language)，它不是一�
 - [嵌入](intro/embed.md)
 - [格式化文档](intro/format.md)
 - [网站布局](intro/layout.md)
-
-## 定义列表
-
-- [URI 统一资源标识符](definition/uri.md)
-- [URL 统一资源定位符](definition/url.md)
-- [SEO 搜索引擎优化](definition/seo.md)
-- [MIME Type 媒体类型](definition/mime.md)
 
 ## HTML 参考
 

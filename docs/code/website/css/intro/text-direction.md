@@ -2,6 +2,7 @@
 title: 文本方向
 icon: direction
 date: 2019-09-06
+order: 5
 category: CSS
 ---
 
@@ -47,9 +48,9 @@ h1 {
 
 当我们切换书写模式时，我们也在改变块和内联文本的方向。`horizontal-tb` 书写模式下块的方向是从上到下的横向的，而 `vertical-rl` 书写模式下块的方向是从右到左的纵向的。因此，块维度指的总是块在页面书写模式下的显示方向。而内联维度指的总是文本方向。
 
-![这张图展示了在水平书写模式下的两种维度](/assets/code/website/css/intro/horizontal-tb.png)
+![这张图展示了在水平书写模式下的两种维度](./assets/horizontal-tb.png)
 
-![这张图片展示了纵向书写模式下的两种维度](/assets/code/website/css/intro/vertical.png)
+![这张图片展示了纵向书写模式下的两种维度](./assets/vertical.png)
 
 ### 方向
 

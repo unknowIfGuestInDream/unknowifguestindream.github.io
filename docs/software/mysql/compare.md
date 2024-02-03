@@ -1,7 +1,8 @@
 ---
+date: 2021-01-18
 title: 5.7 与 8
 icon: compare
-author: unknowIfGuestInDream
+author: 李欣桐
 ---
 
 ## MySql 5.7 和 MySql 8 的区别

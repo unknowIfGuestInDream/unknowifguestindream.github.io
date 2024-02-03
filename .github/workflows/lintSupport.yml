@@ -7,14 +7,14 @@ on:
     branches:
       - master
     paths-ignore:
-      - '.github/**'
+      - ".github/**"
   # Replace pull_request with pull_request_target if you
   # plan to use this action with forks, see the Limitations section
   pull_request:
     branches:
       - master
     paths-ignore:
-      - '.github/**'
+      - ".github/**"
 
 # Down scope as necessary via https://docs.github.com/en/actions/security-guides/automatic-token-authentication#modifying-the-permissions-for-the-github_token
 permissions:
@@ -32,13 +32,12 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 20
 
       - name: Install Node.js dependencies
-        run: npm ci
+        run: npm install --force
 
       - name: Run linters
         uses: wearerequired/lint-action@v2
         with:
-          eslint: true
           prettier: true

@@ -4,7 +4,8 @@ icon: shell
 date: 2019-09-08
 category: 基础
 tag:
-  - Win10
+  - Windows
+order: 4
 ---
 
 打开命令行 (命令提示符) 有多种方式。
@@ -17,6 +18,6 @@ tag:
 
 <!-- more -->
 
-![示意图](/assets/code/windows/cmd.png)
+![示意图](./assets/cmd.png)
 
 这样就会快速打开一个路径为当前文件夹的命令提示符窗口。

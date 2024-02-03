@@ -2,6 +2,7 @@
 title: 选择器简介
 icon: select
 date: 2019-09-05
+order: 1
 category: CSS
 tag:
   - 快速上手
@@ -18,8 +19,8 @@ CSS 选择器是 CSS 规则的第一部分。它是元素和其他部分组合�
 ```html
 <img src="/logo.svg" alt="logo" style="max-width: 150px" />
 
-<p class="paragraph">unknowIfGuestInDream is handsome!</p>
-<p id="par">unknowIfGuestInDream is very handsome!</p>
+<p class="paragraph">Mr.Hope is handsome!</p>
+<p id="par">Mr.Hope is very handsome!</p>
 ```
 
 ```css

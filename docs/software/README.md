@@ -1,4 +1,5 @@
 ---
+date: 2022-01-07
 title: 软件教程
 icon: software
 star: 9
@@ -51,4 +52,4 @@ sticky: 9
 
 ## Adobe 软件
 
-Adobe 全系软件的获取，请见 [vposy 的微博](https://www.weibo.com/vposy) 的置顶帖。
+Adobe 全系软件的获取，请见 [VPosy 的微博](https://www.weibo.com/vposy) 的置顶帖。

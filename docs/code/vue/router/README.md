@@ -1,4 +1,5 @@
 ---
+date: 2022-01-07
 title: Vue Router
 icon: router
 category: Vue
@@ -13,8 +14,6 @@ Vue Router 是 Vue 官方出品的路由组件，托管整个 Vue 项目路由�
 ## 目录
 
 - [快速上手 Vue Router](get-started.md)
-
-- [Router DEMO](demo.md)
 
 ## 官方文档
 

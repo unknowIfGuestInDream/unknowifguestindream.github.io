@@ -1,4 +1,5 @@
 ---
+date: 2020-10-09
 title: 基础组件
 icon: plugin
 category: 小程序
@@ -36,7 +37,7 @@ category: 小程序
 | Array        | 数组           | \[ 1, "string" \]                                                                                                                                |
 | Object       | 对象           | { key: value }                                                                                                                                   |
 | EventHandler | 事件处理函数名 | `"handlerName"` 是 `Page` 中定义的事件处理函数名                                                                                                 |
-| Any          | 任意属性       |
+| Any          | 任意属性       |                                                                                                                                                  |
 
 ## 公共属性
 

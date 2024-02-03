@@ -2,6 +2,7 @@
 title: 优先级和继承
 icon: sort
 date: 2019-09-06
+order: 4
 category: CSS
 tag:
   - 快速上手
@@ -28,7 +29,7 @@ Style sheets cascade(样式表层叠) 决定了 CSS 规则的顺序很重要。
 **案例**: 我们有两个关于 `h1` 的规则。这些规则有相同的优先级，顺序在最后的生效，所以 `h1` 最后显示为蓝色。
 
 ```html
-<h1>unknowIfGuestInDream is handsome!</h1>
+<h1>Mr.Hope is handsome!</h1>
 ```
 
 ```css
@@ -53,7 +54,7 @@ h1 {
 上面的 `h1` 会显示红色 (类选择器有更高的优先级，即使元素选择器顺序在它后面)。
 
 ```html
-<h1 class="main-heading">unknowIfGuestInDream is handsome!</h1>
+<h1 class="main-heading">Mr.Hope is handsome!</h1>
 ```
 
 ```css
@@ -232,7 +233,7 @@ blockquote {
 
 :::
 
-::: danger
+::: caution
 
 在进行计算时不允许进行进位，例如，20 个类选择器仅仅意味着 20 个十位，而不能视为 两个百位，也就是说，无论多少个类选择器的权重叠加，都不会超过一个 ID 选择器。
 

@@ -1,7 +1,8 @@
 ---
+date: 2021-01-18
 title: 简介
 icon: info
-author: unknowIfGuestInDream
+author: 李欣桐
 ---
 
 MySQL 是一个关系型数据库管理系统，由瑞典 MySQL AB 公司开发，属于 Oracle 旗下产品。
@@ -58,7 +59,7 @@ MySQL Community Server 是开源免费的，这也是我们通常用的 MySQL �
 
 1. 刷新权限 `flush privileges;`
 
-![flush privileges](/assets/software/mysql/flush-privileges.png)
+![flush privileges](./assets/flush-privileges.png)
 
 1. 修改 `my.ini` 文件删除最后一句 `skip-grant-tables`
 
@@ -72,13 +73,13 @@ MySQL Community Server 是开源免费的，这也是我们通常用的 MySQL �
 
 1. 重启 mysql 即可正常使用
 
-   ```SQL
+   ```sql
    net stop mysql
    net start mysql
    ```
 
 1. 连接上测试出现以下结果就安装好了
-   ![result](/assets/software/mysql/result.png)
+   ![result](./assets/result.png)
 
 ## 连接数据库
 
@@ -98,7 +99,7 @@ MySQL Community Server 是开源免费的，这也是我们通常用的 MySQL �
 
 ## 几个基本的数据库操作命令
 
-```SQL
+```sql
 mysql -h 服务器主机地址 -u 用户名 -p 用户密码 连接数据库
 
 update user set password=password('123456')where user='root'; 修改密码
@@ -311,7 +312,7 @@ exit; 退出 Mysql
    | name   | char     | 20       | 否       |             |                |        |
    | sex    | int      | 4        | 否       |             |                | 0      |
 
-   ```SQL
+   ```sql
    mysql> create table MyClass(
        -> id int(4) not null primary key auto_increment,
        -> name char(20) not null,

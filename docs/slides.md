@@ -1,7 +1,13 @@
 ---
+date: 2022-10-03
+---
+
+---
+
 title: 幻灯片页
 icon: slides
 layout: Slide
+
 ---
 
 <!-- markdownlint-disable MD024 MD033 MD051 -->
