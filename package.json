@@ -14,6 +14,7 @@
     "lint:check": "prettier --check .",
     "lint:md": "markdownlint-cli2 **/*.md",
     "build:vite": "vuepress-vite build docs",
+    "build:vite-clean": "vuepress-vite build docs --clean-cache",
     "build:vite-debug": "cross-env DEBUG=vuepress* vuepress-vite build docs",
     "dev:vite": "vuepress-vite dev docs",
     "dev:vite-clean": "vuepress-vite dev docs --clean-cache",
