@@ -1,30 +1,23 @@
 enhancement:
-  - any: ["docs/main/**", "!docs/.vuepress/**"]
+  - changed-files:
+      - any-glob-to-any-file: [ "docs/**", "!docs/.vuepress/**" ]
 
 config:
-  - any: ["docs/.vuepress/**"]
+  - changed-files:
+      - any-glob-to-any-file: docs/.vuepress/**
 
 i18n:
-  - any: ["docs/en/**", "docs/ja/**"]
+  - changed-files:
+      - any-glob-to-any-file: [ "docs/en/**", "docs/ja/**" ]
 
 workflow:
-  - .github/**
+  - changed-files:
+      - any-glob-to-any-file: [ ".github/**", ".mergify.yml", ".markdownlint-cli2.mjs" ]
 
 documentation:
-  - LICENSE
-  - README.md
+  - changed-files:
+      - any-glob-to-any-file: [ "LICENSE", "README.md" ]
 
 dependencies:
-  - CNAME
-  - package.json
-  - package-lock.json
-  - tsconfig.json
-  - .prettierignore
-  - .gitmodules
-  - scripts/**
-
-automerge:
-  - all: ["README.md"]
-  - all: [".github/**"]
-  - all: ["scripts/**"]
-  - all: ["CONTRIBUTORS.md"]
+  - changed-files:
+      - any-glob-to-any-file: [ "CNAME", "package.json", "package-lock.json", "tsconfig.json", ".prettierignore", ".gitmodules" ]
