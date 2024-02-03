@@ -57,14 +57,17 @@ jobs:
           persist-credentials: false
           submodules: true
 
+      - name: Install npm
+        run: npm install
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
 
-#      - name: Install Deps
-#        run: npm install
+      - name: Install Deps
+        run: npm install --frozen-lockfile
 
       - name: Linter test
         run: npm run lint
