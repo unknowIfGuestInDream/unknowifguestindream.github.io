@@ -1,4 +1,8 @@
 ---
+date: 2022-10-04
+---
+
+---
 layout: Slide
 title: unknowIfGuestInDream 介绍
 icon: people

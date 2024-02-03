@@ -1,4 +1,5 @@
 ---
+date: 2024-02-01
 home: true
 layout: BlogHome
 icon: home
@@ -44,5 +45,5 @@ projects:
     desc: 设计模式练习。
     link: https://github.com/unknowIfGuestInDream/DesignpatternTest
 
-footer: '<a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank">备案号: 辽ICP备2021000033号-1</a> | <a href="/about/site.html">关于网站</a>'
+footer: '<a href="http://beian.miit.gov.cn/" rel="noopener noreferrer" target="_blank" style="color:inherit;text-decoration:none;white-space:nowrap;"> 辽ICP备2021000033 号</a> / <a href="https://beian.mps.gov.cn/#/query/webSearch?code=21020302000532" rel="noopener noreferrer" target="_blank" style="color:inherit;text-decoration:none;white-space:nowrap;"><img src="http://www.beian.gov.cn/img/ghs.png" style="width:1rem;vertical-align:middle;"> 辽公网安备21020302000532 号</a> | <a href="/about/site.html">关于网站</a>'
 ---
