@@ -18,14 +18,17 @@ jobs:
           fetch-depth: 0
           submodules: true
 
+      - name: Install npm
+        run: npm install
+
       - name: set Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 18
           cache: npm
 
-#      - name: Install Deps
-#        run: npm install
+      - name: Install Deps
+        run: npm install --frozen-lockfile
 
       - name: Build Blog
         env:
