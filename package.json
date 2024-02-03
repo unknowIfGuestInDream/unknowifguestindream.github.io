@@ -10,6 +10,9 @@
     "blog"
   ],
   "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:clean-dev": "vuepress dev docs --clean-cache",
+    "docs:dev": "vuepress dev docs",
     "lint": "prettier --check --write .",
     "lint:check": "prettier --check .",
     "lint:md": "markdownlint-cli2 **/*.md",
