@@ -31,9 +31,6 @@ jobs:
           persist-credentials: false
           submodules: true
 
-      - name: Install npm
-        run: npm install --force
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -41,7 +38,7 @@ jobs:
           cache: npm
 
       - name: Install Deps
-        run: npm install --frozen-lockfile
+        run: npm install --force
 
       - name: Build Blog with ${{ matrix.bundler }}
         env:
@@ -57,9 +54,6 @@ jobs:
           persist-credentials: false
           submodules: true
 
-      - name: Install npm
-        run: npm install
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -67,7 +61,7 @@ jobs:
           cache: npm
 
       - name: Install Deps
-        run: npm install --frozen-lockfile
+        run: npm install --force
 
       - name: Linter test
         run: npm run lint
