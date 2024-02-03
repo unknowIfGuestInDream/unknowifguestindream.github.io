@@ -1,4 +1,5 @@
 ---
+date: 2020-08-18
 title: 任务执行器
 icon: operate
 category: VS Code
@@ -35,7 +36,7 @@ tag:
 
 从顶层菜单中选择 **终端 > 运行任务**，然后选择要运行的任务。通过运行命令 **终止任务** 终止正在运行的任务
 
-![任务执行器](/assets/software/vscode/guide/task-runner.gif)
+![任务执行器](./assets/task-runner.gif)
 
 ## 定义任务的键盘快捷键
 

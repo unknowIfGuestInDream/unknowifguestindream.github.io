@@ -147,7 +147,7 @@ new Promise((resolve, reject) => {
 
 可见 Promise 最大的好处是在异步执行的流程中，把执行代码和处理结果的代码清晰地分离了:
 
-![promise](/assets/code/language/js/promise.png)
+![promise](../assets/promise.png)
 
 Promise 还可以做更多的事情，比如，有若干个异步任务，需要先做任务 1，如果成功后再做任务 2，任何任务失败则不再继续并执行错误处理函数。
 

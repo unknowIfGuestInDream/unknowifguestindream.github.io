@@ -12,12 +12,12 @@ on:
   push:
     branches-ignore: [master]
     paths-ignore:
-      - '.github/**'
+      - ".github/**"
     # Remove the line above to run when pushing to master
   pull_request:
     branches: [master]
     paths-ignore:
-      - '.github/**'
+      - ".github/**"
 
 ###############
 # Set the Job #

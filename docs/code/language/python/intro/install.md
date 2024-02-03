@@ -36,7 +36,7 @@ tag:
 
 情况一:
 
-![示意图](/assets/code/language/python/cmd.png)
+![示意图](../assets/cmd.png)
 
 看到上面的画面，就说明 Python 安装成功!
 

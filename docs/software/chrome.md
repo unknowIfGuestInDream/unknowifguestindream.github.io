@@ -19,7 +19,7 @@ Chrome 内核更新频繁，速度和安全性高，对新特性支持非常良�
 
 由于 Chrome 是谷歌出品的浏览器，所以搜索栏默认使用 Google 搜索，而在中国无法访问 Google 服务，所以需要在右上角的菜单中选择设置，在搜索引擎设置中改为百度即可正常使用。
 
-![更改页面](/assets/software/searchEngine.png)
+![更改页面](./assets/searchEngine.png)
 
 ## 快捷键
 
@@ -38,7 +38,7 @@ Chrome 具有很多快捷键，熟练掌握后可以大幅减少时间。
 
 ## 开发者工具
 
-![开发者工具](/assets/software/devTool.png)
+![开发者工具](./assets/devTool.png)
 
 使用 `Ctrl + Shift + I` 或 `F12` 即可打开开发者工具，在开发者工具里，您可以自由的对任何网页进行调试。
 

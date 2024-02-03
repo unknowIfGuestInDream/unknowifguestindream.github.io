@@ -63,7 +63,7 @@ gl = canvas.getContext("webgl");
 
 我们可以在 Canvas 上绘制各种形状。在绘制前，我们需要先了解一下 Canvas 的坐标系统:
 
-![canvas-xy](/assets/code/language/js/promise.png)
+![canvas-xy](../assets/promise.png)
 
 Canvas 的坐标以左上角为原点，水平向右为 X 轴，垂直向下为 Y 轴，以像素为单位，所以每个点都是非负整数。
 

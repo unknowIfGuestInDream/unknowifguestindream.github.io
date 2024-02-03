@@ -1,4 +1,5 @@
 ---
+date: 2020-08-18
 title: 扩展
 icon: plugin
 category: VS Code
@@ -14,9 +15,9 @@ tag:
 1. 在 VS Code 应用商店
 1. 在 VS Code 侧边栏中的 **扩展** 选项卡
 1. 查看扩展建议
-1. 社区策划的扩展列表，例如 awesome-vscode。
+1. 社区策划的扩展列表，例如 [awesome-vscode](https://viatsko.github.io/awesome-vscode/)。
 
-![扩展选项卡](/assets/software/vscode/guide/extension.png)
+![扩展选项卡](./assets/extension.png)
 
 ## 安装扩展
 

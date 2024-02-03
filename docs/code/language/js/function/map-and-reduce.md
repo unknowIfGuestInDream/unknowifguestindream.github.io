@@ -13,7 +13,7 @@ category: JavaScript
 
 举例说明，比如我们有一个函数 `f(x)=x2`，要把这个函数作用在一个数组 `[1, 2, 3, 4, 5, 6, 7, 8, 9]` 上，就可以用 `map` 实现如下:
 
-![map](/assets/code/language/js/map.png)
+![map](../assets/map.png)
 
 由于 `map()` 方法定义在 JavaScript 的 Array 中，我们调用 Array 的 `map()` 方法，传入我们自己的函数，就得到了一个新的 Array 作为结果:
 

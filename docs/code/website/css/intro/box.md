@@ -2,6 +2,7 @@
 title: 盒模型
 icon: box
 date: 2019-09-06
+order: 2
 category: CSS
 ---
 
@@ -55,7 +56,7 @@ CSS 盒模型定义了封装 HTML 元素的方式，它包括: 外边距，边�
 
 下面的图片说明了盒子模型 (Box Model):
 
-![Box Model 示意图](/assets/code/website/css/intro/box-model.gif)
+![Box Model 示意图](./assets/box-model.gif)
 
 不同部分的说明:
 

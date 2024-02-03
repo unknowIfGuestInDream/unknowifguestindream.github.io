@@ -26,7 +26,7 @@ date: 2021-01-27
 
 若要打开其他配置文件，请选择 + 按钮旁的 ˅(箭头)打开下拉菜单，从中选择要打开的配置文件。
 
-![下拉菜单](/assets/software/tool/terminal-dropdown.png)
+![下拉菜单](../assets/terminal-dropdown.png)
 
 ### 打开新窗格
 

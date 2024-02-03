@@ -1,4 +1,5 @@
 ---
+date: 2020-05-05
 title: Git 原理
 icon: creative
 order: 13
@@ -14,11 +15,11 @@ Git 究竟是怎样的一个系统呢? 尽管 Git 用起来与其它的版本控
 
 Git 和其它版本控制系统(包括 Subversion 和近似工具)的主要差别在于 Git 对待数据的方法。从概念上来说，其它大部分系统以文件变更列表的方式存储信息，这类系统(CVS、Subversion、Perforce、Bazaar 等等)将它们存储的信息看作是一组基本文件和每个文件随时间逐步累积的差异 (它们通常称作 基于差异(delta-based) 的版本控制)。
 
-![基于差异](/assets/software/git/delta-based.png)
+![基于差异](./assets/delta-based.png)
 
 Git 不按照以上方式对待或保存数据。反之，Git 更像是把数据看作是对小型文件系统的一系列快照。在 Git 中，每当您提交更新或保存项目状态时，它基本上就会对当时的全部文件创建一个快照并保存这个快照的索引。为了效率，如果文件没有修改，Git 不再重新存储该文件，而是只保留一个链接指向之前存储的文件。Git 对待数据更像是一个 **快照流**。
 
-![基于快照](/assets/software/git/snapshot.png)
+![基于快照](./assets/snapshot.png)
 
 ## 近乎所有操作都是本地执行
 

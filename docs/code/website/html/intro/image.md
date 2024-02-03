@@ -3,6 +3,7 @@ title: 图片
 icon: pic
 date: 2019-09-02
 category: HTML
+order: 5
 ---
 
 ## 插入图片
@@ -35,7 +36,7 @@ category: HTML
 
 但是这种方式是不被推荐的，这样做只会使浏览器做更多的工作，例如重新通过 DNS 再去寻找 IP 地址。通常我们都会把图片和 HTML 放在同一个服务器上。
 
-::: danger
+::: caution
 
 大多数图片是有版权的。不要在您的网页上使用一张图片，除非:
 
@@ -61,7 +62,7 @@ category: HTML
 
 ```html
 <img
-  src="http://mrhope.site/assets/img/dinosaur_small.jpg"
+  src="/assets/img/dinosaur_small.jpg"
   alt="The head and torso of a dinosaur skeleton; it has a large head with long sharp teeth"
 />
 ```
@@ -106,7 +107,7 @@ category: HTML
 
 ```html
 <img
-  src="http://mrhope.site/assets/img/dinosaur_small.jpg"
+  src="/assets/img/dinosaur_small.jpg"
   alt="一只恐龙头部和躯干的骨架，它有一个巨大的头，长着锋利的牙齿。"
   width="400"
   height="341"
@@ -137,7 +138,7 @@ category: HTML
 
 ```html
 <img
-  src="http://mrhope.site/assets/img/dinosaur_small.jpg"
+  src="/assets/img/dinosaur_small.jpg"
   alt="一只恐龙头部和躯干的骨架，它有一个巨大的头，长着锋利的牙齿。"
   width="400"
   height="341"
@@ -168,7 +169,7 @@ HTML5 的 `<figure>` 和 `<figcaption>` 元素为图片提供一个语义容器�
 ```html
 <figure>
   <img
-    src="http://mrhope.site/assets/img/dinosaur_small.jpg"
+    src="/assets/img/dinosaur_small.jpg"
     alt="一只恐龙头部和躯干的骨架，它有一个巨大的头，长着锋利的牙齿。"
     width="400"
     height="341"

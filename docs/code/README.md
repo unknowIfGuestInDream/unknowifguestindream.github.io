@@ -1,9 +1,10 @@
 ---
+date: 2022-01-07
 title: 代码笔记
 icon: code
 star: true
 sticky: 20
-breadcrumb: false
+next: ./basic/
 ---
 
 此处是 Mr.Hope 存放的一些代码笔记。
@@ -50,11 +51,11 @@ breadcrumb: false
 
 ### APP
 
-- [Android 开发](Android/README.md)
+- [Android 开发](android/README.md)
 
 ### 后端开发
 
-- [后端开发](backEnd/README.md)
+- [后端开发](back-end/README.md)
 
 ### 代码学习网站
 

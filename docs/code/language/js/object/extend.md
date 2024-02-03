@@ -25,7 +25,7 @@ Student.prototype.hello = function () {
 
 以及 Student 的原型链:
 
-![js-proto](/assets/code/language/js/js-proto.png)
+![js-proto](../assets/js-proto.png)
 
 现在，我们要基于 `Student` 扩展出 `PrimaryStudent`，可以先定义出 `PrimaryStudent`:
 
@@ -105,7 +105,7 @@ xiaoming instanceof Student; // true
 
 用一张图来表示新的原型链:
 
-![js-proto-extend](/assets/code/language/js/js-proto-extend.png)
+![js-proto-extend](../assets/js-proto-extend.png)
 
 注意，函数 `F` 仅用于桥接，我们仅创建了一个 `new F()` 实例，而且，没有改变原有的 `Student` 定义的原型链。
 

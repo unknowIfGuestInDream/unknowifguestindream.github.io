@@ -3,6 +3,7 @@ title: 弹性模型
 author: 阮一峰
 icon: flex
 date: 2019-09-06
+order: 4
 category: CSS
 copyright: 自由转载-非商用-非衍生-保持署名 (创意共享3.0许可证)
 ---
@@ -41,7 +42,7 @@ Flex 是 Flexible Box 的缩写，意为"弹性布局"，用来为盒状模型�
 
 采用 Flex 布局的元素，称为 Flex 容器(flex container)，简称"容器"。它的所有子元素自动成为容器成员，称为 Flex 项目(flex item)，简称"项目"。
 
-![Flex 示意图](/assets/code/website/css/layout/flex.png)
+![Flex 示意图](./assets/flex.png)
 
 - 主轴 (main axis) 是沿着 flex 元素放置的方向延伸的轴(比如页面上的横向的行、纵向的列)。该轴的开始和结束被称为 main start 和 main end。
 - 交叉轴 (cross axis) 是垂直于 flex 元素放置方向的轴。该轴的开始和结束被称为 cross start 和 cross end。
@@ -78,7 +79,7 @@ Flex 是 Flexible Box 的缩写，意为"弹性布局"，用来为盒状模型�
 }
 ```
 
-![flex-direction](/assets/code/website/css/layout/flex-direction.png)
+![flex-direction](./assets/flex-direction.png)
 
 它可能有 4 个值。
 
@@ -97,7 +98,7 @@ Flex 是 Flexible Box 的缩写，意为"弹性布局"，用来为盒状模型�
 
 默认情况下，项目都排在一条线(又称"轴线")上。`flex-wrap` 属性定义，如果一条轴线排不下，如何换行。
 
-![flex-wrap](/assets/code/website/css/layout/flex-wrap.png)
+![flex-wrap](./assets/flex-wrap.png)
 
 ```css
 .box {
@@ -704,7 +705,7 @@ Flex 是 Flexible Box 的缩写，意为"弹性布局"，用来为盒状模型�
 }
 ```
 
-![align-content](/assets/code/website/css/layout/align-content.png)
+![align-content](./assets/align-content.png)
 
 该属性可能取 6 个值。
 
@@ -730,7 +731,7 @@ Flex 是 Flexible Box 的缩写，意为"弹性布局"，用来为盒状模型�
 
 `order` 属性定义项目的排列顺序。数值越小，排列越靠前，默认为 `0`。
 
-![order](/assets/code/website/css/layout/order.png)
+![order](./assets/order.png)
 
 ```css
 .item {
@@ -748,7 +749,7 @@ Flex 是 Flexible Box 的缩写，意为"弹性布局"，用来为盒状模型�
 }
 ```
 
-![flex-grow](/assets/code/website/css/layout/flex-grow.png)
+![flex-grow](./assets/flex-grow.png)
 
 如果所有项目的 `flex-grow` 属性都为 `1`，则它们将等分剩余空间(如果有的话)。如果一个项目的 `flex-grow` 属性为 `2`，其他项目都为 `1`，则前者占据的剩余空间将比其他项多一倍。
 
@@ -762,7 +763,7 @@ Flex 是 Flexible Box 的缩写，意为"弹性布局"，用来为盒状模型�
 }
 ```
 
-![flex-shrink](/assets/code/website/css/layout/flex-shrink.jpg)
+![flex-shrink](./assets/flex-shrink.jpg)
 
 如果所有项目的 `flex-shrink` 属性都为 `1`，当空间不足时，都将等比例缩小。如果一个项目的 `flex-shrink` 属性为 `0`，其他项目都为 `1`，则空间不足时，前者不缩小。
 
@@ -790,7 +791,7 @@ Flex 是 Flexible Box 的缩写，意为"弹性布局"，用来为盒状模型�
 
 ```css
 .item {
-  flex: none | [ < "flex-grow" > < "flex-shrink" >? || < "flex-basis" > ];
+  flex: none | [ < "flex-grow" > < "flex-shrink" >? || < "flex-basis" >];
 }
 ```
 
@@ -808,7 +809,7 @@ Flex 是 Flexible Box 的缩写，意为"弹性布局"，用来为盒状模型�
 }
 ```
 
-![align-self](/assets/code/website/css/layout/align-self.png)
+![align-self](./assets/align-self.png)
 
 该属性可能取 6 个值，除了 `auto`，其他都与 `align-items` 属性完全一
 致。

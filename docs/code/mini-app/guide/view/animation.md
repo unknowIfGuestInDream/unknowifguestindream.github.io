@@ -1,4 +1,5 @@
 ---
+date: 2020-10-09
 title: 动画
 icon: animation
 category: 小程序
@@ -12,7 +13,7 @@ category: 小程序
 
 ## 界面动画的常见方式
 
-在小程序中，通常可以使用 [CSS 渐变](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions) 和 [CSS 动画](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Animations/Using_CSS_animations) 来创建简易的界面动画。(这也是 unknowIfGuestInDream 主要使用的动画方式)
+在小程序中，通常可以使用 [CSS 渐变](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions) 和 [CSS 动画](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Animations/Using_CSS_animations) 来创建简易的界面动画。(这也是 Mr.Hope 主要使用的动画方式)
 
 > [在开发者工具中预览效果](https://developers.weixin.qq.com/s/oHKxDPm47h5k)
 
@@ -31,7 +32,7 @@ category: 小程序
 
 这几个事件都不是冒泡事件，需要绑定在真正发生了动画的节点上才会生效。
 
-unknowIfGuestInDream 强烈建议优先使用 **CSS 动画**。只有 **CSS 动画** 无法满足要求时，才应该考虑 `wx.createAnimation`。
+Mr.Hope 强烈建议优先使用 **CSS 动画**。只有 **CSS 动画** 无法满足要求时，才应该考虑 `wx.createAnimation`。
 
 :::
 
@@ -64,7 +65,7 @@ keyframes 中对象的结构
 | --------------- | ------------- | ------ | --------------------------------- | --------------------------------------- |
 | offset          | Number        |        | 否                                | 关键帧的偏移，范围[0-1]                 |
 | ease            | String        | linear | 否                                | 动画缓动函数                            |
-| transformOrigin | String        | 否     | 基点位置，即 CSS transform-origin |
+| transformOrigin | String        | 否     | 基点位置，即 CSS transform-origin |                                         |
 | backgroundColor | String        |        | 否                                | 背景颜色，即 CSS background-color       |
 | bottom          | Number/String |        | 否                                | 底边位置，即 CSS bottom                 |
 | height          | Number/String |        | 否                                | 高度，即 CSS height                     |
@@ -113,9 +114,9 @@ this.animate(
       { opacity: true, rotate: true },
       function () {
         console.log("清除了#container上的opacity和rotate属性");
-      }
+      },
     );
-  }.bind(this)
+  }.bind(this),
 );
 
 this.animate(
@@ -130,7 +131,7 @@ this.animate(
     this.clearAnimation(".block", function () {
       console.log("清除了.block上的所有动画属性");
     });
-  }.bind(this)
+  }.bind(this),
 );
 ```
 
@@ -207,7 +208,7 @@ this.animate(
     timeRange: 2000,
     startScrollOffset: 0,
     endScrollOffset: 85,
-  }
+  },
 );
 
 this.animate(
@@ -228,7 +229,7 @@ this.animate(
     timeRange: 1000,
     startScrollOffset: 120,
     endScrollOffset: 252,
-  }
+  },
 );
 ```
 

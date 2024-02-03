@@ -3,6 +3,7 @@ title: Pull Request
 icon: merge
 date: 2021-02-18
 category: GitHub
+order: 2
 ---
 
 ## 简介
@@ -15,7 +16,7 @@ GitHub 是一个代码社区，这意味着鼓励大家互相提交与贡献代�
 
 对于代码贡献者来说，他需要用一种方法将自己贡献的代码推送到远程库上，以便发起请求，最好的办法就是 fork 原仓库。
 
-![Fork 仓库](/assets/code/github/fork.png)
+![Fork 仓库](./assets/fork.png)
 
 ::: info
 
@@ -37,7 +38,7 @@ pull request 是请求仓库所有者拉取指定仓库分支代码的请求。
 
 在贡献自己的代码并推送到自己的 fork 仓库后，贡献者即可到原仓库去选择自己仓库的对应分支发送这个拉取请求。仓库所有者随时可以批准这个更改，使其自动添加到自己的库中，或是拒绝这个请求。
 
-![Pull request](/assets/code/github/pull-request.png)
+![Pull request](./assets/pull-request.png)
 
 > 这个仓库我已经删了所以显示 `unknown repository`，原为 `Mister-Hope:master`
 
@@ -45,15 +46,15 @@ pull request 是请求仓库所有者拉取指定仓库分支代码的请求。
 
 在 Pull request 里，一旦请求被创建，仓库所有者应该可以直观地看到哪些文件发生了怎样的改变。
 
-![文件改动](/assets/code/github/file-changes.png)
+![文件改动](./assets/file-changes.png)
 
 同时，他们也可以对贡献者的代码进行审查，对特定行或片段标注，并陈述自己的意见，同时将这个意见根据程度标注为“探讨”、“改进”或者“必须更改”，以便贡献者进行交流讨论与完善修改。
 
-![代码审查](/assets/code/github/pull-request-review.png)
+![代码审查](./assets/pull-request-review.png)
 
 同时，对于一个大型库来说，仓库所有者应该可以看到贡献的代码是否通过了所有测试。
 
-![测试通过情况](/assets/code/github/pull-request-check.png)
+![测试通过情况](./assets/pull-request-check.png)
 
 如果审查者认为没有问题，他可能就会通过这个拉取请求，拉取对应的代码到自己的仓库上。这样您就完成了对这个仓库的贡献。
 

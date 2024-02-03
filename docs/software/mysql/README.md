@@ -1,7 +1,8 @@
 ---
+date: 2022-01-12
 title: MySQL
 icon: mysql
-author: unknowIfGuestInDream
+author: 李欣桐
 ---
 
 ## 目录

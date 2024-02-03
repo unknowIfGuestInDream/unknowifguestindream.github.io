@@ -1,23 +1,22 @@
 ---
+date: 2020-05-04
 icon: info
-article: false
-breadcrumb: false
 ---
 
-# このサイトについて
+# About site
 
 ::: tip building
 
-[VuePress](https://v1.vuepress.vuejs.org/zh/guide/)を使用して構築されたウェブサイト，テーマ [vuepress-theme-hope](https://github.com/Mister-Hope/vuepress-theme-hope/) を使用する
+This site is built with [VuePress](https://v1.vuepress.vuejs.org/guide/).
 
 :::
 
-## リポジトリリンク
+## Repository Link
 
-- [**unknowifguestindream の個人的なブログです。**](https://github.com/unknowIfGuestInDream/unknowifguestindream.github.io)
+- [**Mr.Hope’s Personal Blog**](https://github.com/Mister-Hope/blog)
 
-## 免責事項
+## Disclamer
 
-このブログには、[Mr.Hope](https://mrhope.site/), [ruanyf](https://github.com/ruanyf) 和 [廖雪峰](https://weibo.com/liaoxuefeng) の書籍やブログが掲載されています。
+This blog contains books & blogs from [ruanyf](https://github.com/ruanyf) and [廖雪峰](https://weibo.com/liaoxuefeng).
 
-私たちは彼らに心からの感謝を捧げたいと思います。
+Great thanks to them.

@@ -2,9 +2,9 @@ name: Test blog
 
 on:
   push:
-    branches: [ "master" ]
+    branches: ["master"]
   pull_request:
-    branches: [ "master" ]
+    branches: ["master"]
   pull_request_target:
     types:
       - labeled
@@ -31,17 +31,14 @@ jobs:
           persist-credentials: false
           submodules: true
 
-      - name: Install npm
-        run: npm install
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 20
           cache: npm
 
       - name: Install Deps
-        run: npm install --frozen-lockfile
+        run: npm install --force
 
       - name: Build Blog with ${{ matrix.bundler }}
         env:
@@ -57,17 +54,14 @@ jobs:
           persist-credentials: false
           submodules: true
 
-      - name: Install npm
-        run: npm install
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 16
+          node-version: 20
           cache: npm
 
       - name: Install Deps
-        run: npm install --frozen-lockfile
+        run: npm install --force
 
       - name: Linter test
         run: npm run lint

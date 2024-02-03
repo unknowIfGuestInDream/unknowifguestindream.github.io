@@ -1,6 +1,7 @@
 ---
+date: 2022-01-07
 layout: Slide
-title: unknowIfGuestInDream Intro
+title: Mr.Hope Intro
 icon: people
 tag:
   - Personal Intro
@@ -8,27 +9,12 @@ tag:
 
 @slidestart
 
-- name: Liang Tang
 - Gender: Male
-- Birth: 1997
+- Age: 24
 - Marital status: unmarried
-- Single: Yes
-- Hobbies: programming, lol Smash, Football Manager
+- Single: No
+- Hobbies: fishing, chess, cursive English, badminton, programming
 
-Has an introverted and easy-going personality and likes to work on open source projects in general.
-
----
-
-## Educational experience
-
-- Bachelor of Industrial Engineering, Dalian Jiaotong University
-- Currently working as a Java developer at a Japanese company in Dalian
-- Open source projects: [https://github.com/unknowIfGuestInDream/genCode](https://github.com/unknowIfGuestInDream/genCode)
-
----
-
-## Contact
-
-You can contact me at tang97155@gmail.com or tang97155@163.com
+Has a cheerful and easy-going personality, loves to help others, and likes to work with open source projects at spare.
 
 @slideend

@@ -1,4 +1,5 @@
 ---
+date: 2020-08-18
 title: 基础内容介绍
 icon: module
 category: VS Code
@@ -11,11 +12,11 @@ tag:
 
 打开 **欢迎使用** 页面，开始使用 VS Code 的基础知识。**帮助 > 欢迎**
 
-![欢迎使用](/assets/software/vscode/guide/welcome.png)
+![欢迎使用](./assets/welcome.png)
 
 在 **欢迎** 页面的右下角，有一个指向 **交互式游乐场** 的链接，您可以在其中交互式地试用 VS Code 的功能。**帮助 > 交互式游乐场**
 
-![交互式游乐场](/assets/software/vscode/guide/interactive-playground.png)
+![交互式游乐场](./assets/interactive-playground.png)
 
 ## 命令面板
 
@@ -23,19 +24,19 @@ tag:
 
 键盘快捷键: `Ctrl + Shift + P`
 
-![命令面板](/assets/software/vscode/guide/command-palette.png)
+![命令面板](./assets/command-palette.png)
 
 ## 默认键盘快捷键
 
 所有命令都在命令面板中，并带有关联的键绑定(如果存在)。如果您忘记了键盘快捷键，请使用 **命令面板** 来帮助您。
 
-![查看命令与对应快捷键](/assets/software/vscode/guide/command-check.png)
+![查看命令与对应快捷键](./assets/command-check.png)
 
 ## 错误和警告
 
 键盘快捷键: `Ctrl + Shift + M`
 
-![错误和警告](/assets/software/vscode/guide/error.png)
+![错误和警告](./assets/error.png)
 
 快速跳转到项目中的错误和警告。
 
@@ -64,13 +65,13 @@ tag:
 
 键盘快捷键: `Ctrl + P`
 
-![快速打开](/assets/software/vscode/guide/quick-open.png)
+![快速打开](./assets/quick-open.png)
 
 ::: tip
 
 键入 `?` 查看命令建议。
 
-![命令建议](/assets/software/vscode/guide/suggestions.png)
+![命令建议](./assets/suggestions.png)
 
 键入命令，例如 `edt` 和 `term` 后跟一个空格，将显示下拉列表。
 
@@ -90,12 +91,12 @@ tag:
 
 显示快速挑选下拉从列表 `文件 > 打开最近`。优先使用最近打开的文件夹和工作空间，然后是文件。
 
-![最近打开](/assets/software/vscode/guide/recent-open.png)
+![最近打开](./assets/recent-open.png)
 
 ## 更改语言模式
 
 键盘快捷键: `Ctrl + K M`
 
-![语言关联](/assets/software/vscode/guide/ext-assosiate.png)
+![语言关联](./assets/ext-assosiate.png)
 
 如果要保留特定文件类型的语言模式，则可以使用 **XX 的配置文件关联** 命令将当前文件扩展名与安装的语言相关联。

@@ -1,4 +1,5 @@
 ---
+date: 2020-05-04
 title: 推荐扩展
 icon: plugin
 category: VS Code
@@ -101,10 +102,6 @@ Stylus 格式化，高亮支持。
 
 快速启动本地开发服务器。
 
-#### Manta’s Stylus Supremacy
-
-Stylus 格式化支持。
-
 #### Quokka.js
 
 JavaScript TypeScript 及时运行与结果显示。
@@ -117,7 +114,7 @@ SCSS 格式化、补全支持。
 
 CSS / SCSS / Less 格式化。
 
-#### Vetur
+#### Vue Language Features (Volar)
 
 为 VS Code 添加 `.vue` 文件的支持。
 
@@ -226,7 +223,3 @@ LaTeX 插件，支持常见功能与编译。
 #### YAML
 
 提供 YAML 格式化，高亮支持。
-
-#### LeetCode
-
-代码学习练习软件。

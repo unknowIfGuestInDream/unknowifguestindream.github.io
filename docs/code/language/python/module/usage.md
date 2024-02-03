@@ -18,7 +18,7 @@ Python 本身就内置了很多非常有用的模块，只要安装完毕，这�
 
 ' a test module '
 
-__author__ = 'unknowIfGuestInDream'
+__author__ = 'Mr.Hope'
 
 import sys
 
@@ -57,7 +57,7 @@ sys 模块有一个 `argv` 变量，用 list 存储了命令行的所有参数�
 
 运行 `python3 hello.py` 获得的 `sys.argv` 就是 `['hello.py']`；
 
-运行 `python3 hello.py unknowIfGuestInDream` 获得的 `sys.argv` 就是 `['hello.py', 'Mr.Hope']`。
+运行 `python3 hello.py Mr.Hope` 获得的 `sys.argv` 就是 `['hello.py', 'Mr.Hope']`。
 
 最后，注意到这两行代码:
 

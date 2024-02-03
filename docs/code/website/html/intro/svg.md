@@ -3,6 +3,7 @@ title: SVG
 icon: svg
 date: 2019-09-02
 category: HTML
+order: 6
 ---
 
 ## 矢量图形
@@ -150,6 +151,6 @@ SVG 也确实有一些缺点:
 
 ::: tip 总结
 
-在 2020 年，显然内联 SVG 更加适合。
+在 2023 年，显然内联 SVG 更加适合。
 
 :::

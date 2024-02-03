@@ -5,6 +5,8 @@ date: 2019-09-01
 category: HTML
 tag:
   - 快速上手
+order: 2
+next: ../intro/history.html
 ---
 
 ## HTML 标题
@@ -70,7 +72,7 @@ HTML 链接是通过标签 `<a>` 来定义的。
 ::: normal-demo HTML 链接
 
 ```html
-<a href="https://mrhope.site">这是一个链接</a>
+<a href="https://mister-hope.com">这是一个链接</a>
 ```
 
 :::

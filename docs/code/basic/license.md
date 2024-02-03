@@ -3,7 +3,7 @@ title: 开源协议
 icon: license
 date: 2019-12-27
 category: 基础
-next: ../../website/
+order: 9
 ---
 
 开源软件在追求“自由”的同时，不能牺牲程序员的利益，否则将会影响程序员的创造激情，因此世界上现在有 60 多种被开源促进组织 (Open Source Initiative) 认可的开源许可协议来保证开源工作者的权益。
@@ -94,7 +94,7 @@ LGPL 允许商业软件通过类库引用(link)的方式使用 LGPL 类库，而
 乌克兰程序员 Paul Bagwell 画了一张分析图，说明应该怎么选择开源协议，大家看了一目了然，真是清爽。
 
 ```flow
-st=>start: Start
+st=>start: 开始选择
 e=>end: End
 cond1=>condition: 他人修改源码后
 是否可以闭源
@@ -121,7 +121,7 @@ cond2(no)->cond3
 cond3(yes,right)->MIT
 cond3(no)->BSD
 cond4(yes)->GPL
-cond4(no,left)->cond5
+cond4(no,right)->cond5
 cond5(yes)->Mozilla
-cond5(no,left)->LGPL
+cond5(no)->LGPL
 ```

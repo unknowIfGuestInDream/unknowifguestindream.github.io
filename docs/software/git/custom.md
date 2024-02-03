@@ -1,4 +1,5 @@
 ---
+date: 2020-05-05
 title: 自定义 Git
 icon: skin
 order: 14
@@ -94,7 +95,7 @@ git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Crese
 
 来看看 `git lg` 的效果:
 
-![命令 git lg 示例图](/assets/software/git/git16.png)
+![命令 git lg 示例图](./assets/git16.png)
 
 为什么不早点告诉我? 别激动，咱不是为了多记几个英文单词嘛!
 
