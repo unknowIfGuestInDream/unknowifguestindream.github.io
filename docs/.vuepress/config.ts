@@ -1,6 +1,7 @@
 import type { UserConfig } from "vuepress";
 import { defineUserConfig } from "vuepress";
 import { appendDatePlugin } from "vuepress-plugin-append-date";
+import { viteBundler } from '@vuepress/bundler-vite'
 import theme from "./theme.js";
 
 export default <UserConfig>defineUserConfig({
@@ -46,6 +47,24 @@ export default <UserConfig>defineUserConfig({
   theme,
 
   plugins: [appendDatePlugin()],
+
+  bundler: viteBundler({
+    viteOptions: {
+      build: {
+        chunkSizeWarningLimit:2048,
+        rollupOptions: {
+          output:{
+            manualChunks(id) {
+              if (id.includes('node_modules')) {
+                return id.toString().split('node_modules/')[1].split('/')[0].toString();
+              }
+            }
+          }
+        }
+      }
+    },
+    vuePluginOptions: {},
+  }),
 
   shouldPrefetch: false,
 });
