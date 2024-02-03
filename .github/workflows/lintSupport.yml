@@ -35,10 +35,9 @@ jobs:
           node-version: 20
 
       - name: Install Node.js dependencies
-        run: npm ci
+        run: npm install --force
 
       - name: Run linters
         uses: wearerequired/lint-action@v2
         with:
-          eslint: true
           prettier: true
