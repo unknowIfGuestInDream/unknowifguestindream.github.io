@@ -27,7 +27,7 @@
   "devDependencies": {
     "cross-env": "7.0.3",
     "markdownlint-cli2": "0.12.1",
-    "prettier": "3.2.4"
+    "prettier": "3.2.5"
   },
   "dependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.2",
@@ -40,7 +40,7 @@
     "markdownlint-cli2": "0.12.1",
     "mathjax-full": "3.2.2",
     "mermaid": "10.8.0",
-    "prettier": "3.2.4",
+    "prettier": "3.2.5",
     "reveal.js": "5.0.4",
     "sass-loader": "14.1.0",
     "vue": "3.4.15",
