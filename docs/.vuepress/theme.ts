@@ -88,6 +88,7 @@ export default hopeTheme(
 
     displayFooter: true,
     copyright: "Copyright © 2024 unknowIfGuestInDream",
+    docsBranch: "master",
 
     plugins: {
       blog: {
