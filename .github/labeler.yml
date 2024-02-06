@@ -4,7 +4,7 @@ enhancement:
 
 config:
   - changed-files:
-      - any-glob-to-any-file: docs/.vuepress/**
+      - any-glob-to-any-file: "docs/.vuepress/**"
 
 i18n:
   - changed-files:
