@@ -22,7 +22,7 @@ projects:
 
   - icon: project
     name: javafxTool
-    desc: javafx工具，JDK17 + JavaFX17 + controlsfx 11.x.x + maven
+    desc: javafx工具，JDK17 + JavaFX21 + controlsfx 11.x.x + maven
     link: https://github.com/unknowIfGuestInDream/javafxTool
 
   - icon: project
