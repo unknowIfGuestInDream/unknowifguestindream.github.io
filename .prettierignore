@@ -1,6 +1,8 @@
 dist/
 node_modules/
 .github/
+.tsconfig.json
+.mergify.yml
 
 docs/code/language/js/es6/array.md
 docs/code/language/js/es6/style.md
