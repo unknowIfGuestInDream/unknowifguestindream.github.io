@@ -7,6 +7,12 @@ on:
       - ".github/**"
       - "CONTRIBUTORS.md"
       - "README.md"
+      - ".prettierignore"
+      - "LICENSE"
+      - ".markdownlint-cli2.mjs"
+      - ".gitignore"
+      - ".gitattributes"
+      - ".mergify.yml"
 
 jobs:
   deploy-gh-pages:

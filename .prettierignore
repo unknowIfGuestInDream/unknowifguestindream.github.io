@@ -1,5 +1,6 @@
 dist/
 node_modules/
+.github/
 
 docs/code/language/js/es6/array.md
 docs/code/language/js/es6/style.md
