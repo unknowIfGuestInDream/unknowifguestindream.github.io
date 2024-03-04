@@ -5,7 +5,7 @@
   <subtitle>梦里不知身是客的博客</subtitle>
   <icon>https://blog.tlcsdm.com/favicon.ico</icon>
   <rights>unknowIfGuestInDream © 2024</rights>
-  <updated>2024-03-04T05:40:48.076Z</updated>
+  <updated>2024-03-04T05:53:13.436Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://blog.tlcsdm.com/atom.xml"/>
   <link rel="alternate" href="https://blog.tlcsdm.com/"/>
@@ -701,163 +701,6 @@
 ]]></content>
     <category term="物理"/>
     <published>2022-01-07T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">后端开发</title>
-    <id>https://blog.tlcsdm.com/code/back-end/</id>
-    <link href="https://blog.tlcsdm.com/code/back-end/"/>
-    <updated>2024-02-03T05:28:44.000Z</updated>
-    <summary type="html"><![CDATA[<h2>后端入门</h2>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>2023 年后端还是 Java 比较多</p>
-</div>
-<h3>PHP</h3>
-<p>PHP 是一种创建动态交互性站点的强有力的服务器端脚本语言，免费，并且使用非常广泛。PHP (全称 Hypertext Preprocessor，即超文本预处理器)是一种通用开源脚本语言。</p>
-<p>PHP 手册:</p>
-<ul>
-<li>
-<p><a href="http://www.w3school.com.cn/php/index.asp" target="_blank" rel="noopener noreferrer">W3School 教程</a></p>
-</li>
-<li>
-<p><a href="https://www.runoob.com/php/php-tutorial.html" target="_blank" rel="noopener noreferrer">菜鸟教程</a></p>
-</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<h2>后端入门</h2>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>2023 年后端还是 Java 比较多</p>
-</div>
-<h3>PHP</h3>
-<p>PHP 是一种创建动态交互性站点的强有力的服务器端脚本语言，免费，并且使用非常广泛。PHP (全称 Hypertext Preprocessor，即超文本预处理器)是一种通用开源脚本语言。</p>
-<p>PHP 手册:</p>
-<ul>
-<li>
-<p><a href="http://www.w3school.com.cn/php/index.asp" target="_blank" rel="noopener noreferrer">W3School 教程</a></p>
-</li>
-<li>
-<p><a href="https://www.runoob.com/php/php-tutorial.html" target="_blank" rel="noopener noreferrer">菜鸟教程</a></p>
-</li>
-</ul>
-<p>如果服务器访问数量不大的情况下，PHP 作为一种门槛低，开发方便的脚本语言，还是挺受到欢迎的。</p>
-<h3>ASP</h3>
-<p>ASP 文件可包含文本、HTML 标签和脚本。ASP 文件中的脚本可在服务器上执行。由于 ASP 在服务器上运行，浏览器无需支持客户端脚本就可以显示 ASP 文件!</p>
-<ul>
-<li>
-<p><a href="http://www.w3school.com.cn/asp/index.asp" target="_blank" rel="noopener noreferrer">W3School 教程</a></p>
-</li>
-<li>
-<p><a href="https://www.runoob.com/asp/asp-tutorial.html" target="_blank" rel="noopener noreferrer">菜鸟教程</a></p>
-</li>
-</ul>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>更多详情有待日后补充</p>
-</div>
-]]></content>
-    <category term="后端"/>
-    <published>2019-09-10T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">操作系统</title>
-    <id>https://blog.tlcsdm.com/code/basic/os.html</id>
-    <link href="https://blog.tlcsdm.com/code/basic/os.html"/>
-    <updated>2024-02-03T05:28:44.000Z</updated>
-    <summary type="html"><![CDATA[<p>操作系统 (Operating System，OS) 是软件的一部分，它是硬件基础上的第一层软件，是硬件和其它软件沟通的桥梁(或者说接口、中间人、中介等)。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>操作系统 (Operating System，OS) 是软件的一部分，它是硬件基础上的第一层软件，是硬件和其它软件沟通的桥梁(或者说接口、中间人、中介等)。</p>
-<!-- more -->
-<p>操作系统会控制其他程序运行，管理系统资源，提供最基本的计算功能，如管理及配置内存、决定系统资源供需的优先次序等，同时还提供一些基本的服务程序，例如:</p>
-<ol>
-<li>
-<p>文件系统</p>
-<p>提供计算机存储信息的结构，信息存储在文件中，文件主要存储在计算机的内部硬盘里，在目录的分层结构中组织文件。文件系统为操作系统提供了组织管理数据的方式。</p>
-</li>
-<li>
-<p>设备驱动程序</p>
-<p>提供连接计算机的每个硬件设备的接口，设备驱动器使程序能够写入设备，而不需要了解执行每个硬件的细节。简单来说，就是让您能吃到鸡蛋，但不用养一只鸡。</p>
-</li>
-<li>
-<p>用户接口</p>
-<p>操作系统需要为用户提供一种运行程序和访问文件系统的方法。如常用的 Windows 图形界面，可以理解为一种用户与操作系统交互的方式；智能手机的 Android 或 iOS 系统，也是一种操作系统的交互方式。</p>
-</li>
-<li>
-<p>系统服务程序</p>
-<p>当计算机启动时，会自启动许多系统服务程序，执行安装文件系统、启动网络服务、运行预定任务等操作。</p>
-</li>
-</ol>
-<p>打个比方，操作系统就好像是一个政府，其它软件都会被它管控；操作系统在给其他软件提供各种便利的同时，还会约束其他软件不能为所欲为。</p>
-<figure><figcaption>操作系统结构示意图</figcaption></figure>
-<p>目前流行的服务器和 PC 端操作系统有 Linux、Windows、UNIX 等，手机操作系统有 Android、iOS，嵌入式操作系统有 Windows CE、PalmOS、eCos、uClinux 等。</p>
-]]></content>
-    <category term="基础"/>
-    <published>2019-12-26T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text"></title>
-    <id>https://blog.tlcsdm.com/code/windows/developers.html</id>
-    <link href="https://blog.tlcsdm.com/code/windows/developers.html"/>
-    <updated>2024-02-03T05:28:44.000Z</updated>
-    <summary type="html"><![CDATA[<hr>
-<p>title: Windows 开发
-icon: windows
-category: 基础
-tag:</p>
-<ul>
-<li>开发</li>
-<li>Windows</li>
-</ul>
-<hr>
-<p>本文主要介绍 Windows 11 系统下，与开发相关的功能。</p>
-<h2>WSL</h2>
-<p>WSL 是 Windows Subsystem for Linux 的缩写，即 Windows 的 Linux 子系统。Windows 11 支持 WSL2，同时支持 wslg，即 WSL 图形化。</p>
-<p>你可以很方便的启用 Windows For Linux 子系统，然后在 Windows 11 上安装 Linux 发行版，如 Ubuntu、Debian、Kali 等，然后在 Linux 环境下进行开发，同时启用 wslg，即可在 Windows 11 上使用 Linux 图形化应用如 Firefox 等进行调试。</p>]]></summary>
-    <published>2024-02-03T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">环境变量</title>
-    <id>https://blog.tlcsdm.com/code/windows/env-variable.html</id>
-    <link href="https://blog.tlcsdm.com/code/windows/env-variable.html"/>
-    <updated>2024-02-03T05:28:44.000Z</updated>
-    <summary type="html"><![CDATA[<p>以 Windows 10 系统为例，直接在左下角搜索栏中输入“系统变量”</p>
-<figure><figcaption>搜索</figcaption></figure>
-<p>在弹出的框中点击环境变量</p>
-<figure><figcaption>系统变量</figcaption></figure>
-<p>如果你需要添加环境变量，直接添加即可。</p>
-<p>如果你只是希望添加到 Path，在弹出的新窗口中找到 path，选中并点击编辑</p>
-<figure><figcaption>系统变量</figcaption></figure>
-<p>点击添加输入想要添加到 path 的路径或者执行文件名即可</p>]]></summary>
-    <content type="html"><![CDATA[<p>以 Windows 10 系统为例，直接在左下角搜索栏中输入“系统变量”</p>
-<figure><figcaption>搜索</figcaption></figure>
-<p>在弹出的框中点击环境变量</p>
-<figure><figcaption>系统变量</figcaption></figure>
-<p>如果你需要添加环境变量，直接添加即可。</p>
-<p>如果你只是希望添加到 Path，在弹出的新窗口中找到 path，选中并点击编辑</p>
-<figure><figcaption>系统变量</figcaption></figure>
-<p>点击添加输入想要添加到 path 的路径或者执行文件名即可</p>
-<figure><figcaption>系统变量</figcaption></figure>
-]]></content>
-    <category term="基础"/>
-    <published>2019-09-08T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text"></title>
-    <id>https://blog.tlcsdm.com/code/windows/version.html</id>
-    <link href="https://blog.tlcsdm.com/code/windows/version.html"/>
-    <updated>2024-02-03T05:28:44.000Z</updated>
-    <summary type="html"><![CDATA[<hr>
-<p>title: Windows 版本
-icon: windows
-category: 基础
-tag:</p>
-<ul>
-<li>Windows</li>
-</ul>
-<hr>
-<h2>简介</h2>
-<p>Microsoft Windows 操作系统是美国微软公司研发的一套操作系统，它问世于 1985 年，起初仅仅是 Microsoft-DOS 模拟环境，后续的系统版本由于微软不断的更新升级，不但易用，也当前应用最广泛的操作系统。</p>
-<p>Windows 采用了图形化模式 GUI，比起从前的 DOS 需要输入指令使用的方式，更为人性化。随着计算机硬件和软件的不断升级，微软的 Windows也在不断升级，从架构的16位、32位再到64位,系统版本从最初的 Windows1.0到大家熟知的 Windows95、 Windows98、 Windows2000、 Windows XP、 Windows Vista、 Windows7、Windows8、Windows8.1、Windows10、Windows11 和 Windows Server 服务器企业级操作系统，不断持续更新.</p>]]></summary>
-    <published>2024-02-03T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">设计文章</title>
@@ -2925,6 +2768,163 @@ tag:</p>
 ]]></content>
     <category term="设计"/>
     <published>2020-09-15T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">后端开发</title>
+    <id>https://blog.tlcsdm.com/code/back-end/</id>
+    <link href="https://blog.tlcsdm.com/code/back-end/"/>
+    <updated>2024-02-03T05:28:44.000Z</updated>
+    <summary type="html"><![CDATA[<h2>后端入门</h2>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>2023 年后端还是 Java 比较多</p>
+</div>
+<h3>PHP</h3>
+<p>PHP 是一种创建动态交互性站点的强有力的服务器端脚本语言，免费，并且使用非常广泛。PHP (全称 Hypertext Preprocessor，即超文本预处理器)是一种通用开源脚本语言。</p>
+<p>PHP 手册:</p>
+<ul>
+<li>
+<p><a href="http://www.w3school.com.cn/php/index.asp" target="_blank" rel="noopener noreferrer">W3School 教程</a></p>
+</li>
+<li>
+<p><a href="https://www.runoob.com/php/php-tutorial.html" target="_blank" rel="noopener noreferrer">菜鸟教程</a></p>
+</li>
+</ul>]]></summary>
+    <content type="html"><![CDATA[<h2>后端入门</h2>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>2023 年后端还是 Java 比较多</p>
+</div>
+<h3>PHP</h3>
+<p>PHP 是一种创建动态交互性站点的强有力的服务器端脚本语言，免费，并且使用非常广泛。PHP (全称 Hypertext Preprocessor，即超文本预处理器)是一种通用开源脚本语言。</p>
+<p>PHP 手册:</p>
+<ul>
+<li>
+<p><a href="http://www.w3school.com.cn/php/index.asp" target="_blank" rel="noopener noreferrer">W3School 教程</a></p>
+</li>
+<li>
+<p><a href="https://www.runoob.com/php/php-tutorial.html" target="_blank" rel="noopener noreferrer">菜鸟教程</a></p>
+</li>
+</ul>
+<p>如果服务器访问数量不大的情况下，PHP 作为一种门槛低，开发方便的脚本语言，还是挺受到欢迎的。</p>
+<h3>ASP</h3>
+<p>ASP 文件可包含文本、HTML 标签和脚本。ASP 文件中的脚本可在服务器上执行。由于 ASP 在服务器上运行，浏览器无需支持客户端脚本就可以显示 ASP 文件!</p>
+<ul>
+<li>
+<p><a href="http://www.w3school.com.cn/asp/index.asp" target="_blank" rel="noopener noreferrer">W3School 教程</a></p>
+</li>
+<li>
+<p><a href="https://www.runoob.com/asp/asp-tutorial.html" target="_blank" rel="noopener noreferrer">菜鸟教程</a></p>
+</li>
+</ul>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>更多详情有待日后补充</p>
+</div>
+]]></content>
+    <category term="后端"/>
+    <published>2019-09-10T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">操作系统</title>
+    <id>https://blog.tlcsdm.com/code/basic/os.html</id>
+    <link href="https://blog.tlcsdm.com/code/basic/os.html"/>
+    <updated>2024-02-03T05:28:44.000Z</updated>
+    <summary type="html"><![CDATA[<p>操作系统 (Operating System，OS) 是软件的一部分，它是硬件基础上的第一层软件，是硬件和其它软件沟通的桥梁(或者说接口、中间人、中介等)。</p>
+]]></summary>
+    <content type="html"><![CDATA[<p>操作系统 (Operating System，OS) 是软件的一部分，它是硬件基础上的第一层软件，是硬件和其它软件沟通的桥梁(或者说接口、中间人、中介等)。</p>
+<!-- more -->
+<p>操作系统会控制其他程序运行，管理系统资源，提供最基本的计算功能，如管理及配置内存、决定系统资源供需的优先次序等，同时还提供一些基本的服务程序，例如:</p>
+<ol>
+<li>
+<p>文件系统</p>
+<p>提供计算机存储信息的结构，信息存储在文件中，文件主要存储在计算机的内部硬盘里，在目录的分层结构中组织文件。文件系统为操作系统提供了组织管理数据的方式。</p>
+</li>
+<li>
+<p>设备驱动程序</p>
+<p>提供连接计算机的每个硬件设备的接口，设备驱动器使程序能够写入设备，而不需要了解执行每个硬件的细节。简单来说，就是让您能吃到鸡蛋，但不用养一只鸡。</p>
+</li>
+<li>
+<p>用户接口</p>
+<p>操作系统需要为用户提供一种运行程序和访问文件系统的方法。如常用的 Windows 图形界面，可以理解为一种用户与操作系统交互的方式；智能手机的 Android 或 iOS 系统，也是一种操作系统的交互方式。</p>
+</li>
+<li>
+<p>系统服务程序</p>
+<p>当计算机启动时，会自启动许多系统服务程序，执行安装文件系统、启动网络服务、运行预定任务等操作。</p>
+</li>
+</ol>
+<p>打个比方，操作系统就好像是一个政府，其它软件都会被它管控；操作系统在给其他软件提供各种便利的同时，还会约束其他软件不能为所欲为。</p>
+<figure><figcaption>操作系统结构示意图</figcaption></figure>
+<p>目前流行的服务器和 PC 端操作系统有 Linux、Windows、UNIX 等，手机操作系统有 Android、iOS，嵌入式操作系统有 Windows CE、PalmOS、eCos、uClinux 等。</p>
+]]></content>
+    <category term="基础"/>
+    <published>2019-12-26T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text"></title>
+    <id>https://blog.tlcsdm.com/code/windows/developers.html</id>
+    <link href="https://blog.tlcsdm.com/code/windows/developers.html"/>
+    <updated>2024-02-03T05:28:44.000Z</updated>
+    <summary type="html"><![CDATA[<hr>
+<p>title: Windows 开发
+icon: windows
+category: 基础
+tag:</p>
+<ul>
+<li>开发</li>
+<li>Windows</li>
+</ul>
+<hr>
+<p>本文主要介绍 Windows 11 系统下，与开发相关的功能。</p>
+<h2>WSL</h2>
+<p>WSL 是 Windows Subsystem for Linux 的缩写，即 Windows 的 Linux 子系统。Windows 11 支持 WSL2，同时支持 wslg，即 WSL 图形化。</p>
+<p>你可以很方便的启用 Windows For Linux 子系统，然后在 Windows 11 上安装 Linux 发行版，如 Ubuntu、Debian、Kali 等，然后在 Linux 环境下进行开发，同时启用 wslg，即可在 Windows 11 上使用 Linux 图形化应用如 Firefox 等进行调试。</p>]]></summary>
+    <published>2024-02-03T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">环境变量</title>
+    <id>https://blog.tlcsdm.com/code/windows/env-variable.html</id>
+    <link href="https://blog.tlcsdm.com/code/windows/env-variable.html"/>
+    <updated>2024-02-03T05:28:44.000Z</updated>
+    <summary type="html"><![CDATA[<p>以 Windows 10 系统为例，直接在左下角搜索栏中输入“系统变量”</p>
+<figure><figcaption>搜索</figcaption></figure>
+<p>在弹出的框中点击环境变量</p>
+<figure><figcaption>系统变量</figcaption></figure>
+<p>如果你需要添加环境变量，直接添加即可。</p>
+<p>如果你只是希望添加到 Path，在弹出的新窗口中找到 path，选中并点击编辑</p>
+<figure><figcaption>系统变量</figcaption></figure>
+<p>点击添加输入想要添加到 path 的路径或者执行文件名即可</p>]]></summary>
+    <content type="html"><![CDATA[<p>以 Windows 10 系统为例，直接在左下角搜索栏中输入“系统变量”</p>
+<figure><figcaption>搜索</figcaption></figure>
+<p>在弹出的框中点击环境变量</p>
+<figure><figcaption>系统变量</figcaption></figure>
+<p>如果你需要添加环境变量，直接添加即可。</p>
+<p>如果你只是希望添加到 Path，在弹出的新窗口中找到 path，选中并点击编辑</p>
+<figure><figcaption>系统变量</figcaption></figure>
+<p>点击添加输入想要添加到 path 的路径或者执行文件名即可</p>
+<figure><figcaption>系统变量</figcaption></figure>
+]]></content>
+    <category term="基础"/>
+    <published>2019-09-08T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text"></title>
+    <id>https://blog.tlcsdm.com/code/windows/version.html</id>
+    <link href="https://blog.tlcsdm.com/code/windows/version.html"/>
+    <updated>2024-02-03T05:28:44.000Z</updated>
+    <summary type="html"><![CDATA[<hr>
+<p>title: Windows 版本
+icon: windows
+category: 基础
+tag:</p>
+<ul>
+<li>Windows</li>
+</ul>
+<hr>
+<h2>简介</h2>
+<p>Microsoft Windows 操作系统是美国微软公司研发的一套操作系统，它问世于 1985 年，起初仅仅是 Microsoft-DOS 模拟环境，后续的系统版本由于微软不断的更新升级，不但易用，也当前应用最广泛的操作系统。</p>
+<p>Windows 采用了图形化模式 GUI，比起从前的 DOS 需要输入指令使用的方式，更为人性化。随着计算机硬件和软件的不断升级，微软的 Windows也在不断升级，从架构的16位、32位再到64位,系统版本从最初的 Windows1.0到大家熟知的 Windows95、 Windows98、 Windows2000、 Windows XP、 Windows Vista、 Windows7、Windows8、Windows8.1、Windows10、Windows11 和 Windows Server 服务器企业级操作系统，不断持续更新.</p>]]></summary>
+    <published>2024-02-03T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">Bash 教程</title>
