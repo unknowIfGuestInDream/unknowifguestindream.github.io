@@ -6,8 +6,8 @@
     <link>https://blog.tlcsdm.com/ja/</link>
     <description>unknowIfGuestInDream&amp;apos;s blog</description>
     <language>ja-JP</language>
-    <pubDate>Tue, 27 Feb 2024 15:18:18 GMT</pubDate>
-    <lastBuildDate>Tue, 27 Feb 2024 15:18:18 GMT</lastBuildDate>
+    <pubDate>Mon, 04 Mar 2024 05:40:48 GMT</pubDate>
+    <lastBuildDate>Mon, 04 Mar 2024 05:40:48 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>unknowIfGuestInDream © 2024</copyright>
@@ -16,7 +16,7 @@
       <link>https://blog.tlcsdm.com/ja/note/</link>
       <guid>https://blog.tlcsdm.com/ja/note/</guid>
       <source url="https://blog.tlcsdm.com/ja/rss.xml">Notes</source>
-      <description> ヒント Note, all the notes only contains Chinese version. Seasons Introduction This is a collection of prose poems I wrote in Senior 1, originally published in the qzone dairy. La...</description>
+      <description>ヒント Note, all the notes only contains Chinese version. Seasons Introduction This is a collection of prose poems I wrote in Senior 1, originally published in the qzone dairy. Lat...</description>
       <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<div class="hint-container tip">
 <p class="hint-container-title">ヒント</p>
@@ -72,7 +72,7 @@
       <link>https://blog.tlcsdm.com/ja/code/</link>
       <guid>https://blog.tlcsdm.com/ja/code/</guid>
       <source url="https://blog.tlcsdm.com/ja/rss.xml">Code Note</source>
-      <description> 関連情報 Code notes only contains Chinese version. </description>
+      <description>関連情報 Code notes only contains Chinese version.</description>
       <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<div class="hint-container info">
 <p class="hint-container-title">関連情報</p>
@@ -85,7 +85,7 @@
       <link>https://blog.tlcsdm.com/ja/software/</link>
       <guid>https://blog.tlcsdm.com/ja/software/</guid>
       <source url="https://blog.tlcsdm.com/ja/rss.xml">Software</source>
-      <description> 関連情報 Most of the software guide only contains Chinese version. Http Server </description>
+      <description>関連情報 Most of the software guide only contains Chinese version. Http Server</description>
       <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<div class="hint-container info">
 <p class="hint-container-title">関連情報</p>
@@ -228,7 +228,7 @@
       <link>https://blog.tlcsdm.com/ja/about/site.html</link>
       <guid>https://blog.tlcsdm.com/ja/about/site.html</guid>
       <source url="https://blog.tlcsdm.com/ja/rss.xml">About site</source>
-      <description>About site building This site is built with VuePress. Repository Link Mr.Hope’s Personal Blog Disclamer This blog contains books &amp; blogs from ruanyf and 廖雪峰. Great thanks to them. </description>
+      <description>About site building This site is built with VuePress. Repository Link Mr.Hope’s Personal Blog Disclamer This blog contains books &amp; blogs from ruanyf and 廖雪峰. Great thanks to them.</description>
       <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <div class="hint-container tip">

@@ -6,8 +6,8 @@
     <link>https://blog.tlcsdm.com/</link>
     <description>梦里不知身是客的博客</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 27 Feb 2024 15:18:18 GMT</pubDate>
-    <lastBuildDate>Tue, 27 Feb 2024 15:18:18 GMT</lastBuildDate>
+    <pubDate>Mon, 04 Mar 2024 05:40:48 GMT</pubDate>
+    <lastBuildDate>Mon, 04 Mar 2024 05:40:48 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>unknowIfGuestInDream © 2024</copyright>
@@ -117,7 +117,7 @@
       <link>https://blog.tlcsdm.com/design/</link>
       <guid>https://blog.tlcsdm.com/design/</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">UI 设计</source>
-      <description>本文列出了一些 UI 设计相关的资源。 相关教程 配色 阮一峰 - 配色方案 网页背景渐变色 设计 Apple 设计原则 Apple 设计 网站组件 Ant Design WeUI 小程序组件库 Vant Color UI </description>
+      <description>本文列出了一些 UI 设计相关的资源。 相关教程 配色 阮一峰 - 配色方案 网页背景渐变色 设计 Apple 设计原则 Apple 设计 网站组件 Ant Design WeUI 小程序组件库 Vant Color UI</description>
       <category>设计</category>
       <pubDate>Sun, 24 Nov 2019 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>本文列出了一些 UI 设计相关的资源。</p>
@@ -210,7 +210,7 @@
       <link>https://blog.tlcsdm.com/hardware/</link>
       <guid>https://blog.tlcsdm.com/hardware/</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">硬件相关</source>
-      <description>这里是一些常见的硬件相关的问题总结，供访客查阅。 </description>
+      <description>这里是一些常见的硬件相关的问题总结，供访客查阅。</description>
       <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>这里是一些常见的硬件相关的问题总结，供访客查阅。</p>
 <!-- more -->
@@ -244,7 +244,7 @@
       <link>https://blog.tlcsdm.com/linux/</link>
       <guid>https://blog.tlcsdm.com/linux/</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">Linux</source>
-      <description>Linux 教程 ubuntu CentOS WSL </description>
+      <description>Linux 教程 ubuntu CentOS WSL</description>
       <category>Linux</category>
       <pubDate>Fri, 15 Nov 2019 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2>Linux 教程</h2>
@@ -332,7 +332,7 @@
       <link>https://blog.tlcsdm.com/linux/WSL.html</link>
       <guid>https://blog.tlcsdm.com/linux/WSL.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">WSL</source>
-      <description>WSL 可以直接在 Windows 系统上安装并运行 Linux。目前最新的版本是 WSL2。 Ubuntu Windows 上的功能有很大缺失。已知不能用 Snap。 WSL 文件位置 重启 WSL 使用 和 </description>
+      <description>WSL 可以直接在 Windows 系统上安装并运行 Linux。目前最新的版本是 WSL2。 Ubuntu Windows 上的功能有很大缺失。已知不能用 Snap。 WSL 文件位置 重启 WSL 使用 和</description>
       <category>Linux</category>
       <pubDate>Sat, 23 Nov 2019 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>WSL 可以直接在 Windows 系统上安装并运行 Linux。目前最新的版本是 WSL2。</p>
@@ -353,7 +353,7 @@
       <link>https://blog.tlcsdm.com/linux/centos.html</link>
       <guid>https://blog.tlcsdm.com/linux/centos.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">CentOS 教程</source>
-      <description>管理工具 yum (Centos 7) dnf (Centos 8) yarn 测试是否安装成功: </description>
+      <description>管理工具 yum (Centos 7) dnf (Centos 8) yarn 测试是否安装成功:</description>
       <category>Linux</category>
       <pubDate>Sat, 23 Nov 2019 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2>管理工具</h2>
@@ -515,7 +515,7 @@
       <link>https://blog.tlcsdm.com/physics/</link>
       <guid>https://blog.tlcsdm.com/physics/</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">物理笔记</source>
-      <description>目录 </description>
+      <description>目录</description>
       <category>物理</category>
       <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2>目录</h2>
@@ -536,11 +536,121 @@
 ]]></content:encoded>
     </item>
     <item>
+      <title>后端开发</title>
+      <link>https://blog.tlcsdm.com/code/back-end/</link>
+      <guid>https://blog.tlcsdm.com/code/back-end/</guid>
+      <source url="https://blog.tlcsdm.com/rss.xml">后端开发</source>
+      <description>后端入门 注意 2023 年后端还是 Java 比较多 PHP PHP 是一种创建动态交互性站点的强有力的服务器端脚本语言，免费，并且使用非常广泛。PHP (全称 Hypertext Preprocessor，即超文本预处理器)是一种通用开源脚本语言。 PHP 手册: W3School 教程 菜鸟教程 如果服务器访问数量不大的情况下，PHP 作为一种门...</description>
+      <category>后端</category>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<h2>后端入门</h2>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>2023 年后端还是 Java 比较多</p>
+</div>
+<h3>PHP</h3>
+<p>PHP 是一种创建动态交互性站点的强有力的服务器端脚本语言，免费，并且使用非常广泛。PHP (全称 Hypertext Preprocessor，即超文本预处理器)是一种通用开源脚本语言。</p>
+<p>PHP 手册:</p>
+<ul>
+<li>
+<p><a href="http://www.w3school.com.cn/php/index.asp" target="_blank" rel="noopener noreferrer">W3School 教程</a></p>
+</li>
+<li>
+<p><a href="https://www.runoob.com/php/php-tutorial.html" target="_blank" rel="noopener noreferrer">菜鸟教程</a></p>
+</li>
+</ul>
+<p>如果服务器访问数量不大的情况下，PHP 作为一种门槛低，开发方便的脚本语言，还是挺受到欢迎的。</p>
+<h3>ASP</h3>
+<p>ASP 文件可包含文本、HTML 标签和脚本。ASP 文件中的脚本可在服务器上执行。由于 ASP 在服务器上运行，浏览器无需支持客户端脚本就可以显示 ASP 文件!</p>
+<ul>
+<li>
+<p><a href="http://www.w3school.com.cn/asp/index.asp" target="_blank" rel="noopener noreferrer">W3School 教程</a></p>
+</li>
+<li>
+<p><a href="https://www.runoob.com/asp/asp-tutorial.html" target="_blank" rel="noopener noreferrer">菜鸟教程</a></p>
+</li>
+</ul>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>更多详情有待日后补充</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>操作系统</title>
+      <link>https://blog.tlcsdm.com/code/basic/os.html</link>
+      <guid>https://blog.tlcsdm.com/code/basic/os.html</guid>
+      <source url="https://blog.tlcsdm.com/rss.xml">操作系统</source>
+      <description>操作系统 (Operating System，OS) 是软件的一部分，它是硬件基础上的第一层软件，是硬件和其它软件沟通的桥梁(或者说接口、中间人、中介等)。 操作系统会控制其他程序运行，管理系统资源，提供最基本的计算功能，如管理及配置内存、决定系统资源供需的优先次序等，同时还提供一些基本的服务程序，例如: 文件系统 提供计算机存储信息的结构，信息存储在...</description>
+      <category>基础</category>
+      <pubDate>Thu, 26 Dec 2019 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>操作系统 (Operating System，OS) 是软件的一部分，它是硬件基础上的第一层软件，是硬件和其它软件沟通的桥梁(或者说接口、中间人、中介等)。</p>
+<!-- more -->
+<p>操作系统会控制其他程序运行，管理系统资源，提供最基本的计算功能，如管理及配置内存、决定系统资源供需的优先次序等，同时还提供一些基本的服务程序，例如:</p>
+<ol>
+<li>
+<p>文件系统</p>
+<p>提供计算机存储信息的结构，信息存储在文件中，文件主要存储在计算机的内部硬盘里，在目录的分层结构中组织文件。文件系统为操作系统提供了组织管理数据的方式。</p>
+</li>
+<li>
+<p>设备驱动程序</p>
+<p>提供连接计算机的每个硬件设备的接口，设备驱动器使程序能够写入设备，而不需要了解执行每个硬件的细节。简单来说，就是让您能吃到鸡蛋，但不用养一只鸡。</p>
+</li>
+<li>
+<p>用户接口</p>
+<p>操作系统需要为用户提供一种运行程序和访问文件系统的方法。如常用的 Windows 图形界面，可以理解为一种用户与操作系统交互的方式；智能手机的 Android 或 iOS 系统，也是一种操作系统的交互方式。</p>
+</li>
+<li>
+<p>系统服务程序</p>
+<p>当计算机启动时，会自启动许多系统服务程序，执行安装文件系统、启动网络服务、运行预定任务等操作。</p>
+</li>
+</ol>
+<p>打个比方，操作系统就好像是一个政府，其它软件都会被它管控；操作系统在给其他软件提供各种便利的同时，还会约束其他软件不能为所欲为。</p>
+<figure><figcaption>操作系统结构示意图</figcaption></figure>
+<p>目前流行的服务器和 PC 端操作系统有 Linux、Windows、UNIX 等，手机操作系统有 Android、iOS，嵌入式操作系统有 Windows CE、PalmOS、eCos、uClinux 等。</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blog.tlcsdm.com/code/windows/developers.html</link>
+      <guid>https://blog.tlcsdm.com/code/windows/developers.html</guid>
+      <source url="https://blog.tlcsdm.com/rss.xml"></source>
+      <description>title: Windows 开发 icon: windows category: 基础 tag: 开发 Windows 本文主要介绍 Windows 11 系统下，与开发相关的功能。 WSL WSL 是 Windows Subsystem for Linux 的缩写，即 Windows 的 Linux 子系统。Windows 11 支持 WSL2，同...</description>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>环境变量</title>
+      <link>https://blog.tlcsdm.com/code/windows/env-variable.html</link>
+      <guid>https://blog.tlcsdm.com/code/windows/env-variable.html</guid>
+      <source url="https://blog.tlcsdm.com/rss.xml">环境变量</source>
+      <description>以 Windows 10 系统为例，直接在左下角搜索栏中输入“系统变量” 搜索搜索 在弹出的框中点击环境变量 系统变量系统变量 如果你需要添加环境变量，直接添加即可。 如果你只是希望添加到 Path，在弹出的新窗口中找到 path，选中并点击编辑 系统变量系统变量 点击添加输入想要添加到 path 的路径或者执行文件名即可 系统变量系统变量</description>
+      <category>基础</category>
+      <pubDate>Sun, 08 Sep 2019 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>以 Windows 10 系统为例，直接在左下角搜索栏中输入“系统变量”</p>
+<figure><figcaption>搜索</figcaption></figure>
+<p>在弹出的框中点击环境变量</p>
+<figure><figcaption>系统变量</figcaption></figure>
+<p>如果你需要添加环境变量，直接添加即可。</p>
+<p>如果你只是希望添加到 Path，在弹出的新窗口中找到 path，选中并点击编辑</p>
+<figure><figcaption>系统变量</figcaption></figure>
+<p>点击添加输入想要添加到 path 的路径或者执行文件名即可</p>
+<figure><figcaption>系统变量</figcaption></figure>
+]]></content:encoded>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blog.tlcsdm.com/code/windows/version.html</link>
+      <guid>https://blog.tlcsdm.com/code/windows/version.html</guid>
+      <source url="https://blog.tlcsdm.com/rss.xml"></source>
+      <description>title: Windows 版本 icon: windows category: 基础 tag: Windows 简介 Microsoft Windows 操作系统是美国微软公司研发的一套操作系统，它问世于 1985 年，起初仅仅是 Microsoft-DOS 模拟环境，后续的系统版本由于微软不断的更新升级，不但易用，也当前应用最广泛的操作系统。 W...</description>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>设计文章</title>
       <link>https://blog.tlcsdm.com/design/articles/</link>
       <guid>https://blog.tlcsdm.com/design/articles/</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">设计文章</source>
-      <description>文章列表 </description>
+      <description>文章列表</description>
       <category>设计</category>
       <pubDate>Sat, 26 Sep 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2>文章列表</h2>
@@ -1905,7 +2015,7 @@
       <link>https://blog.tlcsdm.com/design/interact/</link>
       <guid>https://blog.tlcsdm.com/design/interact/</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">交互设计</source>
-      <description>文章列表 </description>
+      <description>文章列表</description>
       <category>设计</category>
       <pubDate>Sat, 26 Sep 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2>文章列表</h2>
@@ -2082,7 +2192,7 @@
       <link>https://blog.tlcsdm.com/design/navigation/</link>
       <guid>https://blog.tlcsdm.com/design/navigation/</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">导航设计教程</source>
-      <description>目录 </description>
+      <description>目录</description>
       <category>设计</category>
       <pubDate>Tue, 15 Sep 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2>目录</h2>
@@ -2453,121 +2563,11 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>后端开发</title>
-      <link>https://blog.tlcsdm.com/code/back-end/</link>
-      <guid>https://blog.tlcsdm.com/code/back-end/</guid>
-      <source url="https://blog.tlcsdm.com/rss.xml">后端开发</source>
-      <description>后端入门 注意 2023 年后端还是 Java 比较多 PHP PHP 是一种创建动态交互性站点的强有力的服务器端脚本语言，免费，并且使用非常广泛。PHP (全称 Hypertext Preprocessor，即超文本预处理器)是一种通用开源脚本语言。 PHP 手册: W3School 教程 菜鸟教程 如果服务器访问数量不大的情况下，PHP 作为一种门...</description>
-      <category>后端</category>
-      <pubDate>Tue, 10 Sep 2019 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h2>后端入门</h2>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>2023 年后端还是 Java 比较多</p>
-</div>
-<h3>PHP</h3>
-<p>PHP 是一种创建动态交互性站点的强有力的服务器端脚本语言，免费，并且使用非常广泛。PHP (全称 Hypertext Preprocessor，即超文本预处理器)是一种通用开源脚本语言。</p>
-<p>PHP 手册:</p>
-<ul>
-<li>
-<p><a href="http://www.w3school.com.cn/php/index.asp" target="_blank" rel="noopener noreferrer">W3School 教程</a></p>
-</li>
-<li>
-<p><a href="https://www.runoob.com/php/php-tutorial.html" target="_blank" rel="noopener noreferrer">菜鸟教程</a></p>
-</li>
-</ul>
-<p>如果服务器访问数量不大的情况下，PHP 作为一种门槛低，开发方便的脚本语言，还是挺受到欢迎的。</p>
-<h3>ASP</h3>
-<p>ASP 文件可包含文本、HTML 标签和脚本。ASP 文件中的脚本可在服务器上执行。由于 ASP 在服务器上运行，浏览器无需支持客户端脚本就可以显示 ASP 文件!</p>
-<ul>
-<li>
-<p><a href="http://www.w3school.com.cn/asp/index.asp" target="_blank" rel="noopener noreferrer">W3School 教程</a></p>
-</li>
-<li>
-<p><a href="https://www.runoob.com/asp/asp-tutorial.html" target="_blank" rel="noopener noreferrer">菜鸟教程</a></p>
-</li>
-</ul>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>更多详情有待日后补充</p>
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>操作系统</title>
-      <link>https://blog.tlcsdm.com/code/basic/os.html</link>
-      <guid>https://blog.tlcsdm.com/code/basic/os.html</guid>
-      <source url="https://blog.tlcsdm.com/rss.xml">操作系统</source>
-      <description>操作系统 (Operating System，OS) 是软件的一部分，它是硬件基础上的第一层软件，是硬件和其它软件沟通的桥梁(或者说接口、中间人、中介等)。 操作系统会控制其他程序运行，管理系统资源，提供最基本的计算功能，如管理及配置内存、决定系统资源供需的优先次序等，同时还提供一些基本的服务程序，例如: 文件系统 提供计算机存储信息的结构，信息存储在...</description>
-      <category>基础</category>
-      <pubDate>Thu, 26 Dec 2019 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>操作系统 (Operating System，OS) 是软件的一部分，它是硬件基础上的第一层软件，是硬件和其它软件沟通的桥梁(或者说接口、中间人、中介等)。</p>
-<!-- more -->
-<p>操作系统会控制其他程序运行，管理系统资源，提供最基本的计算功能，如管理及配置内存、决定系统资源供需的优先次序等，同时还提供一些基本的服务程序，例如:</p>
-<ol>
-<li>
-<p>文件系统</p>
-<p>提供计算机存储信息的结构，信息存储在文件中，文件主要存储在计算机的内部硬盘里，在目录的分层结构中组织文件。文件系统为操作系统提供了组织管理数据的方式。</p>
-</li>
-<li>
-<p>设备驱动程序</p>
-<p>提供连接计算机的每个硬件设备的接口，设备驱动器使程序能够写入设备，而不需要了解执行每个硬件的细节。简单来说，就是让您能吃到鸡蛋，但不用养一只鸡。</p>
-</li>
-<li>
-<p>用户接口</p>
-<p>操作系统需要为用户提供一种运行程序和访问文件系统的方法。如常用的 Windows 图形界面，可以理解为一种用户与操作系统交互的方式；智能手机的 Android 或 iOS 系统，也是一种操作系统的交互方式。</p>
-</li>
-<li>
-<p>系统服务程序</p>
-<p>当计算机启动时，会自启动许多系统服务程序，执行安装文件系统、启动网络服务、运行预定任务等操作。</p>
-</li>
-</ol>
-<p>打个比方，操作系统就好像是一个政府，其它软件都会被它管控；操作系统在给其他软件提供各种便利的同时，还会约束其他软件不能为所欲为。</p>
-<figure><figcaption>操作系统结构示意图</figcaption></figure>
-<p>目前流行的服务器和 PC 端操作系统有 Linux、Windows、UNIX 等，手机操作系统有 Android、iOS，嵌入式操作系统有 Windows CE、PalmOS、eCos、uClinux 等。</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title></title>
-      <link>https://blog.tlcsdm.com/code/windows/developers.html</link>
-      <guid>https://blog.tlcsdm.com/code/windows/developers.html</guid>
-      <source url="https://blog.tlcsdm.com/rss.xml"></source>
-      <description> title: Windows 开发 icon: windows category: 基础 tag: 开发 Windows 本文主要介绍 Windows 11 系统下，与开发相关的功能。 WSL WSL 是 Windows Subsystem for Linux 的缩写，即 Windows 的 Linux 子系统。Windows 11 支持 WSL2，...</description>
-      <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>环境变量</title>
-      <link>https://blog.tlcsdm.com/code/windows/env-variable.html</link>
-      <guid>https://blog.tlcsdm.com/code/windows/env-variable.html</guid>
-      <source url="https://blog.tlcsdm.com/rss.xml">环境变量</source>
-      <description>以 Windows 10 系统为例，直接在左下角搜索栏中输入“系统变量” 搜索搜索 在弹出的框中点击环境变量 系统变量系统变量 如果你需要添加环境变量，直接添加即可。 如果你只是希望添加到 Path，在弹出的新窗口中找到 path，选中并点击编辑 系统变量系统变量 点击添加输入想要添加到 path 的路径或者执行文件名即可 系统变量系统变量 </description>
-      <category>基础</category>
-      <pubDate>Sun, 08 Sep 2019 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>以 Windows 10 系统为例，直接在左下角搜索栏中输入“系统变量”</p>
-<figure><figcaption>搜索</figcaption></figure>
-<p>在弹出的框中点击环境变量</p>
-<figure><figcaption>系统变量</figcaption></figure>
-<p>如果你需要添加环境变量，直接添加即可。</p>
-<p>如果你只是希望添加到 Path，在弹出的新窗口中找到 path，选中并点击编辑</p>
-<figure><figcaption>系统变量</figcaption></figure>
-<p>点击添加输入想要添加到 path 的路径或者执行文件名即可</p>
-<figure><figcaption>系统变量</figcaption></figure>
-]]></content:encoded>
-    </item>
-    <item>
-      <title></title>
-      <link>https://blog.tlcsdm.com/code/windows/version.html</link>
-      <guid>https://blog.tlcsdm.com/code/windows/version.html</guid>
-      <source url="https://blog.tlcsdm.com/rss.xml"></source>
-      <description> title: Windows 版本 icon: windows category: 基础 tag: Windows 简介 Microsoft Windows 操作系统是美国微软公司研发的一套操作系统，它问世于 1985 年，起初仅仅是 Microsoft-DOS 模拟环境，后续的系统版本由于微软不断的更新升级，不但易用，也当前应用最广泛的操作系统。 ...</description>
-      <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
       <title>Bash 教程</title>
       <link>https://blog.tlcsdm.com/linux/bash/</link>
       <guid>https://blog.tlcsdm.com/linux/bash/</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">Bash 教程</source>
-      <description>目录 </description>
+      <description>目录</description>
       <category>Linux</category>
       <pubDate>Fri, 07 Jan 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2>目录</h2>
@@ -6531,7 +6531,7 @@ $ <span class="token builtin class-name">echo</span> <span class="token variable
       <link>https://blog.tlcsdm.com/linux/command/</link>
       <guid>https://blog.tlcsdm.com/linux/command/</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">Linux 命令格式</source>
-      <description>目录 </description>
+      <description>目录</description>
       <category>Linux</category>
       <pubDate>Mon, 18 Nov 2019 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2>目录</h2>
@@ -7166,7 +7166,7 @@ location (use only with -d)
       <link>https://blog.tlcsdm.com/linux/file/</link>
       <guid>https://blog.tlcsdm.com/linux/file/</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">文件</source>
-      <description>目录 </description>
+      <description>目录</description>
       <category>Linux</category>
       <pubDate>Sun, 17 Nov 2019 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2>目录</h2>
@@ -7280,7 +7280,7 @@ location (use only with -d)
       <link>https://blog.tlcsdm.com/linux/intro/</link>
       <guid>https://blog.tlcsdm.com/linux/intro/</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">Linux 简介</source>
-      <description>Linux 简介 </description>
+      <description>Linux 简介</description>
       <category>Linux</category>
       <pubDate>Fri, 15 Nov 2019 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -7612,7 +7612,7 @@ Linux 系统有良好的可移植性，它几乎支持所有的 CPU 平台，这
       <link>https://blog.tlcsdm.com/linux/intro/startup.html</link>
       <guid>https://blog.tlcsdm.com/linux/intro/startup.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">Linux 系统启动过程</source>
-      <description> 提示 本篇教程以 CentOS 为例介绍系统的启动过程。 Linux 启动时我们会看到许多启动信息。 Linux 系统的启动过程并不是大家想象中的那么复杂，其过程可以分为 5 个阶段: 内核的引导。 运行 init。 系统初始化。 建立终端 。 用户登录系统。 提示 init 程序的类型: SysV: init, CentOS 5 之前, 配置文件:...</description>
+      <description>提示 本篇教程以 CentOS 为例介绍系统的启动过程。 Linux 启动时我们会看到许多启动信息。 Linux 系统的启动过程并不是大家想象中的那么复杂，其过程可以分为 5 个阶段: 内核的引导。 运行 init。 系统初始化。 建立终端 。 用户登录系统。 提示 init 程序的类型: SysV: init, CentOS 5 之前, 配置文件: ...</description>
       <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -7677,7 +7677,7 @@ Linux 系统有良好的可移植性，它几乎支持所有的 CPU 平台，这
       <link>https://blog.tlcsdm.com/linux/ubuntu/</link>
       <guid>https://blog.tlcsdm.com/linux/ubuntu/</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">ubuntu</source>
-      <description>ubuntu </description>
+      <description>ubuntu</description>
       <category>Linux</category>
       <pubDate>Thu, 21 Nov 2019 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -7702,7 +7702,7 @@ Linux 系统有良好的可移植性，它几乎支持所有的 CPU 平台，这
       <link>https://blog.tlcsdm.com/linux/ubuntu/debug.html</link>
       <guid>https://blog.tlcsdm.com/linux/ubuntu/debug.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">开发软件</source>
-      <description>开发软件 安装 VS Code 使用 snap 在 WSL 环境下 snap 无法使用，则使用以下命令安装 code 库。 然后正常安装: 可能还需要安装 remote 插件安装 nvm 在 Linux 上可能需要重新链接终端，命令才可用。 测试命令，输入 nvm 即安装成功: 安装命令: 切换命令: 安装 Git yarn 测试是否安装成功: </description>
+      <description>开发软件 安装 VS Code 使用 snap 在 WSL 环境下 snap 无法使用，则使用以下命令安装 code 库。 然后正常安装: 可能还需要安装 remote 插件安装 nvm 在 Linux 上可能需要重新链接终端，命令才可用。 测试命令，输入 nvm 即安装成功: 安装命令: 切换命令: 安装 Git yarn 测试是否安装成功:</description>
       <category>Linux</category>
       <pubDate>Thu, 21 Nov 2019 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -7755,7 +7755,7 @@ Linux 系统有良好的可移植性，它几乎支持所有的 CPU 平台，这
       <link>https://blog.tlcsdm.com/linux/ubuntu/lang.html</link>
       <guid>https://blog.tlcsdm.com/linux/ubuntu/lang.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">语言切换</source>
-      <description>语言切换 查看当前语言包: locale -a 中文语言是: zh_CN.utf8 安装中文语言包 之后修改 /etc/default/locale，将 LANG 改为 zh_CN.utf8 </description>
+      <description>语言切换 查看当前语言包: locale -a 中文语言是: zh_CN.utf8 安装中文语言包 之后修改 /etc/default/locale，将 LANG 改为 zh_CN.utf8</description>
       <category>Linux</category>
       <pubDate>Fri, 22 Nov 2019 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -7771,7 +7771,7 @@ Linux 系统有良好的可移植性，它几乎支持所有的 CPU 平台，这
       <link>https://blog.tlcsdm.com/linux/ubuntu/manage.html</link>
       <guid>https://blog.tlcsdm.com/linux/ubuntu/manage.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">管理工具</source>
-      <description>管理工具 apt-get apt-get 命令默认的源在国内访问很慢，可以考虑换源。 获取软件包更新: 更新软件包: 其他命令[1] Snap 已经预装。 在中国大陆不建议使用 Snap 其他命令 ↩︎ </description>
+      <description>管理工具 apt-get apt-get 命令默认的源在国内访问很慢，可以考虑换源。 获取软件包更新: 更新软件包: 其他命令[1] Snap 已经预装。 在中国大陆不建议使用 Snap 其他命令 ↩︎</description>
       <category>Linux</category>
       <pubDate>Thu, 21 Nov 2019 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -7882,7 +7882,7 @@ mysql <span class="token parameter variable">-u</span> root <span class="token p
       <link>https://blog.tlcsdm.com/note/fall/1.html</link>
       <guid>https://blog.tlcsdm.com/note/fall/1.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">秋之思【一】</source>
-      <description> 毕竟已是秋了，早晚有了些许凉意， 但正午的阳光还有些强烈， 仿佛夏的余热还没有散去。 八月桂花香馨远， 那丝丝缕缕的香沁人心脾， 那浅浅淡雅能瞬间饱满单薄的心， 让内心喜悦如莲。 燥热了一夏， 时光终于慢了下来， 慢得仿佛能抓住岁月的脚步; 日子终于静了下来， 静的仿佛能听见花开的声音。 喜欢这样安恬的静好， 可以坐下来喝一杯茶， 品一些文字， 让一...</description>
+      <description>毕竟已是秋了，早晚有了些许凉意， 但正午的阳光还有些强烈， 仿佛夏的余热还没有散去。 八月桂花香馨远， 那丝丝缕缕的香沁人心脾， 那浅浅淡雅能瞬间饱满单薄的心， 让内心喜悦如莲。 燥热了一夏， 时光终于慢了下来， 慢得仿佛能抓住岁月的脚步; 日子终于静了下来， 静的仿佛能听见花开的声音。 喜欢这样安恬的静好， 可以坐下来喝一杯茶， 品一些文字， 让一颗...</description>
       <category>随笔</category>
       <pubDate>Mon, 18 Aug 2014 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<div style="text-align:center">
@@ -7913,7 +7913,7 @@ mysql <span class="token parameter variable">-u</span> root <span class="token p
       <link>https://blog.tlcsdm.com/note/fall/10.html</link>
       <guid>https://blog.tlcsdm.com/note/fall/10.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">秋之思【十】</source>
-      <description>秋之思【十】 我曾假如 我是一片落叶， 但我不会停留 于你的窗前， 我会落于月下 你常走的曲径， 凝视你的容颜， 记下你的足迹， 数着你的流年， 伴着阵阵夜风， 紧跟你的影子， 流离于你的梦， 释一季情怀， 解一程寂寞， 诗意地迷恋于 你的红尘。 </description>
+      <description>秋之思【十】 我曾假如 我是一片落叶， 但我不会停留 于你的窗前， 我会落于月下 你常走的曲径， 凝视你的容颜， 记下你的足迹， 数着你的流年， 伴着阵阵夜风， 紧跟你的影子， 流离于你的梦， 释一季情怀， 解一程寂寞， 诗意地迷恋于 你的红尘。</description>
       <category>随笔</category>
       <pubDate>Sat, 30 Aug 2014 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -7942,7 +7942,7 @@ mysql <span class="token parameter variable">-u</span> root <span class="token p
       <link>https://blog.tlcsdm.com/note/fall/11.html</link>
       <guid>https://blog.tlcsdm.com/note/fall/11.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">秋之思【十一】</source>
-      <description>秋之思【十一】 寂寂芸窗， 魂系南天流芳。 记初见怡情烂漫且将忧忘， 浮萍随去，落叶纷飞数斜阳。 ♢ 露湿衣裳， 香彻惹乱柔肠。 玉阶前暗渡冰心魂画琳琅， 独行云间，漫舞风情韵幽香。 ♢ 青山苍茫， 无非阡繁道长。 看今朝恬淡从容背起行囊， 抽丝破茧，化蝶方能见阳光。 </description>
+      <description>秋之思【十一】 寂寂芸窗， 魂系南天流芳。 记初见怡情烂漫且将忧忘， 浮萍随去，落叶纷飞数斜阳。 ♢ 露湿衣裳， 香彻惹乱柔肠。 玉阶前暗渡冰心魂画琳琅， 独行云间，漫舞风情韵幽香。 ♢ 青山苍茫， 无非阡繁道长。 看今朝恬淡从容背起行囊， 抽丝破茧，化蝶方能见阳光。</description>
       <category>随笔</category>
       <pubDate>Sun, 31 Aug 2014 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -7969,7 +7969,7 @@ mysql <span class="token parameter variable">-u</span> root <span class="token p
       <link>https://blog.tlcsdm.com/note/fall/12.html</link>
       <guid>https://blog.tlcsdm.com/note/fall/12.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">秋之思【十二】</source>
-      <description>秋之思【十二】 月满西楼，几多愁? 苍穹无语，谁解心曲? 几多相思染双眉，年华无悔! ♢ 孤月清冷，群山失色，望银河，相思成灾。 罢，罢，罢! 空留佳话，冷落芳华! ♢ 闲依小窗，对月独酌。 万种心事，千种相思，都付与花草树木。 </description>
+      <description>秋之思【十二】 月满西楼，几多愁? 苍穹无语，谁解心曲? 几多相思染双眉，年华无悔! ♢ 孤月清冷，群山失色，望银河，相思成灾。 罢，罢，罢! 空留佳话，冷落芳华! ♢ 闲依小窗，对月独酌。 万种心事，千种相思，都付与花草树木。</description>
       <category>随笔</category>
       <pubDate>Mon, 01 Sep 2014 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -7992,7 +7992,7 @@ mysql <span class="token parameter variable">-u</span> root <span class="token p
       <link>https://blog.tlcsdm.com/note/fall/13.html</link>
       <guid>https://blog.tlcsdm.com/note/fall/13.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">秋之思【十三】</source>
-      <description>秋之思【十三】 桃园恋，山水相依遥相盼，余恨绵绵。 ♢ 常相思，空负，桃花堪折枝，情待何时? ♢ 碧云天，苍穹高远，今昔别梦寒，琵琶私语泪涟涟，往事随云烟! </description>
+      <description>秋之思【十三】 桃园恋，山水相依遥相盼，余恨绵绵。 ♢ 常相思，空负，桃花堪折枝，情待何时? ♢ 碧云天，苍穹高远，今昔别梦寒，琵琶私语泪涟涟，往事随云烟!</description>
       <category>随笔</category>
       <pubDate>Tue, 02 Sep 2014 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -8012,7 +8012,7 @@ mysql <span class="token parameter variable">-u</span> root <span class="token p
       <link>https://blog.tlcsdm.com/note/fall/14.html</link>
       <guid>https://blog.tlcsdm.com/note/fall/14.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">秋之思【十四】</source>
-      <description>秋之思【十四】 肩上蝶，袖底清风，如烟归去，散落天涯。 ♢ 碧波亭，繁花似锦，翘首天涯何为暖? 羽翼化蝶，衣袂飘飘，怎能红尘恋? ♢ 惜别，痴念，月残上弦! </description>
+      <description>秋之思【十四】 肩上蝶，袖底清风，如烟归去，散落天涯。 ♢ 碧波亭，繁花似锦，翘首天涯何为暖? 羽翼化蝶，衣袂飘飘，怎能红尘恋? ♢ 惜别，痴念，月残上弦!</description>
       <category>随笔</category>
       <pubDate>Wed, 03 Sep 2014 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
@@ -8033,7 +8033,7 @@ mysql <span class="token parameter variable">-u</span> root <span class="token p
       <link>https://blog.tlcsdm.com/note/fall/15.html</link>
       <guid>https://blog.tlcsdm.com/note/fall/15.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">秋之思【十五】</source>
-      <description>秋之思【十五】 红尘恋，清欢浅浅，梦不相连。转朱阁，低绮户，风尘无路。 ♢ 淡相思，深深怨，浮华尽散，何处觅尘缘? ♢ 春花秋月，几度寒暑。 关山万座情难阻，一片冰心在玉壶。 </description>
+      <description>秋之思【十五】 红尘恋，清欢浅浅，梦不相连。转朱阁，低绮户，风尘无路。 ♢ 淡相思，深深怨，浮华尽散，何处觅尘缘? ♢ 春花秋月，几度寒暑。 关山万座情难阻，一片冰心在玉壶。</description>
       <category>随笔</category>
       <pubDate>Thu, 04 Sep 2014 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
