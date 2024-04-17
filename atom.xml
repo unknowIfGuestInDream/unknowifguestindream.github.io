@@ -5,7 +5,7 @@
   <subtitle>梦里不知身是客的博客</subtitle>
   <icon>https://blog.tlcsdm.com/favicon.ico</icon>
   <rights>unknowIfGuestInDream © 2024</rights>
-  <updated>2024-04-17T11:46:09.090Z</updated>
+  <updated>2024-04-17T12:05:24.431Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://blog.tlcsdm.com/atom.xml"/>
   <link rel="alternate" href="https://blog.tlcsdm.com/"/>
@@ -15,7 +15,6 @@
   <category term="基础"/>
   <category term="随笔"/>
   <category term="物理"/>
-  <category term="后端"/>
   <contributor>
     <name>印迹</name>
   </contributor>
@@ -2768,97 +2767,6 @@
 ]]></content>
     <category term="设计"/>
     <published>2020-09-15T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">后端开发</title>
-    <id>https://blog.tlcsdm.com/code/back-end/</id>
-    <link href="https://blog.tlcsdm.com/code/back-end/"/>
-    <updated>2024-02-03T05:28:44.000Z</updated>
-    <summary type="html"><![CDATA[<h2>后端入门</h2>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>2023 年后端还是 Java 比较多</p>
-</div>
-<h3>PHP</h3>
-<p>PHP 是一种创建动态交互性站点的强有力的服务器端脚本语言，免费，并且使用非常广泛。PHP (全称 Hypertext Preprocessor，即超文本预处理器)是一种通用开源脚本语言。</p>
-<p>PHP 手册:</p>
-<ul>
-<li>
-<p><a href="http://www.w3school.com.cn/php/index.asp" target="_blank" rel="noopener noreferrer">W3School 教程</a></p>
-</li>
-<li>
-<p><a href="https://www.runoob.com/php/php-tutorial.html" target="_blank" rel="noopener noreferrer">菜鸟教程</a></p>
-</li>
-</ul>]]></summary>
-    <content type="html"><![CDATA[<h2>后端入门</h2>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>2023 年后端还是 Java 比较多</p>
-</div>
-<h3>PHP</h3>
-<p>PHP 是一种创建动态交互性站点的强有力的服务器端脚本语言，免费，并且使用非常广泛。PHP (全称 Hypertext Preprocessor，即超文本预处理器)是一种通用开源脚本语言。</p>
-<p>PHP 手册:</p>
-<ul>
-<li>
-<p><a href="http://www.w3school.com.cn/php/index.asp" target="_blank" rel="noopener noreferrer">W3School 教程</a></p>
-</li>
-<li>
-<p><a href="https://www.runoob.com/php/php-tutorial.html" target="_blank" rel="noopener noreferrer">菜鸟教程</a></p>
-</li>
-</ul>
-<p>如果服务器访问数量不大的情况下，PHP 作为一种门槛低，开发方便的脚本语言，还是挺受到欢迎的。</p>
-<h3>ASP</h3>
-<p>ASP 文件可包含文本、HTML 标签和脚本。ASP 文件中的脚本可在服务器上执行。由于 ASP 在服务器上运行，浏览器无需支持客户端脚本就可以显示 ASP 文件!</p>
-<ul>
-<li>
-<p><a href="http://www.w3school.com.cn/asp/index.asp" target="_blank" rel="noopener noreferrer">W3School 教程</a></p>
-</li>
-<li>
-<p><a href="https://www.runoob.com/asp/asp-tutorial.html" target="_blank" rel="noopener noreferrer">菜鸟教程</a></p>
-</li>
-</ul>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>更多详情有待日后补充</p>
-</div>
-]]></content>
-    <category term="后端"/>
-    <published>2019-09-10T00:00:00.000Z</published>
-  </entry>
-  <entry>
-    <title type="text">操作系统</title>
-    <id>https://blog.tlcsdm.com/code/basic/os.html</id>
-    <link href="https://blog.tlcsdm.com/code/basic/os.html"/>
-    <updated>2024-02-03T05:28:44.000Z</updated>
-    <summary type="html"><![CDATA[<p>操作系统 (Operating System，OS) 是软件的一部分，它是硬件基础上的第一层软件，是硬件和其它软件沟通的桥梁(或者说接口、中间人、中介等)。</p>
-]]></summary>
-    <content type="html"><![CDATA[<p>操作系统 (Operating System，OS) 是软件的一部分，它是硬件基础上的第一层软件，是硬件和其它软件沟通的桥梁(或者说接口、中间人、中介等)。</p>
-<!-- more -->
-<p>操作系统会控制其他程序运行，管理系统资源，提供最基本的计算功能，如管理及配置内存、决定系统资源供需的优先次序等，同时还提供一些基本的服务程序，例如:</p>
-<ol>
-<li>
-<p>文件系统</p>
-<p>提供计算机存储信息的结构，信息存储在文件中，文件主要存储在计算机的内部硬盘里，在目录的分层结构中组织文件。文件系统为操作系统提供了组织管理数据的方式。</p>
-</li>
-<li>
-<p>设备驱动程序</p>
-<p>提供连接计算机的每个硬件设备的接口，设备驱动器使程序能够写入设备，而不需要了解执行每个硬件的细节。简单来说，就是让您能吃到鸡蛋，但不用养一只鸡。</p>
-</li>
-<li>
-<p>用户接口</p>
-<p>操作系统需要为用户提供一种运行程序和访问文件系统的方法。如常用的 Windows 图形界面，可以理解为一种用户与操作系统交互的方式；智能手机的 Android 或 iOS 系统，也是一种操作系统的交互方式。</p>
-</li>
-<li>
-<p>系统服务程序</p>
-<p>当计算机启动时，会自启动许多系统服务程序，执行安装文件系统、启动网络服务、运行预定任务等操作。</p>
-</li>
-</ol>
-<p>打个比方，操作系统就好像是一个政府，其它软件都会被它管控；操作系统在给其他软件提供各种便利的同时，还会约束其他软件不能为所欲为。</p>
-<figure><figcaption>操作系统结构示意图</figcaption></figure>
-<p>目前流行的服务器和 PC 端操作系统有 Linux、Windows、UNIX 等，手机操作系统有 Android、iOS，嵌入式操作系统有 Windows CE、PalmOS、eCos、uClinux 等。</p>
-]]></content>
-    <category term="基础"/>
-    <published>2019-12-26T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text"></title>
@@ -9202,5 +9110,247 @@ mysql <span class="token parameter variable">-u</span> root <span class="token p
 ]]></content>
     <category term="随笔"/>
     <published>2014-09-09T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">秋之思【十八】</title>
+    <id>https://blog.tlcsdm.com/note/fall/18.html</id>
+    <link href="https://blog.tlcsdm.com/note/fall/18.html"/>
+    <updated>2024-02-03T05:28:44.000Z</updated>
+    <summary type="html"><![CDATA[
+<div style="text-align:center">
+<p>又是一年匆匆，</p>
+<p>走过了春的明媚，</p>
+<p>走过了夏的繁盛，</p>
+<p>还没来得及多想，</p>
+<p>刚一转身，</p>
+<p>便又与秋不期而遇。</p>
+<p>不知不觉间，</p>
+<p>时光婉转，岁月安然；</p>
+<p>与高二分别，和高三见面。</p>
+<p>是的，</p>
+<p>累了，忙了，压力也大了，</p>
+<p>但仍我仍然渴望，</p>
+<p>那些在学习的空余间，</p>
+<p>用自己的笔尖，</p>
+<p>将生活的诗意书写于纸面，</p>
+<p>寄托对逝去的同窗时光的思念。</p>
+<p>面对婉约的春，活泼的夏，</p>
+<p>也许我并没有太多感触，</p>
+<p>笔，总是拿起而又放下。</p>
+<p>而每每遇见秋，</p>
+<p>就犹如故人归，</p>
+<p>不需要过多的寒喧，</p>
+<p>而就像有些喜欢，</p>
+<p>只是一眼，便会妥帖在心里。</p>
+<p>静静端坐于时光的门槛，</p>
+<p>看一片落叶点缀了秋色，</p>
+<p>见一畦清露渲染了秋凉，</p>
+<p>一季落花飘进秋的门扉，</p>
+<p>那被吹散在风中的落叶，</p>
+<p>还在与何人，喃喃私语?</p>
+<p>终是沉寂了，</p>
+<p>经过了夏的盛放，</p>
+<p>走进了秋的萧索，</p>
+<p>有些遇见是繁华的，</p>
+<p>而有些碰面亦会有寂寥。</p>
+<p>时光给予我们一个姹紫嫣红的相逢，</p>
+<p>却为我们留下一个风轻云淡的背影，</p>
+<p>也许唯有那些花开的记忆，</p>
+<p>才是永恒不变的芬芳。</p>
+<p>以前写文，</p>
+<p>喜欢用些华丽的词语，</p>
+<p>来装饰要写的人或事，</p>
+<p>注重美感与诗意。</p>
+<p>而现在，</p>
+<p>我只想用平实的语言，</p>
+<p>去书写一份简单。</p>
+<p>其实生活也是同样，</p>
+<p>无论曾经多么繁华，</p>
+<p>都会回归简单的，</p>
+<p>就如这安静的秋，</p>
+<p>虽没有了姹紫嫣红的艳丽，</p>
+<p>却有着成熟的况味和美感。</p>
+</div>]]></summary>
+    <content type="html"><![CDATA[
+<div style="text-align:center">
+<p>又是一年匆匆，</p>
+<p>走过了春的明媚，</p>
+<p>走过了夏的繁盛，</p>
+<p>还没来得及多想，</p>
+<p>刚一转身，</p>
+<p>便又与秋不期而遇。</p>
+<p>不知不觉间，</p>
+<p>时光婉转，岁月安然；</p>
+<p>与高二分别，和高三见面。</p>
+<p>是的，</p>
+<p>累了，忙了，压力也大了，</p>
+<p>但仍我仍然渴望，</p>
+<p>那些在学习的空余间，</p>
+<p>用自己的笔尖，</p>
+<p>将生活的诗意书写于纸面，</p>
+<p>寄托对逝去的同窗时光的思念。</p>
+<p>面对婉约的春，活泼的夏，</p>
+<p>也许我并没有太多感触，</p>
+<p>笔，总是拿起而又放下。</p>
+<p>而每每遇见秋，</p>
+<p>就犹如故人归，</p>
+<p>不需要过多的寒喧，</p>
+<p>而就像有些喜欢，</p>
+<p>只是一眼，便会妥帖在心里。</p>
+<p>静静端坐于时光的门槛，</p>
+<p>看一片落叶点缀了秋色，</p>
+<p>见一畦清露渲染了秋凉，</p>
+<p>一季落花飘进秋的门扉，</p>
+<p>那被吹散在风中的落叶，</p>
+<p>还在与何人，喃喃私语?</p>
+<p>终是沉寂了，</p>
+<p>经过了夏的盛放，</p>
+<p>走进了秋的萧索，</p>
+<p>有些遇见是繁华的，</p>
+<p>而有些碰面亦会有寂寥。</p>
+<p>时光给予我们一个姹紫嫣红的相逢，</p>
+<p>却为我们留下一个风轻云淡的背影，</p>
+<p>也许唯有那些花开的记忆，</p>
+<p>才是永恒不变的芬芳。</p>
+<p>以前写文，</p>
+<p>喜欢用些华丽的词语，</p>
+<p>来装饰要写的人或事，</p>
+<p>注重美感与诗意。</p>
+<p>而现在，</p>
+<p>我只想用平实的语言，</p>
+<p>去书写一份简单。</p>
+<p>其实生活也是同样，</p>
+<p>无论曾经多么繁华，</p>
+<p>都会回归简单的，</p>
+<p>就如这安静的秋，</p>
+<p>虽没有了姹紫嫣红的艳丽，</p>
+<p>却有着成熟的况味和美感。</p>
+</div>
+]]></content>
+    <category term="随笔"/>
+    <published>2015-09-08T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">秋之思【十九】</title>
+    <id>https://blog.tlcsdm.com/note/fall/19.html</id>
+    <link href="https://blog.tlcsdm.com/note/fall/19.html"/>
+    <updated>2024-02-03T05:28:44.000Z</updated>
+    <summary type="html"><![CDATA[
+<div style="text-align:center">
+<p>我爱秋的明媚，</p>
+<p>也爱秋的静美，</p>
+<p>秋是温婉的，</p>
+<p>如院子里桂花的芬芳；</p>
+<p>秋是明净的，</p>
+<p>如白云悠悠的天空；</p>
+<p>秋是深邃的，</p>
+<p>如清晨波光淡影的湖面。</p>
+<p>抬头，</p>
+<p>于秋阳中仰望天空，</p>
+<p>一朵悄然而过的流云，</p>
+<p>遮住暖暖的光线，</p>
+<p>远处，山，水，云，树</p>
+<p>仿佛重叠在视线中，</p>
+<p>天高，云淡，</p>
+<p>伴着我一颗纯净无尘的秋心。</p>
+<p>秋风中，</p>
+<p>校园里银杏树的叶子</p>
+<p>在秋风中刚刚泛黄，</p>
+<p>比起那些枝繁叶茂的深绿，</p>
+<p>更显得有韵味。</p>
+<p>其实我觉得，</p>
+<p>一树风景足以影映四季，</p>
+<p>从萌芽到初绽，</p>
+<p>再到繁盛和枯落，</p>
+<p>途经的是从荣到枯的过程，</p>
+<p>也是一种生命沉淀的美丽。</p>
+<p>喜欢那句:</p>
+<p>生活不是浮在纸上的华丽，而是沉在书中的寂静，谁能数载春风不落? 终是要收敛的，相信能够隐忍的种种都是生命的花朵，给花一份温柔，又何尝不是给自己一
+缕明媚?</p>
+<p>一直以低温的姿态，</p>
+<p>前行于尘世间，</p>
+<p>听风轻吟，</p>
+<p>观雨潇潇，</p>
+<p>不求热烈，</p>
+<p>只求安恬。</p>
+<p>读书，</p>
+<p>书里含香，</p>
+<p>字里有情，</p>
+<p>喝茶，</p>
+<p>半杯是安暖，</p>
+<p>半杯是清凉。</p>
+<p>总是以为，</p>
+<p>最好的懂得会在文字间，</p>
+<p>于是喜欢将那些</p>
+<p>打马而过的往事，</p>
+<p>曾经的山长水阔，</p>
+<p>于文字中倾诉。</p>
+<p>可终有一天，</p>
+<p>素笺上的小字会旧，</p>
+<p>豆蒄上的相思会开老，</p>
+<p>唯剩下一朵寂寞的字符，</p>
+<p>就如经过一场盛大的狂欢之后，</p>
+<p>便是长长的寂廖。</p>
+</div>]]></summary>
+    <content type="html"><![CDATA[
+<div style="text-align:center">
+<p>我爱秋的明媚，</p>
+<p>也爱秋的静美，</p>
+<p>秋是温婉的，</p>
+<p>如院子里桂花的芬芳；</p>
+<p>秋是明净的，</p>
+<p>如白云悠悠的天空；</p>
+<p>秋是深邃的，</p>
+<p>如清晨波光淡影的湖面。</p>
+<p>抬头，</p>
+<p>于秋阳中仰望天空，</p>
+<p>一朵悄然而过的流云，</p>
+<p>遮住暖暖的光线，</p>
+<p>远处，山，水，云，树</p>
+<p>仿佛重叠在视线中，</p>
+<p>天高，云淡，</p>
+<p>伴着我一颗纯净无尘的秋心。</p>
+<p>秋风中，</p>
+<p>校园里银杏树的叶子</p>
+<p>在秋风中刚刚泛黄，</p>
+<p>比起那些枝繁叶茂的深绿，</p>
+<p>更显得有韵味。</p>
+<p>其实我觉得，</p>
+<p>一树风景足以影映四季，</p>
+<p>从萌芽到初绽，</p>
+<p>再到繁盛和枯落，</p>
+<p>途经的是从荣到枯的过程，</p>
+<p>也是一种生命沉淀的美丽。</p>
+<p>喜欢那句:</p>
+<p>生活不是浮在纸上的华丽，而是沉在书中的寂静，谁能数载春风不落? 终是要收敛的，相信能够隐忍的种种都是生命的花朵，给花一份温柔，又何尝不是给自己一
+缕明媚?</p>
+<p>一直以低温的姿态，</p>
+<p>前行于尘世间，</p>
+<p>听风轻吟，</p>
+<p>观雨潇潇，</p>
+<p>不求热烈，</p>
+<p>只求安恬。</p>
+<p>读书，</p>
+<p>书里含香，</p>
+<p>字里有情，</p>
+<p>喝茶，</p>
+<p>半杯是安暖，</p>
+<p>半杯是清凉。</p>
+<p>总是以为，</p>
+<p>最好的懂得会在文字间，</p>
+<p>于是喜欢将那些</p>
+<p>打马而过的往事，</p>
+<p>曾经的山长水阔，</p>
+<p>于文字中倾诉。</p>
+<p>可终有一天，</p>
+<p>素笺上的小字会旧，</p>
+<p>豆蒄上的相思会开老，</p>
+<p>唯剩下一朵寂寞的字符，</p>
+<p>就如经过一场盛大的狂欢之后，</p>
+<p>便是长长的寂廖。</p>
+</div>
+]]></content>
+    <category term="随笔"/>
+    <published>2015-09-09T00:00:00.000Z</published>
   </entry>
 </feed>

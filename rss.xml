@@ -6,8 +6,8 @@
     <link>https://blog.tlcsdm.com/</link>
     <description>梦里不知身是客的博客</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 17 Apr 2024 11:46:09 GMT</pubDate>
-    <lastBuildDate>Wed, 17 Apr 2024 11:46:09 GMT</lastBuildDate>
+    <pubDate>Wed, 17 Apr 2024 12:05:24 GMT</pubDate>
+    <lastBuildDate>Wed, 17 Apr 2024 12:05:24 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>unknowIfGuestInDream © 2024</copyright>
@@ -17,13 +17,12 @@
     <category>基础</category>
     <category>随笔</category>
     <category>物理</category>
-    <category>后端</category>
     <item>
       <title>APP 组件设计规范</title>
       <link>https://blog.tlcsdm.com/design/APP.html</link>
       <guid>https://blog.tlcsdm.com/design/APP.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">APP 组件设计规范</source>
-      <description>本文对应用程序设计中常见的组件及其作用进行了介绍。 页面总体布局 navigationbar 简称 Navbar 也就是导航栏。 主要负责承接页面的导航操作。 在内部界面上，一般左侧展示返回操作，居中显示页面标题，右侧展示更多操作。 在主页上，主要承载 tabpage 对应的功能展示与触发。 在 navbar 上，设计要突出质感，应该以简约为主。 使用...</description>
+      <description>本文对应用程序设计中常见的组件及其作用进行了介绍。</description>
       <category>设计</category>
       <pubDate>Sun, 24 Nov 2019 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>本文对应用程序设计中常见的组件及其作用进行了介绍。</p>
@@ -117,7 +116,7 @@
       <link>https://blog.tlcsdm.com/design/</link>
       <guid>https://blog.tlcsdm.com/design/</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">UI 设计</source>
-      <description>本文列出了一些 UI 设计相关的资源。 相关教程 配色 阮一峰 - 配色方案 网页背景渐变色 设计 Apple 设计原则 Apple 设计 网站组件 Ant Design WeUI 小程序组件库 Vant Color UI</description>
+      <description>本文列出了一些 UI 设计相关的资源。</description>
       <category>设计</category>
       <pubDate>Sun, 24 Nov 2019 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>本文列出了一些 UI 设计相关的资源。</p>
@@ -332,7 +331,7 @@
       <link>https://blog.tlcsdm.com/linux/WSL.html</link>
       <guid>https://blog.tlcsdm.com/linux/WSL.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">WSL</source>
-      <description>WSL 可以直接在 Windows 系统上安装并运行 Linux。目前最新的版本是 WSL2。 Ubuntu Windows 上的功能有很大缺失。已知不能用 Snap。 WSL 文件位置 重启 WSL 使用 和</description>
+      <description>WSL 可以直接在 Windows 系统上安装并运行 Linux。目前最新的版本是 WSL2。</description>
       <category>Linux</category>
       <pubDate>Sat, 23 Nov 2019 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>WSL 可以直接在 Windows 系统上安装并运行 Linux。目前最新的版本是 WSL2。</p>
@@ -967,7 +966,7 @@
       <link>https://blog.tlcsdm.com/design/icon/</link>
       <guid>https://blog.tlcsdm.com/design/icon/</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">图标</source>
-      <description>本文介绍了 UI 设计中图标的相关介绍与技巧。 图标网站 iconfont 阿里妈妈 MUX 倾力打造的矢量图标管理、交流平台。 设计师将图标上传到 Iconfont 平台，用户可以自定义下载多种格式的 icon，平台也可将图标转换为字体，便于前端工程师自由调整与调用。 强大的图标在线编辑与自定义下载 图标项目的项目管理、协同、分享 相关文档 图标是 ...</description>
+      <description>本文介绍了 UI 设计中图标的相关介绍与技巧。</description>
       <category>设计</category>
       <pubDate>Sun, 13 Sep 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>本文介绍了 UI 设计中图标的相关介绍与技巧。</p>
@@ -1057,7 +1056,7 @@
       <link>https://blog.tlcsdm.com/design/icon/apply.html</link>
       <guid>https://blog.tlcsdm.com/design/icon/apply.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">图标应用</source>
-      <description>在 UI 设计中，图标不是孤立存在的。我们学习图标的设计，不是为了画一组套图，然后上传到设计平台中分享或求赞，而是要在真实的项目中发挥作用。如果不了解图标应用到项目中的知识点，那么真实的图标设计水平就会在项目设计过程中被损耗。 所以，本章讲述工具图标在项目中应用的方法。 一套应用中的图标规格 图标是一个应用不可或缺的组成元素，在应用的界面中随处可见。也...</description>
+      <description>在 UI 设计中，图标不是孤立存在的。我们学习图标的设计，不是为了画一组套图，然后上传到设计平台中分享或求赞，而是要在真实的项目中发挥作用。如果不了解图标应用到项目中的知识点，那么真实的图标设计水平就会在项目设计过程中被损耗。 所以，本章讲述工具图标在项目中应用的方法。</description>
       <category>设计</category>
       <pubDate>Mon, 14 Sep 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>在 UI 设计中，图标不是孤立存在的。我们学习图标的设计，不是为了画一组套图，然后上传到设计平台中分享或求赞，而是要在真实的项目中发挥作用。如果不了解图标应用到项目中的知识点，那么真实的图标设计水平就会在项目设计过程中被损耗。</p>
@@ -1075,7 +1074,7 @@
       <link>https://blog.tlcsdm.com/design/icon/decorative.html</link>
       <guid>https://blog.tlcsdm.com/design/icon/decorative.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">装饰性图标设计</source>
-      <description>装饰图标最主要的应用区域，集中在首页的快速入口上，也是今天多数应用中会使用的组件。下面，我们会讲解国内主流应用中的几种装饰图标的设计。 装饰图标分类装饰图标分类 扁平插画风格 装饰图标的主要作用是丰富视觉体验，对于识别性的要求较低，所以我们可以在这里应用更复杂的图形和添加更多的细节。在这里的扁平插画风格设计更具象，而不是像工具图标一样的抽象化，所以完整...</description>
+      <description>装饰图标最主要的应用区域，集中在首页的快速入口上，也是今天多数应用中会使用的组件。下面，我们会讲解国内主流应用中的几种装饰图标的设计。</description>
       <category>设计</category>
       <pubDate>Mon, 14 Sep 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>装饰图标最主要的应用区域，集中在首页的快速入口上，也是今天多数应用中会使用的组件。下面，我们会讲解国内主流应用中的几种装饰图标的设计。</p>
@@ -1391,7 +1390,7 @@
       <link>https://blog.tlcsdm.com/design/icon/line.html</link>
       <guid>https://blog.tlcsdm.com/design/icon/line.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">线性图标设计</source>
-      <description>线性图标是所有图标中最基础的设计形式，也是最简单的入门。在我们后续设计其它的风格图标前，首先要通过练习线性图标来打下坚实的基础。 线性图标线性图标 设计注意事项 设计线性图标需要注意: 制图的规范性 图形的合理应用 只要图形的设计能达到这两个要求，才能在进一步的创作中施展拳脚。 线性图标的设计首先要确定图标的尺寸、描边的粗细和绘制图标的栅格系统，所以先...</description>
+      <description>线性图标是所有图标中最基础的设计形式，也是最简单的入门。在我们后续设计其它的风格图标前，首先要通过练习线性图标来打下坚实的基础。</description>
       <category>设计</category>
       <pubDate>Sun, 13 Sep 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>线性图标是所有图标中最基础的设计形式，也是最简单的入门。在我们后续设计其它的风格图标前，首先要通过练习线性图标来打下坚实的基础。</p>
@@ -1566,7 +1565,7 @@
       <link>https://blog.tlcsdm.com/design/icon/rule.html</link>
       <guid>https://blog.tlcsdm.com/design/icon/rule.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">图标设计准则</source>
-      <description>规范是图标设计的重点。 三种主要类型的图标三种主要类型的图标 表意的准确 第一部分已经介绍了图标的主要作用之一就是作为文字的替代品，具有明确的寓意。比如看见一个放大镜，大家会当成那是搜索；看见钥匙或者锁，大家就会理解成是密码。 下面这些图标，每一个指代的功能和寓意都是非常直白和清晰的。 寓意明确的图标寓意明确的图标 表达的寓意清晰，是图标最基本的要求，...</description>
+      <description>规范是图标设计的重点。</description>
       <category>设计</category>
       <pubDate>Tue, 15 Sep 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>规范是图标设计的重点。</p>
@@ -1737,7 +1736,7 @@
       <link>https://blog.tlcsdm.com/design/icon/software.html</link>
       <guid>https://blog.tlcsdm.com/design/icon/software.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">学习图标所需的软件</source>
-      <description>了解了图标的类型，就要开始了解做出这些图标应该使用哪些软件了。通常，UI 主要使用的设计软件包含 PS、AI、Sketch、XD 四款，理论上，它们都包含了图标绘制的功能，下面介绍这四款软件对于图标设计的优劣，以及需要掌握的部分。 使用软件使用软件 Sketch / XD 这两款软件是设计 UI 界面的主力。但大家一定要记得，它们主要的功能是用来完成 ...</description>
+      <description>了解了图标的类型，就要开始了解做出这些图标应该使用哪些软件了。通常，UI 主要使用的设计软件包含 PS、AI、Sketch、XD 四款，理论上，它们都包含了图标绘制的功能，下面介绍这四款软件对于图标设计的优劣，以及需要掌握的部分。</description>
       <category>设计</category>
       <pubDate>Sun, 13 Sep 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>了解了图标的类型，就要开始了解做出这些图标应该使用哪些软件了。通常，UI 主要使用的设计软件包含 PS、AI、Sketch、XD 四款，理论上，它们都包含了图标绘制的功能，下面介绍这四款软件对于图标设计的优劣，以及需要掌握的部分。</p>
@@ -1832,7 +1831,7 @@
       <link>https://blog.tlcsdm.com/design/icon/type.html</link>
       <guid>https://blog.tlcsdm.com/design/icon/type.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">图标种类</source>
-      <description>设计图标可以划分成三种大类: 工具图标 装饰图标 主体图标 下面将对它们分别进行介绍，以及展示相关的设计类型。 工具图标 工具图标是在日常讨论中提及最频繁的图标类型，即应用内有明确功能、提示含义的标识。 常见的工具图标常见的工具图标 虽然理解起来容易，但是它所包含的设计样式却并不少，可以把它们归纳成线性、面性两个大类，再分别进行细分。 线性风格 线性图...</description>
+      <description>设计图标可以划分成三种大类: 工具图标 装饰图标 主体图标 下面将对它们分别进行介绍，以及展示相关的设计类型。</description>
       <category>设计</category>
       <pubDate>Sun, 13 Sep 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>设计图标可以划分成三种大类:</p>
@@ -2453,81 +2452,6 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>后端开发</title>
-      <link>https://blog.tlcsdm.com/code/back-end/</link>
-      <guid>https://blog.tlcsdm.com/code/back-end/</guid>
-      <source url="https://blog.tlcsdm.com/rss.xml">后端开发</source>
-      <description>后端入门 注意 2023 年后端还是 Java 比较多 PHP PHP 是一种创建动态交互性站点的强有力的服务器端脚本语言，免费，并且使用非常广泛。PHP (全称 Hypertext Preprocessor，即超文本预处理器)是一种通用开源脚本语言。 PHP 手册: W3School 教程 菜鸟教程 如果服务器访问数量不大的情况下，PHP 作为一种门...</description>
-      <category>后端</category>
-      <pubDate>Tue, 10 Sep 2019 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h2>后端入门</h2>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>2023 年后端还是 Java 比较多</p>
-</div>
-<h3>PHP</h3>
-<p>PHP 是一种创建动态交互性站点的强有力的服务器端脚本语言，免费，并且使用非常广泛。PHP (全称 Hypertext Preprocessor，即超文本预处理器)是一种通用开源脚本语言。</p>
-<p>PHP 手册:</p>
-<ul>
-<li>
-<p><a href="http://www.w3school.com.cn/php/index.asp" target="_blank" rel="noopener noreferrer">W3School 教程</a></p>
-</li>
-<li>
-<p><a href="https://www.runoob.com/php/php-tutorial.html" target="_blank" rel="noopener noreferrer">菜鸟教程</a></p>
-</li>
-</ul>
-<p>如果服务器访问数量不大的情况下，PHP 作为一种门槛低，开发方便的脚本语言，还是挺受到欢迎的。</p>
-<h3>ASP</h3>
-<p>ASP 文件可包含文本、HTML 标签和脚本。ASP 文件中的脚本可在服务器上执行。由于 ASP 在服务器上运行，浏览器无需支持客户端脚本就可以显示 ASP 文件!</p>
-<ul>
-<li>
-<p><a href="http://www.w3school.com.cn/asp/index.asp" target="_blank" rel="noopener noreferrer">W3School 教程</a></p>
-</li>
-<li>
-<p><a href="https://www.runoob.com/asp/asp-tutorial.html" target="_blank" rel="noopener noreferrer">菜鸟教程</a></p>
-</li>
-</ul>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>更多详情有待日后补充</p>
-</div>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>操作系统</title>
-      <link>https://blog.tlcsdm.com/code/basic/os.html</link>
-      <guid>https://blog.tlcsdm.com/code/basic/os.html</guid>
-      <source url="https://blog.tlcsdm.com/rss.xml">操作系统</source>
-      <description>操作系统 (Operating System，OS) 是软件的一部分，它是硬件基础上的第一层软件，是硬件和其它软件沟通的桥梁(或者说接口、中间人、中介等)。 操作系统会控制其他程序运行，管理系统资源，提供最基本的计算功能，如管理及配置内存、决定系统资源供需的优先次序等，同时还提供一些基本的服务程序，例如: 文件系统 提供计算机存储信息的结构，信息存储在...</description>
-      <category>基础</category>
-      <pubDate>Thu, 26 Dec 2019 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>操作系统 (Operating System，OS) 是软件的一部分，它是硬件基础上的第一层软件，是硬件和其它软件沟通的桥梁(或者说接口、中间人、中介等)。</p>
-<!-- more -->
-<p>操作系统会控制其他程序运行，管理系统资源，提供最基本的计算功能，如管理及配置内存、决定系统资源供需的优先次序等，同时还提供一些基本的服务程序，例如:</p>
-<ol>
-<li>
-<p>文件系统</p>
-<p>提供计算机存储信息的结构，信息存储在文件中，文件主要存储在计算机的内部硬盘里，在目录的分层结构中组织文件。文件系统为操作系统提供了组织管理数据的方式。</p>
-</li>
-<li>
-<p>设备驱动程序</p>
-<p>提供连接计算机的每个硬件设备的接口，设备驱动器使程序能够写入设备，而不需要了解执行每个硬件的细节。简单来说，就是让您能吃到鸡蛋，但不用养一只鸡。</p>
-</li>
-<li>
-<p>用户接口</p>
-<p>操作系统需要为用户提供一种运行程序和访问文件系统的方法。如常用的 Windows 图形界面，可以理解为一种用户与操作系统交互的方式；智能手机的 Android 或 iOS 系统，也是一种操作系统的交互方式。</p>
-</li>
-<li>
-<p>系统服务程序</p>
-<p>当计算机启动时，会自启动许多系统服务程序，执行安装文件系统、启动网络服务、运行预定任务等操作。</p>
-</li>
-</ol>
-<p>打个比方，操作系统就好像是一个政府，其它软件都会被它管控；操作系统在给其他软件提供各种便利的同时，还会约束其他软件不能为所欲为。</p>
-<figure><figcaption>操作系统结构示意图</figcaption></figure>
-<p>目前流行的服务器和 PC 端操作系统有 Linux、Windows、UNIX 等，手机操作系统有 Android、iOS，嵌入式操作系统有 Windows CE、PalmOS、eCos、uClinux 等。</p>
-]]></content:encoded>
-    </item>
-    <item>
       <title></title>
       <link>https://blog.tlcsdm.com/code/windows/developers.html</link>
       <guid>https://blog.tlcsdm.com/code/windows/developers.html</guid>
@@ -2846,7 +2770,7 @@ expr: 非整数参数
       <link>https://blog.tlcsdm.com/linux/bash/array.html</link>
       <guid>https://blog.tlcsdm.com/linux/bash/array.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">数组</source>
-      <description>数组(array)是一个包含多个值的变量。成员的编号从 0 开始，数量没有上限，也没有要求成员被连续索引。 创建数组 数组可以采用逐个赋值的方法创建。 上面语法中，ARRAY 是数组的名字，可以是任意合法的变量名。INDEX 是一个大于或等于零的整数，也可以是算术表达式。注意数组第一个元素的下标是 0， 而不是 1。 下面创建一个三个成员的数组。 数组...</description>
+      <description>数组(array)是一个包含多个值的变量。成员的编号从 0 开始，数量没有上限，也没有要求成员被连续索引。</description>
       <category>Linux</category>
       <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>数组(array)是一个包含多个值的变量。成员的编号从 0 开始，数量没有上限，也没有要求成员被连续索引。</p>
@@ -3075,7 +2999,7 @@ colors<span class="token punctuation">[</span><span class="token string">"blue"<
       <link>https://blog.tlcsdm.com/linux/bash/condition.html</link>
       <guid>https://blog.tlcsdm.com/linux/bash/condition.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">条件判断</source>
-      <description>本章介绍 Bash 脚本的条件判断语法。 if 结构 if 是最常用的条件判断结构，只有符合给定条件时，才会执行指定的命令。它的语法如下。 这个命令分成三个部分: if、elif 和 else。其中，后两个部分是可选的。 if 关键字后面是主要的判断条件，elif 用来添加在主条件不成立时的其他判断条件，else 则是所有条件都不成立时要执行的部分。 ...</description>
+      <description>本章介绍 Bash 脚本的条件判断语法。</description>
       <category>Linux</category>
       <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>本章介绍 Bash 脚本的条件判断语法。</p>
@@ -3531,7 +3455,7 @@ Type a character <span class="token operator">&gt;</span> a
       <link>https://blog.tlcsdm.com/linux/bash/debug.html</link>
       <guid>https://blog.tlcsdm.com/linux/bash/debug.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">脚本除错</source>
-      <description>本章介绍如何对 Shell 脚本除错。 常见错误 编写 Shell 脚本的时候，一定要考虑到命令失败的情况，否则很容易出错。 上面脚本中，如果目录 $dir_name 不存在，cd $dir_name 命令就会执行失败。这时，就不会改变当前目录，脚本会继续执行下去，导致 rm * 命令删光当前目录的文件。 如果改成下面的样子，也会有问题。 上面脚本中，...</description>
+      <description>本章介绍如何对 Shell 脚本除错。</description>
       <category>Linux</category>
       <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>本章介绍如何对 Shell 脚本除错。</p>
@@ -4150,7 +4074,7 @@ a.txt  sub1/b.txt  sub1/sub2/c.txt
       <link>https://blog.tlcsdm.com/linux/bash/function.html</link>
       <guid>https://blog.tlcsdm.com/linux/bash/function.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">Bash 函数</source>
-      <description>本章介绍 Bash 函数的用法。 简介 函数(function)是可以重复使用的代码片段，有利于代码的复用。它与别名(alias)的区别是，别名只适合封装简单的单个命令，函数则可以封装复杂的多行命令。 函数总是在当前 Shell 执行，这是跟脚本的一个重大区别，Bash 会新建一个子 Shell 执行脚本。如果函数与脚本同名，函数会优先执行。但是，函数...</description>
+      <description>本章介绍 Bash 函数的用法。</description>
       <category>Linux</category>
       <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>本章介绍 Bash 函数的用法。</p>
@@ -4290,7 +4214,7 @@ global: foo <span class="token operator">=</span>
       <link>https://blog.tlcsdm.com/linux/bash/grammar.html</link>
       <guid>https://blog.tlcsdm.com/linux/bash/grammar.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">Bash 的基本语法</source>
-      <description>本章介绍 Bash 的最基本语法。 echo 命令 由于后面的例子会大量用到 echo 命令，这里先介绍这个命令。 echo 命令的作用是在屏幕输出一行文本，可以将该命令的参数原样输出。 上面例子中，echo 的参数是 hello world，可以原样输出。 如果想要输出的是多行文本，即包括换行符。这时需要把多行文本放在引号里面。 上面例子中，echo...</description>
+      <description>本章介绍 Bash 的最基本语法。</description>
       <category>Linux</category>
       <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>本章介绍 Bash 的最基本语法。</p>
@@ -4427,7 +4351,7 @@ keyword
       <link>https://blog.tlcsdm.com/linux/bash/intro.html</link>
       <guid>https://blog.tlcsdm.com/linux/bash/intro.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">Bash 简介</source>
-      <description>Bash 是 Unix 系统和 Linux 系统的一种 Shell(命令行环境)，是目前绝大多数 Linux 发行版的默认 Shell。 Shell 的含义 学习 Bash，首先需要理解 Shell 是什么。Shell 这个单词的原意是“外壳”，跟 kernel(内核)相对应，比喻内核外面的一层，即用户跟内核交互的对话界面。 具体来说，Shell 这个...</description>
+      <description>Bash 是 Unix 系统和 Linux 系统的一种 Shell(命令行环境)，是目前绝大多数 Linux 发行版的默认 Shell。</description>
       <category>Linux</category>
       <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Bash 是 Unix 系统和 Linux 系统的一种 Shell(命令行环境)，是目前绝大多数 Linux 发行版的默认 Shell。</p>
@@ -4511,7 +4435,7 @@ $ <span class="token builtin class-name">echo</span> <span class="token environm
       <link>https://blog.tlcsdm.com/linux/bash/loop.html</link>
       <guid>https://blog.tlcsdm.com/linux/bash/loop.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">循环</source>
-      <description>Bash 提供三种循环语法 for、while 和 until。 while 循环 while 循环有一个判断条件，只要符合条件，就不断循环执行指定的语句。 上面代码中，只要满足条件 condition，就会执行命令 commands。然后，再次判断是否满足条件 condition，只要满足，就会一直执行下去。只有不满足条件，才会退出循环。 循环条件 ...</description>
+      <description>Bash 提供三种循环语法 for、while 和 until。</description>
       <category>Linux</category>
       <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Bash 提供三种循环语法 <code>for</code>、<code>while</code> 和 <code>until</code>。</p>
@@ -4742,7 +4666,7 @@ Hi, <span class="token keyword">until</span> looping <span class="token punctuat
       <link>https://blog.tlcsdm.com/linux/bash/mktemp.html</link>
       <guid>https://blog.tlcsdm.com/linux/bash/mktemp.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">mktemp 命令，trap 命令</source>
-      <description>Bash 脚本有时需要创建临时文件或临时目录。常见的做法是，在 /tmp 目录里面创建文件或目录，这样做有很多弊端，使用 mktemp 命令是最安全的做法。 临时文件的安全问题 直接创建临时文件，尤其在 /tmp 目录里面，往往会导致安全问题。 首先，/tmp 目录是所有人可读写的，任何用户都可以往该目录里面写文件。创建的临时文件也是所有人可读的。 上...</description>
+      <description>Bash 脚本有时需要创建临时文件或临时目录。常见的做法是，在 /tmp 目录里面创建文件或目录，这样做有很多弊端，使用 mktemp 命令是最安全的做法。</description>
       <category>Linux</category>
       <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Bash 脚本有时需要创建临时文件或临时目录。常见的做法是，在 <code>/tmp</code> 目录里面创建文件或目录，这样做有很多弊端，使用 <code>mktemp</code> 命令是最安全的做法。</p>
@@ -4780,7 +4704,7 @@ $ <span class="token function">ls</span> <span class="token parameter variable">
       <link>https://blog.tlcsdm.com/linux/bash/prompt.html</link>
       <guid>https://blog.tlcsdm.com/linux/bash/prompt.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">命令提示符</source>
-      <description>用户进入 Bash 以后，Bash 会显示一个命令提示符，用来提示用户在该位置后面输入命令。 环境变量 PS1 命令提示符通常是美元符号 $，对于根用户则是井号 #。这个符号是环境变量 PS1 决定的，执行下面的命令，可以看到当前命令提示符的定义。 Bash 允许用户自定义命令提示符，只要改写这个变量即可。改写后 的 PS1，可以放在用户的 Bash ...</description>
+      <description>用户进入 Bash 以后，Bash 会显示一个命令提示符，用来提示用户在该位置后面输入命令。</description>
       <category>Linux</category>
       <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>用户进入 Bash 以后，Bash 会显示一个命令提示符，用来提示用户在该位置后面输入命令。</p>
@@ -4885,7 +4809,7 @@ hello world
       <link>https://blog.tlcsdm.com/linux/bash/quotation.html</link>
       <guid>https://blog.tlcsdm.com/linux/bash/quotation.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">引号和转义</source>
-      <description>Bash 只有一种数据类型，就是字符串。不管用户输入什么数据，Bash 都视为字符串。因此，字符串相关的引号和转义，对 Bash 来说就非常重要。 转义 某些字符在 Bash 里面有特殊含义(比如$、&amp;、*)。 上面例子中，输出 $date 不会有任何结果，因为 $ 是一个特殊字符。 如果想要原样输出这些特殊字符，就必须在它们前面加上反斜杠，使其变成普...</description>
+      <description>Bash 只有一种数据类型，就是字符串。不管用户输入什么数据，Bash 都视为字符串。因此，字符串相关的引号和转义，对 Bash 来说就非常重要。</description>
       <category>Linux</category>
       <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Bash 只有一种数据类型，就是字符串。不管用户输入什么数据，Bash 都视为字符串。因此，字符串相关的引号和转义，对 Bash 来说就非常重要。</p>
@@ -5396,7 +5320,7 @@ $ <span class="token function">history</span>
       <link>https://blog.tlcsdm.com/linux/bash/script.html</link>
       <guid>https://blog.tlcsdm.com/linux/bash/script.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">Bash 脚本入门</source>
-      <description>脚本(script)就是包含一系列命令的一个文本文件。Shell 读取这个文件，依次执行里面的所有命令，就好像这些命令直接输入到命令行一样。所有能够在命令行完成的任务，都能够用脚本完成。 脚本的好处是可以重复使用，也可以指定在特定场合自动调用，比如系统启动或关闭时自动执行脚本。 Shebang 行 脚本的第一行通常是指定解释器，即这个脚本必须通过什么解...</description>
+      <description>脚本(script)就是包含一系列命令的一个文本文件。Shell 读取这个文件，依次执行里面的所有命令，就好像这些命令直接输入到命令行一样。所有能够在命令行完成的任务，都能够用脚本完成。 脚本的好处是可以重复使用，也可以指定在特定场合自动调用，比如系统启动或关闭时自动执行脚本。</description>
       <category>Linux</category>
       <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>脚本(script)就是包含一系列命令的一个文本文件。Shell 读取这个文件，依次执行里面的所有命令，就好像这些命令直接输入到命令行一样。所有能够在命令行完成的任务，都能够用脚本完成。</p>
@@ -5662,7 +5586,7 @@ It says: hello world
       <link>https://blog.tlcsdm.com/linux/bash/set.html</link>
       <guid>https://blog.tlcsdm.com/linux/bash/set.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">set 命令</source>
-      <description>set 命令是 Bash 脚本的重要环节，却常常被忽视，导致脚本的安全性和可维护性出问题。本章介绍 set 的基本用法，帮助您写出更安全的 Bash 脚本。 简介 我们知道，Bash 执行脚本时，会创建一个子 Shell。 上面代码中，script.sh 是在一个子 Shell 里面执行。这个子 Shell 就是脚本的执行环境，Bash 默认给定了这个...</description>
+      <description>set 命令是 Bash 脚本的重要环节，却常常被忽视，导致脚本的安全性和可维护性出问题。本章介绍 set 的基本用法，帮助您写出更安全的 Bash 脚本。</description>
       <category>Linux</category>
       <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p><code>set</code> 命令是 Bash 脚本的重要环节，却常常被忽视，导致脚本的安全性和可维护性出问题。本章介绍 <code>set</code> 的基本用法，帮助您写出更安全的 Bash 脚本。</p>
@@ -5868,7 +5792,7 @@ $ <span class="token builtin class-name">echo</span> <span class="token variable
       <link>https://blog.tlcsdm.com/linux/bash/stack.html</link>
       <guid>https://blog.tlcsdm.com/linux/bash/stack.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">目录堆栈</source>
-      <description>为了方便用户在不同目录之间切换，Bash 提供了目录堆栈功能。 cd - Bash 可以记忆用户进入过的目录。默认情况下，只记忆前一次所在的目录，cd - 命令可以返回前一次的目录。 上面例子中，用户原来所在的目录是 /path/to/foo，进入子目录 bar 以后，使用 cd - 可以回到原来的目录。 pushd，popd 如果希望记忆多重目录，可...</description>
+      <description>为了方便用户在不同目录之间切换，Bash 提供了目录堆栈功能。</description>
       <category>Linux</category>
       <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>为了方便用户在不同目录之间切换，Bash 提供了目录堆栈功能。</p>
@@ -6036,7 +5960,7 @@ $ <span class="token function">popd</span> <span class="token parameter variable
       <link>https://blog.tlcsdm.com/linux/bash/string.html</link>
       <guid>https://blog.tlcsdm.com/linux/bash/string.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">字符串操作</source>
-      <description>本章介绍 Bash 字符串操作的语法。 字符串的长度 获取字符串长度的语法如下。 下面是一个例子。 大括号 {} 是必需的，否则 Bash 会将 $# 理解成脚本的参数个数，将变量名理解成文本。 上面例子中，Bash 将 $# 和 myvar 分开解释了。 子字符串 字符串提取子串的语法如下。 上面语法的含义是返回变量 $varname 的子字符串，从...</description>
+      <description>本章介绍 Bash 字符串操作的语法。</description>
       <category>Linux</category>
       <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>本章介绍 Bash 字符串操作的语法。</p>
@@ -6230,7 +6154,7 @@ hello
       <link>https://blog.tlcsdm.com/linux/bash/variable.html</link>
       <guid>https://blog.tlcsdm.com/linux/bash/variable.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">Bash 变量</source>
-      <description>Bash 变量分成环境变量和自定义变量两类。 简介 环境变量是 Bash 环境自带的变量，进入 Shell 时已经定义好了，可以直接使用。它们通常是系统定义好的，也可以由用户从父 Shell 传入子 Shell。 env 命令或 printenv 命令，可以显示所有环境变量。 下面是一些常见的环境变量。 BASHPID: Bash 进程的进程 ID。 ...</description>
+      <description>Bash 变量分成环境变量和自定义变量两类。</description>
       <category>Linux</category>
       <pubDate>Mon, 04 May 2020 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Bash 变量分成环境变量和自定义变量两类。</p>
@@ -6814,7 +6738,7 @@ anaconda-ks.cfg install.log install.log.syslog
       <link>https://blog.tlcsdm.com/linux/command/ln.html</link>
       <guid>https://blog.tlcsdm.com/linux/command/ln.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">链接</source>
-      <description>建立硬链接和软链接非常简单，那这两种链接有什么区别? 它们都有什么作用? 这才是链接文件最不容易理解的地方，我们分别来讲讲。 ln 创建硬链接 我们再来建立一个硬链接文件，然后看看这两个文件的特点。 这里有一件很奇怪的事情，我们之前在讲 inode 号的时候说过，每个文件的 inode 号都应该是不一样的。inode 号就相当于文件 ID，我们在查找文...</description>
+      <description>建立硬链接和软链接非常简单，那这两种链接有什么区别? 它们都有什么作用? 这才是链接文件最不容易理解的地方，我们分别来讲讲。</description>
       <category>Linux</category>
       <pubDate>Wed, 20 Nov 2019 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>建立硬链接和软链接非常简单，那这两种链接有什么区别? 它们都有什么作用? 这才是链接文件最不容易理解的地方，我们分别来讲讲。</p>
@@ -7577,7 +7501,7 @@ Linux 系统有良好的可移植性，它几乎支持所有的 CPU 平台，这
       <link>https://blog.tlcsdm.com/linux/intro/language.html</link>
       <guid>https://blog.tlcsdm.com/linux/intro/language.html</guid>
       <source url="https://blog.tlcsdm.com/rss.xml">语言</source>
-      <description>Linux 中大量使用脚本语言，而不是 C 语言! 说到在 Linux 下的编程，很多人会想到用 C 语言，Linux 的内核、shell、基础命令程序，也的确是用 C 语言编写的，这首先证明了一点，C 语言很强很通用。 到目前为止，C 语言依然垄断着计算机工业中几乎所有的系统编程，而且也正因为是 C 语言，才使得 Unix 以及后来的 Linux 能...</description>
+      <description>Linux 中大量使用脚本语言，而不是 C 语言!</description>
       <category>Linux</category>
       <pubDate>Sat, 16 Nov 2019 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Linux 中大量使用脚本语言，而不是 C 语言!</p>
@@ -8121,6 +8045,138 @@ mysql <span class="token parameter variable">-u</span> root <span class="token p
 <p>只有寸寸重叠的光阴，</p>
 <p>在岁月的花篮中繁花锦簇，</p>
 <p>唯美，而忧伤。</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>秋之思【十八】</title>
+      <link>https://blog.tlcsdm.com/note/fall/18.html</link>
+      <guid>https://blog.tlcsdm.com/note/fall/18.html</guid>
+      <source url="https://blog.tlcsdm.com/rss.xml">秋之思【十八】</source>
+      <description>秋之思【十八】 又是一年匆匆， 走过了春的明媚， 走过了夏的繁盛， 还没来得及多想， 刚一转身， 便又与秋不期而遇。 不知不觉间， 时光婉转，岁月安然； 与高二分别，和高三见面。 是的， 累了，忙了，压力也大了， 但仍我仍然渴望， 那些在学习的空余间， 用自己的笔尖， 将生活的诗意书写于纸面， 寄托对逝去的同窗时光的思念。 面对婉约的春，活泼的夏， 也...</description>
+      <category>随笔</category>
+      <pubDate>Tue, 08 Sep 2015 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div style="text-align:center">
+<p>又是一年匆匆，</p>
+<p>走过了春的明媚，</p>
+<p>走过了夏的繁盛，</p>
+<p>还没来得及多想，</p>
+<p>刚一转身，</p>
+<p>便又与秋不期而遇。</p>
+<p>不知不觉间，</p>
+<p>时光婉转，岁月安然；</p>
+<p>与高二分别，和高三见面。</p>
+<p>是的，</p>
+<p>累了，忙了，压力也大了，</p>
+<p>但仍我仍然渴望，</p>
+<p>那些在学习的空余间，</p>
+<p>用自己的笔尖，</p>
+<p>将生活的诗意书写于纸面，</p>
+<p>寄托对逝去的同窗时光的思念。</p>
+<p>面对婉约的春，活泼的夏，</p>
+<p>也许我并没有太多感触，</p>
+<p>笔，总是拿起而又放下。</p>
+<p>而每每遇见秋，</p>
+<p>就犹如故人归，</p>
+<p>不需要过多的寒喧，</p>
+<p>而就像有些喜欢，</p>
+<p>只是一眼，便会妥帖在心里。</p>
+<p>静静端坐于时光的门槛，</p>
+<p>看一片落叶点缀了秋色，</p>
+<p>见一畦清露渲染了秋凉，</p>
+<p>一季落花飘进秋的门扉，</p>
+<p>那被吹散在风中的落叶，</p>
+<p>还在与何人，喃喃私语?</p>
+<p>终是沉寂了，</p>
+<p>经过了夏的盛放，</p>
+<p>走进了秋的萧索，</p>
+<p>有些遇见是繁华的，</p>
+<p>而有些碰面亦会有寂寥。</p>
+<p>时光给予我们一个姹紫嫣红的相逢，</p>
+<p>却为我们留下一个风轻云淡的背影，</p>
+<p>也许唯有那些花开的记忆，</p>
+<p>才是永恒不变的芬芳。</p>
+<p>以前写文，</p>
+<p>喜欢用些华丽的词语，</p>
+<p>来装饰要写的人或事，</p>
+<p>注重美感与诗意。</p>
+<p>而现在，</p>
+<p>我只想用平实的语言，</p>
+<p>去书写一份简单。</p>
+<p>其实生活也是同样，</p>
+<p>无论曾经多么繁华，</p>
+<p>都会回归简单的，</p>
+<p>就如这安静的秋，</p>
+<p>虽没有了姹紫嫣红的艳丽，</p>
+<p>却有着成熟的况味和美感。</p>
+</div>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>秋之思【十九】</title>
+      <link>https://blog.tlcsdm.com/note/fall/19.html</link>
+      <guid>https://blog.tlcsdm.com/note/fall/19.html</guid>
+      <source url="https://blog.tlcsdm.com/rss.xml">秋之思【十九】</source>
+      <description>秋之思【十九】 我爱秋的明媚， 也爱秋的静美， 秋是温婉的， 如院子里桂花的芬芳； 秋是明净的， 如白云悠悠的天空； 秋是深邃的， 如清晨波光淡影的湖面。 抬头， 于秋阳中仰望天空， 一朵悄然而过的流云， 遮住暖暖的光线， 远处，山，水，云，树 仿佛重叠在视线中， 天高，云淡， 伴着我一颗纯净无尘的秋心。 秋风中， 校园里银杏树的叶子 在秋风中刚刚泛黄...</description>
+      <category>随笔</category>
+      <pubDate>Wed, 09 Sep 2015 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<div style="text-align:center">
+<p>我爱秋的明媚，</p>
+<p>也爱秋的静美，</p>
+<p>秋是温婉的，</p>
+<p>如院子里桂花的芬芳；</p>
+<p>秋是明净的，</p>
+<p>如白云悠悠的天空；</p>
+<p>秋是深邃的，</p>
+<p>如清晨波光淡影的湖面。</p>
+<p>抬头，</p>
+<p>于秋阳中仰望天空，</p>
+<p>一朵悄然而过的流云，</p>
+<p>遮住暖暖的光线，</p>
+<p>远处，山，水，云，树</p>
+<p>仿佛重叠在视线中，</p>
+<p>天高，云淡，</p>
+<p>伴着我一颗纯净无尘的秋心。</p>
+<p>秋风中，</p>
+<p>校园里银杏树的叶子</p>
+<p>在秋风中刚刚泛黄，</p>
+<p>比起那些枝繁叶茂的深绿，</p>
+<p>更显得有韵味。</p>
+<p>其实我觉得，</p>
+<p>一树风景足以影映四季，</p>
+<p>从萌芽到初绽，</p>
+<p>再到繁盛和枯落，</p>
+<p>途经的是从荣到枯的过程，</p>
+<p>也是一种生命沉淀的美丽。</p>
+<p>喜欢那句:</p>
+<p>生活不是浮在纸上的华丽，而是沉在书中的寂静，谁能数载春风不落? 终是要收敛的，相信能够隐忍的种种都是生命的花朵，给花一份温柔，又何尝不是给自己一
+缕明媚?</p>
+<p>一直以低温的姿态，</p>
+<p>前行于尘世间，</p>
+<p>听风轻吟，</p>
+<p>观雨潇潇，</p>
+<p>不求热烈，</p>
+<p>只求安恬。</p>
+<p>读书，</p>
+<p>书里含香，</p>
+<p>字里有情，</p>
+<p>喝茶，</p>
+<p>半杯是安暖，</p>
+<p>半杯是清凉。</p>
+<p>总是以为，</p>
+<p>最好的懂得会在文字间，</p>
+<p>于是喜欢将那些</p>
+<p>打马而过的往事，</p>
+<p>曾经的山长水阔，</p>
+<p>于文字中倾诉。</p>
+<p>可终有一天，</p>
+<p>素笺上的小字会旧，</p>
+<p>豆蒄上的相思会开老，</p>
+<p>唯剩下一朵寂寞的字符，</p>
+<p>就如经过一场盛大的狂欢之后，</p>
+<p>便是长长的寂廖。</p>
 </div>
 ]]></content:encoded>
     </item>
