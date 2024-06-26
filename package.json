@@ -36,7 +36,7 @@
     "@vuepress/plugin-docsearch": "2.0.0-rc.28",
     "@vuepress/plugin-feed": "2.0.0-rc.28",
     "@vuepress/plugin-pwa": "2.0.0-rc.28",
-    "@waline/client": "3.2.4",
+    "@waline/client": "3.2.6",
     "cross-env": "7.0.3",
     "flowchart.ts": "3.0.0",
     "markdownlint-cli2": "0.13.0",
