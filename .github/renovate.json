@@ -1,4 +1,6 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base"]
+  "semanticCommits": true,
+  "semanticCommitScope": "renovate",
+  "extends": ["config:base"],
+  "enabledManagers": ["npm"]
 }
