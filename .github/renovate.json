@@ -1,5 +1,6 @@
 {
   "semanticCommits": true,
+  "semanticCommitScope": "renovate",
   "extends": ["config:base"],
   "enabledManagers": ["npm"]
 }
