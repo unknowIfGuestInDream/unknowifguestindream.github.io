@@ -114,20 +114,23 @@ export default hopeTheme(
         json: true,
         rss: true,
       },
+      markdownImage: {
+            figure: true,
+            lazyload: true,
+            mark: true,
+            size: true,
+        },
+      markdownMath: {
+            type: "mathjax",
+        },
+      markdownTab: true,
 
       mdEnhance: {
         align: true,
-        codetabs: true,
         demo: true,
-        figure: true,
         flowchart: true,
         footnote: true,
-        imgLazyload: true,
-        imgMark: true,
-        imgSize: true,
-        mathjax: true,
         mermaid: true,
-        revealJs: true,
         sub: true,
         sup: true,
         vPre: true,
@@ -234,6 +237,14 @@ export default hopeTheme(
           ],
         },
       },
+      shiki: {
+        lineNumbers: 10,
+        langAlias: {
+          conf: "ini",
+        },
+      },
+
+      revealjs: true,
     },
   },
   false,
