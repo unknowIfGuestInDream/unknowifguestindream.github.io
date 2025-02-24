@@ -6,8 +6,8 @@
     <link>https://blog.tlcsdm.com/</link>
     <description>梦里不知身是客的博客</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 17 Feb 2025 00:50:10 GMT</pubDate>
-    <lastBuildDate>Mon, 17 Feb 2025 00:50:10 GMT</lastBuildDate>
+    <pubDate>Mon, 24 Feb 2025 12:38:47 GMT</pubDate>
+    <lastBuildDate>Mon, 24 Feb 2025 12:38:47 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <copyright>unknowIfGuestInDream © 2024</copyright>
@@ -533,6 +533,41 @@
 </li>
 </ul>
 ]]></content:encoded>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blog.tlcsdm.com/code/windows/developers.html</link>
+      <guid>https://blog.tlcsdm.com/code/windows/developers.html</guid>
+      <source url="https://blog.tlcsdm.com/rss.xml"></source>
+      <description>title: Windows 开发 icon: windows category: 基础 tag: 开发 Windows 本文主要介绍 Windows 11 系统下，与开发相关的功能。 WSL WSL 是 Windows Subsystem for Linux 的缩写，即 Windows 的 Linux 子系统。Windows 11 支持 WSL2，同...</description>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>环境变量</title>
+      <link>https://blog.tlcsdm.com/code/windows/env-variable.html</link>
+      <guid>https://blog.tlcsdm.com/code/windows/env-variable.html</guid>
+      <source url="https://blog.tlcsdm.com/rss.xml">环境变量</source>
+      <description>以 Windows 10 系统为例，直接在左下角搜索栏中输入“系统变量” 搜索搜索 在弹出的框中点击环境变量 系统变量系统变量 如果你需要添加环境变量，直接添加即可。 如果你只是希望添加到 Path，在弹出的新窗口中找到 path，选中并点击编辑 系统变量系统变量 点击添加输入想要添加到 path 的路径或者执行文件名即可 系统变量系统变量</description>
+      <category>基础</category>
+      <pubDate>Sun, 08 Sep 2019 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>以 Windows 10 系统为例，直接在左下角搜索栏中输入“系统变量”</p>
+<figure><figcaption>搜索</figcaption></figure>
+<p>在弹出的框中点击环境变量</p>
+<figure><figcaption>系统变量</figcaption></figure>
+<p>如果你需要添加环境变量，直接添加即可。</p>
+<p>如果你只是希望添加到 Path，在弹出的新窗口中找到 path，选中并点击编辑</p>
+<figure><figcaption>系统变量</figcaption></figure>
+<p>点击添加输入想要添加到 path 的路径或者执行文件名即可</p>
+<figure><figcaption>系统变量</figcaption></figure>
+]]></content:encoded>
+    </item>
+    <item>
+      <title></title>
+      <link>https://blog.tlcsdm.com/code/windows/version.html</link>
+      <guid>https://blog.tlcsdm.com/code/windows/version.html</guid>
+      <source url="https://blog.tlcsdm.com/rss.xml"></source>
+      <description>title: Windows 版本 icon: windows category: 基础 tag: Windows 简介 Microsoft Windows 操作系统是美国微软公司研发的一套操作系统，它问世于 1985 年，起初仅仅是 Microsoft-DOS 模拟环境，后续的系统版本由于微软不断的更新升级，不但易用，也当前应用最广泛的操作系统。 W...</description>
+      <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>设计文章</title>
@@ -2450,41 +2485,6 @@
 <p>当然有，当您的主功能超过 5 个又一定要使用标签导航的话，那知乎的这个解决方案很适合您(最右边的功能是“更多”)。</p>
 <p>还有一类情况是:主功能是标签导航，次要功能也是标签导航。这些在资讯 APP 是很常见的，比如主功能是“新闻”，次要功能是顶部的“要闻”、“NBA”等等，如果在某个主功能中，次要功能很多，就可以使用这类方式来解决这个问题。</p>
 ]]></content:encoded>
-    </item>
-    <item>
-      <title></title>
-      <link>https://blog.tlcsdm.com/code/windows/developers.html</link>
-      <guid>https://blog.tlcsdm.com/code/windows/developers.html</guid>
-      <source url="https://blog.tlcsdm.com/rss.xml"></source>
-      <description>title: Windows 开发 icon: windows category: 基础 tag: 开发 Windows 本文主要介绍 Windows 11 系统下，与开发相关的功能。 WSL WSL 是 Windows Subsystem for Linux 的缩写，即 Windows 的 Linux 子系统。Windows 11 支持 WSL2，同...</description>
-      <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
-    </item>
-    <item>
-      <title>环境变量</title>
-      <link>https://blog.tlcsdm.com/code/windows/env-variable.html</link>
-      <guid>https://blog.tlcsdm.com/code/windows/env-variable.html</guid>
-      <source url="https://blog.tlcsdm.com/rss.xml">环境变量</source>
-      <description>以 Windows 10 系统为例，直接在左下角搜索栏中输入“系统变量” 搜索搜索 在弹出的框中点击环境变量 系统变量系统变量 如果你需要添加环境变量，直接添加即可。 如果你只是希望添加到 Path，在弹出的新窗口中找到 path，选中并点击编辑 系统变量系统变量 点击添加输入想要添加到 path 的路径或者执行文件名即可 系统变量系统变量</description>
-      <category>基础</category>
-      <pubDate>Sun, 08 Sep 2019 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>以 Windows 10 系统为例，直接在左下角搜索栏中输入“系统变量”</p>
-<figure><figcaption>搜索</figcaption></figure>
-<p>在弹出的框中点击环境变量</p>
-<figure><figcaption>系统变量</figcaption></figure>
-<p>如果你需要添加环境变量，直接添加即可。</p>
-<p>如果你只是希望添加到 Path，在弹出的新窗口中找到 path，选中并点击编辑</p>
-<figure><figcaption>系统变量</figcaption></figure>
-<p>点击添加输入想要添加到 path 的路径或者执行文件名即可</p>
-<figure><figcaption>系统变量</figcaption></figure>
-]]></content:encoded>
-    </item>
-    <item>
-      <title></title>
-      <link>https://blog.tlcsdm.com/code/windows/version.html</link>
-      <guid>https://blog.tlcsdm.com/code/windows/version.html</guid>
-      <source url="https://blog.tlcsdm.com/rss.xml"></source>
-      <description>title: Windows 版本 icon: windows category: 基础 tag: Windows 简介 Microsoft Windows 操作系统是美国微软公司研发的一套操作系统，它问世于 1985 年，起初仅仅是 Microsoft-DOS 模拟环境，后续的系统版本由于微软不断的更新升级，不但易用，也当前应用最广泛的操作系统。 W...</description>
-      <pubDate>Sat, 03 Feb 2024 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Bash 教程</title>
