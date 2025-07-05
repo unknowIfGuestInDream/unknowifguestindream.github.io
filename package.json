@@ -41,7 +41,7 @@
     "flowchart.ts": "3.0.1",
     "markdownlint-cli2": "0.17.2",
     "mathjax-full": "3.2.2",
-    "mermaid": "11.7.0",
+    "mermaid": "11.8.0",
     "prettier": "3.6.2",
     "reveal.js": "5.2.1",
     "sass-loader": "14.2.1",
