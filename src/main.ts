@@ -3,7 +3,8 @@ import profile from "./data/profile.json";
 import eclipsePlugins from "./data/eclipse-plugins.json";
 import vscodeExtensions from "./data/vscode-extensions.json";
 import projectsDesktop from "./data/projects-desktop.json";
-import projectsOther from "./data/projects-other.json";
+import projectsWeb from "./data/projects-web.json";
+import projectsOthers from "./data/projects-others.json";
 
 /* -------------------------------------------------------------------------- */
 /* Types                                                                      */
@@ -265,7 +266,8 @@ const renderPage = (): string => `
       vscodeExtensions as RepoCard[],
       [
         ...(projectsDesktop as ProjectCard[]),
-        ...(projectsOther as ProjectCard[]),
+        ...(projectsWeb as ProjectCard[]),
+        ...(projectsOthers as ProjectCard[]),
       ],
     )}
     ${renderModule(
@@ -285,8 +287,14 @@ const renderPage = (): string => `
       true,
     )}
     ${renderModule(
-      "Web / Tools / Others",
-      projectsOther as ProjectCard[],
+      "Web / Tools",
+      projectsWeb as ProjectCard[],
+      renderProjectCard,
+      true,
+    )}
+    ${renderModule(
+      "Others",
+      projectsOthers as ProjectCard[],
       renderProjectCard,
       true,
     )}
