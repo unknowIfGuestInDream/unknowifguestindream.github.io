@@ -1,0 +1,98 @@
+[
+  {
+    "name": "eclipse-maven-view",
+    "description": "A plug-in that recreates IntelliJ IDEA's Maven View for Eclipse.",
+    "stars": 3,
+    "repo": "tlcsdm/eclipse-maven-view"
+  },
+  {
+    "name": "eclipse-translation",
+    "description": "Eclipse plugin for translation.",
+    "stars": 2,
+    "repo": "tlcsdm/eclipse-translation"
+  },
+  {
+    "name": "eclipse-iconpreview",
+    "description": "Lightweight plugin to preview image files in the Eclipse Package Explorer.",
+    "stars": 2,
+    "repo": "tlcsdm/eclipse-iconpreview"
+  },
+  {
+    "name": "eclipse-openexplorer",
+    "description": "Open the selected resource in the system file explorer.",
+    "stars": 1,
+    "repo": "tlcsdm/eclipse-openexplorer"
+  },
+  {
+    "name": "eclipse-copyright",
+    "description": "Copyright header generator for Eclipse (forked from Eclipse-Copyright-Generator).",
+    "stars": 1,
+    "repo": "tlcsdm/eclipse-copyright"
+  },
+  {
+    "name": "eclipse-multicursor",
+    "description": "Multiple cursor support for the Eclipse IDE.",
+    "stars": 1,
+    "repo": "tlcsdm/eclipse-multicursor"
+  },
+  {
+    "name": "eclipse-renesas-config-editor",
+    "description": "Registers Renesas project files (.mtpj / .scfg / .ewp) with Eclipse's XML editor.",
+    "stars": 1,
+    "repo": "tlcsdm/eclipse-renesas-config-editor"
+  },
+  {
+    "name": "eclipse-fullscreen",
+    "description": "Make Eclipse go fullscreen to save screen space.",
+    "stars": 1,
+    "repo": "tlcsdm/eclipse-fullscreen"
+  },
+  {
+    "name": "eclipse-autofill-arguments",
+    "description": "Guess call parameters by the callee parameter names.",
+    "stars": 1,
+    "repo": "tlcsdm/eclipse-autofill-arguments"
+  },
+  {
+    "name": "eclipse-generateAllSetter",
+    "description": "Generate calls to every setter of a class in one action.",
+    "stars": 1,
+    "repo": "tlcsdm/eclipse-generateAllSetter"
+  },
+  {
+    "name": "eclipse-method-sorter",
+    "description": "Sort Java class methods to improve source code readability.",
+    "stars": 1,
+    "repo": "tlcsdm/eclipse-method-sorter"
+  },
+  {
+    "name": "eclipse-fixcnchar",
+    "description": "Automatically replace full-width Chinese punctuation with half-width punctuation while coding.",
+    "stars": 1,
+    "repo": "tlcsdm/eclipse-fixcnchar"
+  },
+  {
+    "name": "eclipse-minimap",
+    "description": "Minimap for navigating source code in Eclipse.",
+    "stars": 1,
+    "repo": "tlcsdm/eclipse-minimap"
+  },
+  {
+    "name": "eclipse-bpep",
+    "description": "Builder Pattern Eclipse Plugin — generate fluent builders from Java classes.",
+    "stars": 1,
+    "repo": "tlcsdm/eclipse-bpep"
+  },
+  {
+    "name": "eclipse-folding",
+    "description": "Enhanced code folding in the Eclipse IDE.",
+    "stars": 1,
+    "repo": "tlcsdm/eclipse-folding"
+  },
+  {
+    "name": "eclipse-instasearch",
+    "description": "Quick workspace search with instant results powered by a Lucene index.",
+    "stars": 1,
+    "repo": "tlcsdm/eclipse-instasearch"
+  }
+]

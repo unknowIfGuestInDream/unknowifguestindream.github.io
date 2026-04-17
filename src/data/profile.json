@@ -1,0 +1,33 @@
+{
+  "name": "unknowIfGuestInDream",
+  "githubId": "unknowIfGuestInDream",
+  "avatar": "https://github.com/unknowIfGuestInDream.png",
+  "tagline": "Java Developer · Eclipse / VS Code Plugin Author · Open Source Enthusiast",
+  "bio": [
+    "一名 Java 开发工程师，居住在大连。",
+    "热衷于开发者工具，维护了十余个 Eclipse 插件与多个 VS Code 扩展。",
+    "个人仓库：github.com/unknowIfGuestInDream ； 组织仓库：github.com/tlcsdm"
+  ],
+  "socials": [
+    {
+      "name": "GitHub",
+      "icon": "github",
+      "link": "https://github.com/unknowIfGuestInDream"
+    },
+    {
+      "name": "tlcsdm",
+      "icon": "org",
+      "link": "https://github.com/tlcsdm"
+    },
+    {
+      "name": "Gitee",
+      "icon": "gitee",
+      "link": "https://gitee.com/unknowIfGuestInDream"
+    },
+    {
+      "name": "Email",
+      "icon": "mail",
+      "link": "mailto:liang.tang.cx@gmail.com"
+    }
+  ]
+}
