@@ -1,18 +1,72 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="zh-CN" translate="no">
   <head>
     <meta charset="UTF-8" />
+
+    <!-- Favicon + site identity -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" href="/logo.svg" />
+
+    <!-- Responsive viewport + mobile friendliness -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta name="format-detection" content="telephone=no,email=no,address=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+
+    <!-- Force high-performance rendering on 360/QQ/Sogou dual-core browsers
+         and modern rendering on IE / legacy edge. -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+
+    <!-- Disable auto-translation (Google / Edge / browsers) -->
+    <meta name="google" content="notranslate" />
+    <meta http-equiv="Content-Language" content="zh-CN" />
+
+    <!-- Colors -->
+    <meta name="theme-color" content="#0b1020" />
+    <meta name="msapplication-TileColor" content="#0b1020" />
+
+    <!-- SEO -->
+    <title>unknowIfGuestInDream — 个人主页</title>
     <meta
       name="description"
-      content="unknowIfGuestInDream — Java developer, Eclipse / VS Code plugin author, open source enthusiast."
+      content="unknowIfGuestInDream 的个人主页 — Java 开发者，Eclipse / VS Code 插件作者，维护 tlcsdm 开源组织。"
     />
-    <meta name="theme-color" content="#0b1020" />
-    <title>unknowIfGuestInDream</title>
+    <meta
+      name="keywords"
+      content="unknowIfGuestInDream,tlcsdm,Java,JavaFX,Eclipse Plugin,VS Code Extension,开源,个人主页,大连"
+    />
+    <meta name="author" content="unknowIfGuestInDream" />
+    <meta name="robots" content="index,follow" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="unknowIfGuestInDream — 个人主页" />
+    <meta
+      property="og:description"
+      content="Java 开发者，Eclipse / VS Code 插件作者，开源爱好者。"
+    />
+    <meta
+      property="og:image"
+      content="https://github.com/unknowIfGuestInDream.png"
+    />
+    <meta property="og:locale" content="zh_CN" />
   </head>
   <body>
     <div id="app"></div>
+    <noscript>
+      <p style="padding: 2rem; text-align: center">
+        本站需要启用 JavaScript 才能正常显示。
+      </p>
+    </noscript>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

@@ -3,10 +3,18 @@
   "githubId": "unknowIfGuestInDream",
   "avatar": "https://github.com/unknowIfGuestInDream.png",
   "tagline": "Java Developer · Eclipse / VS Code Plugin Author · Open Source Enthusiast",
+  "location": "大连, 中国",
+  "org": "tlcsdm",
   "bio": [
     "一名 Java 开发工程师，居住在大连。",
     "热衷于开发者工具，维护了十余个 Eclipse 插件与多个 VS Code 扩展。",
-    "个人仓库：github.com/unknowIfGuestInDream ； 组织仓库：github.com/tlcsdm"
+    "个人仓库：github.com/unknowIfGuestInDream ；组织仓库：github.com/tlcsdm"
+  ],
+  "highlights": [
+    { "icon": "code", "label": "Java / JavaFX" },
+    { "icon": "plug", "label": "Eclipse RCP & Plugin" },
+    { "icon": "vscode", "label": "VS Code Extension" },
+    { "icon": "chip", "label": "C / Embedded" }
   ],
   "socials": [
     {
