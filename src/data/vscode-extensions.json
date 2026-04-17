@@ -1,0 +1,62 @@
+[
+  {
+    "name": "vscode-javafx-support",
+    "description": "JavaFX development support for VS Code.",
+    "stars": 1,
+    "repo": "tlcsdm/vscode-javafx-support"
+  },
+  {
+    "name": "vscode-iconpreview",
+    "description": "Preview image files inside the VS Code explorer and editor.",
+    "stars": 1,
+    "repo": "tlcsdm/vscode-iconpreview"
+  },
+  {
+    "name": "vscode-json-tree-view",
+    "description": "Visual tree view for browsing, searching and querying JSON files with JSONata.",
+    "stars": 1,
+    "repo": "tlcsdm/vscode-json-tree-view"
+  },
+  {
+    "name": "vscode-git-blame-info",
+    "description": "Git blame annotations in the editor gutter, inspired by Eclipse EGit.",
+    "stars": 1,
+    "repo": "tlcsdm/vscode-git-blame-info"
+  },
+  {
+    "name": "vscode-patchReader",
+    "description": "Visualize patch and diff files directly in VS Code.",
+    "stars": 0,
+    "repo": "tlcsdm/vscode-patchReader"
+  },
+  {
+    "name": "vscode-java-autofill-arguments",
+    "description": "Guess call parameters by the callee parameter names (Java).",
+    "stars": 0,
+    "repo": "tlcsdm/vscode-java-autofill-arguments"
+  },
+  {
+    "name": "vscode-lvgl-builder",
+    "description": "Drag-and-drop LVGL code generator for embedded UI development.",
+    "stars": 0,
+    "repo": "tlcsdm/vscode-lvgl-builder"
+  },
+  {
+    "name": "vscode-fixcnchar",
+    "description": "Replace full-width Chinese punctuation with half-width punctuation.",
+    "stars": 0,
+    "repo": "tlcsdm/vscode-fixcnchar"
+  },
+  {
+    "name": "vscode-java-method-sorter",
+    "description": "Sort methods in Java classes to improve source code readability.",
+    "stars": 0,
+    "repo": "tlcsdm/vscode-java-method-sorter"
+  },
+  {
+    "name": "vscode-translation",
+    "description": "In-editor translation for VS Code.",
+    "stars": 0,
+    "repo": "tlcsdm/vscode-translation"
+  }
+]
