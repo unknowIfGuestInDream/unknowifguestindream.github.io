@@ -1,8 +1,12 @@
 import { onMounted } from "vue";
 import type { ClientConfig } from "vuepress/client";
 import { defineClientConfig } from "vuepress/client";
+import DeveloperHome from "./components/DeveloperHome.vue";
 
 export default <ClientConfig>defineClientConfig({
+  enhance({ app }) {
+    app.component("DeveloperHome", DeveloperHome);
+  },
   setup() {
     onMounted(() => {
       console.log(String.raw`

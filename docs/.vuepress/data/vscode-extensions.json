@@ -1,0 +1,26 @@
+[
+  {
+    "name": "SQL Formatter Pro",
+    "description": "一款轻量的多方言 SQL 格式化扩展，支持 Oracle / MySQL / PostgreSQL 等常见方言。",
+    "features": ["多方言支持", "一键格式化", "可配置缩进"],
+    "downloads": 12500,
+    "marketplaceUrl": "https://marketplace.visualstudio.com/items?itemName=unknowIfGuestInDream.sql-formatter-pro",
+    "sourceUrl": "https://github.com/unknowIfGuestInDream/vscode-sql-formatter"
+  },
+  {
+    "name": "genCode Snippets",
+    "description": "为 genCode 项目提供的常用代码片段与模板（Controller/Service/Mapper 等）。",
+    "features": ["分层模板", "变量占位", "支持 Java / TypeScript"],
+    "downloads": 3200,
+    "marketplaceUrl": "https://marketplace.visualstudio.com/items?itemName=unknowIfGuestInDream.gencode-snippets",
+    "sourceUrl": "https://github.com/unknowIfGuestInDream/vscode-gencode-snippets"
+  },
+  {
+    "name": "Markdown Toolbox",
+    "description": "博客写作时常用的 Markdown 工具集：表格美化、目录生成、图片懒加载语法等。",
+    "features": ["表格美化", "TOC 自动生成", "图片懒加载"],
+    "downloads": 5400,
+    "marketplaceUrl": "https://marketplace.visualstudio.com/items?itemName=unknowIfGuestInDream.markdown-toolbox",
+    "sourceUrl": "https://github.com/unknowIfGuestInDream/vscode-markdown-toolbox"
+  }
+]

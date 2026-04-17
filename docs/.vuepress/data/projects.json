@@ -1,0 +1,44 @@
+[
+  {
+    "name": "genCode",
+    "description": "基于 Oracle 等数据库的存储过程生成后台 Java 代码，以及根据表生成 CRUD 存储过程等。",
+    "language": "Java",
+    "stars": 120,
+    "link": "https://github.com/unknowIfGuestInDream/genCode"
+  },
+  {
+    "name": "javafxTool",
+    "description": "JavaFX 工具箱，JDK17 + JavaFX21 + controlsfx 11.x + Maven。",
+    "language": "Java",
+    "stars": 85,
+    "link": "https://github.com/unknowIfGuestInDream/javafxTool"
+  },
+  {
+    "name": "genCode-gradle",
+    "description": "genCode 的 Gradle 构建版本。",
+    "language": "Java",
+    "stars": 24,
+    "link": "https://github.com/unknowIfGuestInDream/genCode-gradle"
+  },
+  {
+    "name": "xxl-job-oracle",
+    "description": "基于 xxl-job-2.3 的 Oracle 版本。",
+    "language": "Java",
+    "stars": 56,
+    "link": "https://github.com/tlcsdm/xxl-job-oracle"
+  },
+  {
+    "name": "antdpro5-demo",
+    "description": "Ant Design Pro 5.2 的初始化模板。",
+    "language": "TypeScript",
+    "stars": 18,
+    "link": "https://github.com/tlcsdm/antdpro5-demo"
+  },
+  {
+    "name": "DesignpatternTest",
+    "description": "设计模式练习与示例集合。",
+    "language": "Java",
+    "stars": 12,
+    "link": "https://github.com/unknowIfGuestInDream/DesignpatternTest"
+  }
+]
