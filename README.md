@@ -7,7 +7,7 @@
 
 梦里不知身是客 —— [unknowIfGuestInDream](https://github.com/unknowIfGuestInDream) 的个人主页 / 博客站点。
 
-在线地址：<https://unknowifguestindream.github.io>
+在线地址：<https://blog.tlcsdm.com>
 
 ## ✨ 特性
 
@@ -81,18 +81,9 @@ npm run lint
 - `codeql-analysis.yml` —— CodeQL 安全扫描
 - 其他：`label.yml`、`issue-labeled.yml`、`automerge.yml`、`stale.yml`、`lock.yml`
 
-## 🤝 贡献
-
-欢迎提 Issue 或 PR。提交前请确保：
-
-```bash
-npm run lint:check
-npm run build:vite
-```
-
 ## 📮 联系
 
-如有问题，请发邮件到 <tang97155@gmail.com>，或在本仓库提交 Issue。
+如有问题，请发邮件到 <liang.tang.cx@gmail.com>，或在本仓库提交 Issue。
 
 ## 📄 License
 
