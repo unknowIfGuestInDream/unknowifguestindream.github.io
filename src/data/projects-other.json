@@ -1,0 +1,100 @@
+[
+  {
+    "name": "genCode",
+    "description": "从 Oracle 等数据库的存储过程生成后台 Java 代码，并根据表生成 CRUD 存储过程。",
+    "language": "Java",
+    "stars": 6,
+    "repo": "unknowIfGuestInDream/genCode"
+  },
+  {
+    "name": "fileserver",
+    "description": "轻量静态资源映射服务。",
+    "language": "Java",
+    "stars": 1,
+    "repo": "unknowIfGuestInDream/fileserver"
+  },
+  {
+    "name": "ucdetector",
+    "description": "Unnecessary Code Detector — clone of the SourceForge project.",
+    "language": "Java",
+    "stars": 0,
+    "repo": "tlcsdm/ucdetector"
+  },
+  {
+    "name": "patchReader-extension",
+    "description": "浏览器扩展：可视化 patch 和 diff 文件。",
+    "language": "JavaScript",
+    "stars": 0,
+    "repo": "tlcsdm/patchReader-extension"
+  },
+  {
+    "name": "tlcsdm-quick-access-plugin",
+    "description": "浏览器扩展：tlcsdm 网站快速访问入口。",
+    "language": "JavaScript",
+    "stars": 0,
+    "repo": "tlcsdm/tlcsdm-quick-access-plugin"
+  },
+  {
+    "name": "antdpro5-demo",
+    "description": "Ant Design Pro 5.2 初始化模板。",
+    "language": "TypeScript",
+    "stars": 0,
+    "repo": "tlcsdm/antdpro5-demo"
+  },
+  {
+    "name": "byteBuddyLearn",
+    "description": "Byte Buddy 学习示例。",
+    "language": "Java",
+    "stars": 0,
+    "repo": "unknowIfGuestInDream/byteBuddyLearn"
+  },
+  {
+    "name": "DesignpatternTest",
+    "description": "Java 设计模式练习。",
+    "language": "Java",
+    "stars": 1,
+    "repo": "unknowIfGuestInDream/DesignpatternTest"
+  },
+  {
+    "name": "CppDesignPatterns",
+    "description": "C++ 设计模式练习。",
+    "language": "C++",
+    "stars": 1,
+    "repo": "unknowIfGuestInDream/CppDesignPatterns"
+  },
+  {
+    "name": "c-event-manager",
+    "description": "嵌入式事件管理器。",
+    "language": "C",
+    "stars": 0,
+    "repo": "unknowIfGuestInDream/c-event-manager"
+  },
+  {
+    "name": "c-task-model",
+    "description": "嵌入式任务模型。",
+    "language": "C",
+    "stars": 0,
+    "repo": "unknowIfGuestInDream/c-task-model"
+  },
+  {
+    "name": "c-embedded-learn",
+    "description": "嵌入式学习笔记与示例。",
+    "language": "C",
+    "stars": 0,
+    "repo": "unknowIfGuestInDream/c-embedded-learn"
+  },
+  {
+    "name": "tlcsdm-common",
+    "description": "常用 Java 工具类封装（已归档）。",
+    "language": "Java",
+    "stars": 3,
+    "repo": "tlcsdm/tlcsdm-common"
+  },
+  {
+    "name": "xxl-job-oracle",
+    "description": "基于 xxl-job-2.3 的 Oracle 数据源版本（已归档）。",
+    "language": "Java",
+    "stars": 0,
+    "repo": "tlcsdm/xxl-job-oracle"
+  }
+]

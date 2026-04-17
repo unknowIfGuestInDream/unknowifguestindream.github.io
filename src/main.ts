@@ -2,7 +2,8 @@ import "./style.css";
 import profile from "./data/profile.json";
 import eclipsePlugins from "./data/eclipse-plugins.json";
 import vscodeExtensions from "./data/vscode-extensions.json";
-import projects from "./data/projects.json";
+import projectsDesktop from "./data/projects-desktop.json";
+import projectsOther from "./data/projects-other.json";
 
 /* -------------------------------------------------------------------------- */
 /* Types                                                                      */
@@ -262,7 +263,10 @@ const renderPage = (): string => `
     ${renderStats(
       eclipsePlugins as RepoCard[],
       vscodeExtensions as RepoCard[],
-      projects as ProjectCard[],
+      [
+        ...(projectsDesktop as ProjectCard[]),
+        ...(projectsOther as ProjectCard[]),
+      ],
     )}
     ${renderModule(
       "Eclipse Plugins",
@@ -275,8 +279,14 @@ const renderPage = (): string => `
       renderRepoCard,
     )}
     ${renderModule(
-      "Other Open Source Projects",
-      projects as ProjectCard[],
+      "Desktop UI Projects",
+      projectsDesktop as ProjectCard[],
+      renderProjectCard,
+      true,
+    )}
+    ${renderModule(
+      "Web / Tools / Others",
+      projectsOther as ProjectCard[],
       renderProjectCard,
       true,
     )}
