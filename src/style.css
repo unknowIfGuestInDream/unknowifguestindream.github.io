@@ -148,6 +148,38 @@ img {
   height: 18px;
 }
 
+.back-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  width: 42px;
+  height: 42px;
+  appearance: none;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
+  background: var(--bg-card);
+  color: var(--text);
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  font-size: 1.1rem;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  transition:
+    transform 0.18s ease,
+    border-color 0.18s ease,
+    color 0.18s ease,
+    background 0.18s ease;
+}
+.back-to-top:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-weak);
+  transform: translateY(-2px);
+}
+
 /* --------- Hero --------------------------------------------------------- */
 .hero {
   position: relative;
