@@ -306,8 +306,8 @@ const renderPage = (): string => `
     class="back-to-top"
     id="back-to-top"
     type="button"
-    aria-label="回到顶部"
-    title="回到顶部"
+    aria-label="Back to top / 回到顶部"
+    title="Back to top / 回到顶部"
     hidden
   >
     ↑
@@ -360,7 +360,7 @@ const bindBackToTop = (): void => {
   const updateVisibility = (): void => {
     const scrollable =
       document.documentElement.scrollHeight > window.innerHeight;
-    btn.hidden = !(scrollable && window.scrollY > 220);
+    btn.hidden = !scrollable;
   };
 
   btn.addEventListener("click", () => {
