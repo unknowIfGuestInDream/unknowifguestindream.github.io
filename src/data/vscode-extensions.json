@@ -36,12 +36,6 @@
     "repo": "tlcsdm/vscode-java-autofill-arguments"
   },
   {
-    "name": "vscode-lvgl-builder",
-    "description": "Drag-and-drop LVGL code generator for embedded UI development.",
-    "stars": 0,
-    "repo": "tlcsdm/vscode-lvgl-builder"
-  },
-  {
     "name": "vscode-fixcnchar",
     "description": "Replace full-width Chinese punctuation with half-width punctuation.",
     "stars": 0,

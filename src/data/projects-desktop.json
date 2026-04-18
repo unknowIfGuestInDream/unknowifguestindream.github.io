@@ -7,25 +7,11 @@
     "repo": "unknowIfGuestInDream/javafxTool"
   },
   {
-    "name": "tlstudio",
-    "description": "SWT examples (JFace / RCP examples planned).",
-    "language": "Java",
-    "stars": 2,
-    "repo": "unknowIfGuestInDream/tlstudio"
-  },
-  {
     "name": "jvm-explorer",
     "description": "Desktop app for browsing loaded class files in running JVMs.",
     "language": "Java",
     "stars": 0,
     "repo": "unknowIfGuestInDream/jvm-explorer"
-  },
-  {
-    "name": "fxRobotStudio",
-    "description": "JavaFX-based automation / robot tool.",
-    "language": "Java",
-    "stars": 0,
-    "repo": "unknowIfGuestInDream/fxRobotStudio"
   },
   {
     "name": "InsightPC",
@@ -42,27 +28,6 @@
     "repo": "unknowIfGuestInDream/patchVisualizer"
   },
   {
-    "name": "ZeroProbe",
-    "description": "实验性探测工具。",
-    "language": "Java",
-    "stars": 0,
-    "repo": "unknowIfGuestInDream/ZeroProbe"
-  },
-  {
-    "name": "javafx-tool-template",
-    "description": "JavaFX 工具开发代码模板。",
-    "language": "Java",
-    "stars": 0,
-    "repo": "unknowIfGuestInDream/javafx-tool-template"
-  },
-  {
-    "name": "windowMonitor",
-    "description": "窗口监控工具。",
-    "language": "Java",
-    "stars": 0,
-    "repo": "unknowIfGuestInDream/windowMonitor"
-  },
-  {
     "name": "dalian-dagunzi-fx",
     "description": "JavaFX 大连大骨子（个人趣味项目）。",
     "language": "Java",
@@ -77,24 +42,10 @@
     "repo": "tlcsdm/eclipse-rcp-example"
   },
   {
-    "name": "eclipse-gefemf-example",
-    "description": "Eclipse + GEF Classic + EMF 代码生成器示例。",
+    "name": "tlstudio",
+    "description": "SWT examples (JFace / RCP examples planned).",
     "language": "Java",
-    "stars": 1,
-    "repo": "tlcsdm/eclipse-gefemf-example"
-  },
-  {
-    "name": "eclipse-graphiti-example",
-    "description": "Eclipse Graphiti 使用示例。",
-    "language": "Java",
-    "stars": 0,
-    "repo": "tlcsdm/eclipse-graphiti-example"
-  },
-  {
-    "name": "javafx-swt",
-    "description": "JavaFX 与 SWT 互操作示例。",
-    "language": "Java",
-    "stars": 0,
-    "repo": "tlcsdm/javafx-swt"
+    "stars": 2,
+    "repo": "unknowIfGuestInDream/tlstudio"
   }
 ]

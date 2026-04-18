@@ -7,20 +7,6 @@
     "repo": "unknowIfGuestInDream/genCode"
   },
   {
-    "name": "fileserver",
-    "description": "轻量静态资源映射服务。",
-    "language": "Java",
-    "stars": 1,
-    "repo": "unknowIfGuestInDream/fileserver"
-  },
-  {
-    "name": "ucdetector",
-    "description": "Unnecessary Code Detector — clone of the SourceForge project.",
-    "language": "Java",
-    "stars": 0,
-    "repo": "tlcsdm/ucdetector"
-  },
-  {
     "name": "patchReader-extension",
     "description": "浏览器扩展：可视化 patch 和 diff 文件。",
     "language": "JavaScript",
@@ -33,12 +19,5 @@
     "language": "JavaScript",
     "stars": 0,
     "repo": "tlcsdm/tlcsdm-quick-access-plugin"
-  },
-  {
-    "name": "antdpro5-demo",
-    "description": "Ant Design Pro 5.2 初始化模板。",
-    "language": "TypeScript",
-    "stars": 0,
-    "repo": "tlcsdm/antdpro5-demo"
   }
 ]

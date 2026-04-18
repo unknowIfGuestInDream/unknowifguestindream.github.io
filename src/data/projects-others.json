@@ -1,52 +1,10 @@
 [
   {
-    "name": "byteBuddyLearn",
-    "description": "Byte Buddy 学习示例。",
+    "name": "windowMonitor",
+    "description": "窗口监控工具。",
     "language": "Java",
     "stars": 0,
-    "repo": "unknowIfGuestInDream/byteBuddyLearn"
-  },
-  {
-    "name": "DesignpatternTest",
-    "description": "Java 设计模式练习。",
-    "language": "Java",
-    "stars": 1,
-    "repo": "unknowIfGuestInDream/DesignpatternTest"
-  },
-  {
-    "name": "CppDesignPatterns",
-    "description": "C++ 设计模式练习。",
-    "language": "C++",
-    "stars": 1,
-    "repo": "unknowIfGuestInDream/CppDesignPatterns"
-  },
-  {
-    "name": "c-event-manager",
-    "description": "嵌入式事件管理器。",
-    "language": "C",
-    "stars": 0,
-    "repo": "unknowIfGuestInDream/c-event-manager"
-  },
-  {
-    "name": "c-task-model",
-    "description": "嵌入式任务模型。",
-    "language": "C",
-    "stars": 0,
-    "repo": "unknowIfGuestInDream/c-task-model"
-  },
-  {
-    "name": "c-embedded-learn",
-    "description": "嵌入式学习笔记与示例。",
-    "language": "C",
-    "stars": 0,
-    "repo": "unknowIfGuestInDream/c-embedded-learn"
-  },
-  {
-    "name": "tlcsdm-common",
-    "description": "常用 Java 工具类封装（已归档）。",
-    "language": "Java",
-    "stars": 3,
-    "repo": "tlcsdm/tlcsdm-common"
+    "repo": "unknowIfGuestInDream/windowMonitor"
   },
   {
     "name": "xxl-job-oracle",
