@@ -28,6 +28,11 @@
       "link": "https://github.com/tlcsdm"
     },
     {
+      "name": "Jenkins",
+      "icon": "jenkins",
+      "link": "https://jenkins.tlcsdm.com/"
+    },
+    {
       "name": "Gitee",
       "icon": "gitee",
       "link": "https://gitee.com/unknowIfGuestInDream"
