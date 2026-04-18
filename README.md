@@ -86,6 +86,8 @@ npm run lint
 如果重构后仓库体积仍然偏大，可使用以下流程清理历史中的大文件提交：
 
 ```bash
+# 前置条件：已安装 git-filter-repo（例如：pip install git-filter-repo）
+#
 # 1) 先分析对象体积（按需执行）
 git count-objects -vH
 
@@ -97,8 +99,8 @@ git reflog expire --expire=now --all
 git gc --prune=now --aggressive
 
 # 4) 推送重写后的历史（仅维护者执行，谨慎操作）
-git push origin --force --all
-git push origin --force --tags
+git push origin --force-with-lease --all
+git push origin --force-with-lease --tags
 ```
 
 > 注意：历史重写会改变 commit SHA，请在低峰期操作，并提前通知协作者重新同步本地仓库。
