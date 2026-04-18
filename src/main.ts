@@ -63,6 +63,14 @@ const LANGUAGE_COLORS: Record<string, string> = {
   Vue: "#41b883",
 };
 
+const LANGUAGE_SEPARATOR = " / ";
+
+/** Primary language hints by module type, merged when that module has data. */
+const LANGUAGE_HINTS = {
+  eclipsePlugins: ["Java"],
+  vscodeExtensions: ["TypeScript"],
+} as const;
+
 /* Inline SVG paths (24x24). */
 const ICONS: Record<string, string> = {
   github:
@@ -171,9 +179,11 @@ const renderStats = (
     vExt.reduce((s, r) => s + r.stars, 0) +
     projs.reduce((s, r) => s + r.stars, 0);
   const languages = new Set(projs.map((p) => p.language));
-  if (ePlugins.length > 0) languages.add("Java");
-  if (vExt.length > 0) languages.add("TypeScript");
-  const languagesText = Array.from(languages).sort().join(" / ");
+  if (ePlugins.length > 0)
+    LANGUAGE_HINTS.eclipsePlugins.forEach((lang) => languages.add(lang));
+  if (vExt.length > 0)
+    LANGUAGE_HINTS.vscodeExtensions.forEach((lang) => languages.add(lang));
+  const languagesText = Array.from(languages).sort().join(LANGUAGE_SEPARATOR);
   return `
     <section class="stats" aria-label="Stats">
       <div class="stat"><div class="stat__value">${totalRepos}</div><div class="stat__label">开源仓库</div></div>
