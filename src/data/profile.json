@@ -13,8 +13,7 @@
   "highlights": [
     { "icon": "code", "label": "Java / JavaFX" },
     { "icon": "plug", "label": "Eclipse RCP & Plugin" },
-    { "icon": "vscode", "label": "VS Code Extension" },
-    { "icon": "chip", "label": "C / Embedded" }
+    { "icon": "vscode", "label": "VS Code Extension" }
   ],
   "socials": [
     {
