@@ -81,6 +81,28 @@ npm run lint
 - `codeql-analysis.yml` —— CodeQL 安全扫描
 - 其他：`label.yml`、`issue-labeled.yml`、`automerge.yml`、`stale.yml`、`lock.yml`
 
+## 🧹 Git 历史清理（仅维护者）
+
+如果重构后仓库体积仍然偏大，可使用以下流程清理历史中的大文件提交：
+
+```bash
+# 1) 先分析对象体积（按需执行）
+git count-objects -vH
+
+# 2) 清理历史：删除构建产物与依赖目录历史（按需调整路径）
+git filter-repo --path dist --path node_modules --path .cache --path .temp --invert-paths
+
+# 3) 清理本地无用对象
+git reflog expire --expire=now --all
+git gc --prune=now --aggressive
+
+# 4) 推送重写后的历史（仅维护者执行，谨慎操作）
+git push origin --force --all
+git push origin --force --tags
+```
+
+> 注意：历史重写会改变 commit SHA，请在低峰期操作，并提前通知协作者重新同步本地仓库。
+
 ## 📮 联系
 
 如有问题，请发邮件到 <liang.tang.cx@gmail.com>，或在本仓库提交 Issue。
