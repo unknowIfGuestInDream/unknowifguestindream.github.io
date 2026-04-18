@@ -148,6 +148,44 @@ img {
   height: 18px;
 }
 
+.back-to-top {
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  width: 42px;
+  height: 42px;
+  appearance: none;
+  border: 1px solid color-mix(in oklab, var(--accent) 24%, var(--border));
+  border-radius: var(--radius-pill);
+  background: linear-gradient(
+    160deg,
+    color-mix(in oklab, var(--accent) 16%, var(--bg-card)),
+    var(--bg-card)
+  );
+  color: color-mix(in oklab, var(--accent) 78%, var(--text));
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  transition:
+    transform 0.18s ease,
+    border-color 0.18s ease,
+    color 0.18s ease,
+    background 0.18s ease;
+}
+.back-to-top:hover {
+  border-color: var(--accent);
+  color: var(--accent-contrast);
+  background: var(--gradient);
+  transform: translateY(-2px);
+}
+.back-to-top svg {
+  width: 18px;
+  height: 18px;
+}
+
 /* --------- Hero --------------------------------------------------------- */
 .hero {
   position: relative;
