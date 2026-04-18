@@ -89,6 +89,7 @@ const THEME_KEY = "uigid-theme";
 const SUN_PATH =
   "M12 4V2m0 20v-2m8-8h2M2 12h2m13.657-5.657l1.414-1.414M4.929 19.071l1.414-1.414m0-11.314L4.929 4.929m14.142 14.142l-1.414-1.414M12 7a5 5 0 100 10 5 5 0 000-10z";
 const MOON_PATH = "M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z";
+const CHEVRON_UP_PATH = "M6 14l6-6 6 6";
 
 const escapeHtml = (s: string): string =>
   s
@@ -310,7 +311,7 @@ const renderPage = (): string => `
     title="Back to top / 回到顶部"
     hidden
   >
-    ↑
+    ${iconSvg(CHEVRON_UP_PATH, true)}
   </button>
 `;
 

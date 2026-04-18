@@ -155,14 +155,16 @@ img {
   width: 42px;
   height: 42px;
   appearance: none;
-  border: 1px solid var(--border);
+  border: 1px solid color-mix(in oklab, var(--accent) 24%, var(--border));
   border-radius: var(--radius-pill);
-  background: var(--bg-card);
-  color: var(--text);
+  background: linear-gradient(
+    160deg,
+    color-mix(in oklab, var(--accent) 16%, var(--bg-card)),
+    var(--bg-card)
+  );
+  color: color-mix(in oklab, var(--accent) 78%, var(--text));
   cursor: pointer;
   box-shadow: var(--shadow);
-  font-size: 1.1rem;
-  line-height: 1;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -175,9 +177,13 @@ img {
 }
 .back-to-top:hover {
   border-color: var(--accent);
-  color: var(--accent);
-  background: var(--accent-weak);
+  color: var(--accent-contrast);
+  background: var(--gradient);
   transform: translateY(-2px);
+}
+.back-to-top svg {
+  width: 18px;
+  height: 18px;
 }
 
 /* --------- Hero --------------------------------------------------------- */
