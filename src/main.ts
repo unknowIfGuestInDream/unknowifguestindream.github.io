@@ -81,7 +81,6 @@ const ICONS: Record<string, string> = {
   plug: "M14 2v4h-4V2H8v4H6v5a5 5 0 005 5v6h2v-6a5 5 0 005-5V6h-2V2h-2z",
   vscode:
     "M23.15 2.587l-4.6-2.21a1.39 1.39 0 00-1.58.26L1.86 14.77a.93.93 0 000 1.37l1.23 1.12a.93.93 0 001.19.05L22.5 3.89a.93.93 0 00-.04-1.5l-.01.01.7.19zM17.58 7.5L9.68 15.4l7.9 6.67a1.39 1.39 0 001.56.11l4.38-2.1a1.4 1.4 0 00.78-1.26V5.18a1.4 1.4 0 00-.78-1.26L17.58 7.5zM7.67 13.4l-2.86 2.86 2.86 2.47 2.87-2.46-2.87-2.87z",
-  chip: "M6 2h12a2 2 0 012 2v4h2v2h-2v4h2v2h-2v4a2 2 0 01-2 2H6a2 2 0 01-2-2v-4H2v-2h2v-4H2V8h2V4a2 2 0 012-2zm0 2v16h12V4H6zm3 3h6v10H9V7z",
   star: "M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14l-5-4.87 6.91-1.01L12 2z",
 };
 
@@ -172,11 +171,14 @@ const renderStats = (
     vExt.reduce((s, r) => s + r.stars, 0) +
     projs.reduce((s, r) => s + r.stars, 0);
   const languages = new Set(projs.map((p) => p.language));
+  if (ePlugins.length > 0) languages.add("Java");
+  if (vExt.length > 0) languages.add("TypeScript");
+  const languagesText = Array.from(languages).sort().join(" / ");
   return `
     <section class="stats" aria-label="Stats">
       <div class="stat"><div class="stat__value">${totalRepos}</div><div class="stat__label">开源仓库</div></div>
       <div class="stat"><div class="stat__value">${formatStars(totalStars)}</div><div class="stat__label">累计 Stars</div></div>
-      <div class="stat"><div class="stat__value">${languages.size}+</div><div class="stat__label">涉及语言</div></div>
+      <div class="stat"><div class="stat__value">${escapeHtml(languagesText)}</div><div class="stat__label">涉及语言</div></div>
     </section>
   `;
 };
