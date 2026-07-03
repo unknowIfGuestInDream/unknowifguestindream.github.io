@@ -7,7 +7,7 @@
 
 梦里不知身是客 —— [unknowIfGuestInDream](https://github.com/unknowIfGuestInDream) 的个人主页 / 博客站点。
 
-在线地址：<https://blog.tlcsdm.com>
+在线地址：<https://intro.tlcsdm.com>
 
 ## ✨ 特性
 
