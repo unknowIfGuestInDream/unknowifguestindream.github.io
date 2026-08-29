@@ -50,7 +50,13 @@
   {
     "name": "vscode-translation",
     "description": "In-editor translation for VS Code.",
-    "stars": 0,
+    "stars": 2,
     "repo": "tlcsdm/vscode-translation"
+  },
+  {
+    "name": "vscode-git-patch-exporter",
+    "description": "A VS Code extension that exports selected changed files from the **Source Control** view as a Git `.patch` file which can be re-applied later with `git apply`.",
+    "stars": 0,
+    "repo": "tlcsdm/vscode-git-patch-exporter"
   }
 ]
